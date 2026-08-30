@@ -21,26 +21,31 @@ off the shelf even though Gates are really not that much more expensive.
 printers people are actively building: the thermal fuse on 2.4 and Trident,
 RaspberryPi4, SKR Mini E3 V2, six different wire gauges, both SDP-SI Gates belt
 links.
-
-<img width="1050" height="472" alt="image" src="https://github.com/user-attachments/assets/0d5ea90c-5f32-4034-ac8b-36eb4b8c0dc1" />
-_Gates idlers  on the middle and left, POWGE on the right, showing debris resulting from belt damage by using mixed tooth profile_
-
+ 
 **Multiple names for the same item.** The M3x5x4 heat-set insert appears on 11 tabs
 under 10 different names — *M3 Threaded Insert*, *M3 Brass Heatstake Inserts*,
 *M3 Heat Set Inserts (M3x5x4)*, and so on — with four different "recommended"
 links between them. Somebody cross-referencing two tabs has no way to know
 those are the same bag of inserts.
 
-<img width="645" height="303" alt="image" src="https://github.com/user-attachments/assets/c25c83e1-9bc0-45dd-b716-82de717017bf" />
 
 None of this is anyone's fault. Keeping 17 hand-maintained tabs in sync is a
 chore nobody volunteered for, and it gets worse whether or not anyone touches
 it. But it's fixable, and it doesn't have to stay a staff problem.
 
+<img width="350" height="157" alt="image" src="https://github.com/user-attachments/assets/0d5ea90c-5f32-4034-ac8b-36eb4b8c0dc1" />
+
+_Gates idlers  on the middle and left, POWGE on the right, showing debris resulting from belt damage by using mixed tooth profile_
+
+<img width="322" height="151" alt="image" src="https://github.com/user-attachments/assets/c25c83e1-9bc0-45dd-b716-82de717017bf" />
+
+_Example of inconsistent part naming_
+
+
 ## My proposal
 
 Make a canonical component list the source of truth, and generate each tab from
-it programattically.
+it programmatically.
 
 One entry per physical part, with its links, quantities, and which machines use
 it. Every tab becomes a view of that list rather than a separate document. Fix
@@ -52,29 +57,37 @@ finds a dead link opens a PR, and it's a one-line diff someone can eyeball in a
 minute. Vendors get an unambiguous answer about what belongs in a kit. Builders
 can see which parts carry across printers.
 
-
 This repo is a working demonstration of the mechanism, not a finished proposal.
 Everything in `data/` is generated; the only hand-maintained input is
-`data/aliases.json`.
+`data/aliases.json`. What I have published does not fix everything, but it will make
+actually fixing problems and updating the sourcing guide FAR easier. It is also
+produced _only_ from the contents of the published sourcing guide, all links are 
+live and were originally present on at least iteration of a given component part 
+on one of the sourcing guides.
 
 ## Repository Contents
 
-`canonical.csv` — the component list. 458 components, one row each, with live
+`canonical.csv` : the component list. 458 components, one row each, with live
 links, per-tab quantities, and which printers use them. This is what I propose as the 
 backend anchor for the sourcing guide (really the json, this is just a representation 
 of it).
 
-`Voron Sourcing Guide (revised).xlsx` — the guide rebuilt from that list, in the
+`Voron Sourcing Guide (revised).xlsx` : the guide rebuilt from that list, in the
 original's layout and colours. Dead links removed, names harmonised, and a
 "Link check" column saying what each row lost.
 
-`Voron Sourcing Guide (diff).xlsx` — the same thing as a redline against the
+`Voron Sourcing Guide (diff).xlsx` : the same thing as a redline against the
 published guide. Removals struck through in red, additions in blue, word by word
 inside each cell.
 
-`data/` — the master JSON, link-check results, and CSVs for the parts that needed 
+`data/` : the master JSON, link-check results, and CSVs for the parts that needed 
 manual review. I have gone through any links my parser could not determine were 
 alive/dead to confirm this manually.
+
+ 
+<img width="932" height="326" alt="image" src="https://github.com/user-attachments/assets/fdf79615-3340-4a74-9683-4c46431af39d" />
+
+_Example of the Diff files showing changes made to unify part names, and more still working links ported from other BOM tabs for the same fasteners_
 
 ## Running it
 
