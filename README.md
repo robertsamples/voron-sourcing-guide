@@ -8,7 +8,7 @@ different names with different links. This flattens all of that into one entry
 per component, keeping a pointer back to every cell it came from.
 
 Nothing here changes what the guide recommends. It's just extraction and dedup,
-so that reviewing the guide is one pass over 480 components instead of seventeen
+so that reviewing the guide is one pass over 493 components instead of seventeen
 passes over 1051 rows.
 
 ## Running it
@@ -107,8 +107,14 @@ into `data/aliases.json` and apply on the next run.
 
 Pairs differing only by a number, head type, gender or axis are filtered out of
 the candidate list, so SHCS/BHCS/FHCS, 2- vs 3-position and 4A vs 8A stay
-separate. 16 judgement calls are still in the review file; none of them change
-what a builder would buy.
+separate. Pairs a human has looked at and rejected go in `keep_separate` so
+they stop coming back. One pair is currently unresolved (see below).
+
+Some parts are machine-specific even when two tabs give them the same name.
+Those are listed under `split_by_project` in `aliases.json` and never merge
+across tabs: each project keeps its own item with a `scope` field and a
+project-suffixed id. Currently that covers every panel and the aluminium build
+plates, giving 34 scoped items.
 
 ## What came out
 
@@ -116,21 +122,21 @@ what a builder would buy.
 | --- | ---: |
 | tabs | 17 |
 | rows read | 1051 |
-| components | 480 |
-| components on more than one tab | 207 |
-| distinct product links | 606 (+185 affiliate variants) |
-| components where tabs point at different products | 54 (22 on current tabs) |
+| components | 493 |
+| components on more than one tab | 195 |
+| distinct product links | 613 (+185 affiliate variants) |
+| components where tabs point at different products | 53 (22 on current tabs) |
 
 Review effort, counting perfect duplicates once (`tools/workload.py`):
 
 | | before | after |
 | --- | ---: | ---: |
-| distinct name + link-set variants | 699 | 480 |
-| ...on the 207 shared parts | 426 | 207 |
-| urls to check | 775 | 606 |
+| distinct name + link-set variants | 709 | 493 |
+| ...on the 195 shared parts | 411 | 195 |
+| urls to check | 775 | 613 |
 
-344 of 480 components (72%) are already consistent across every tab that lists
-them. The work is in the other 136: 129 disagree on links, 7 only on the name.
+365 of 493 components (74%) are already consistent across every tab that lists
+them. The work is in the other 128: 122 disagree on links, 6 only on the name.
 
 Worst cases:
 
@@ -161,6 +167,11 @@ vanished in the merge:
   products. Resolving them would collapse more dupes; skipped to keep this
   offline and deterministic.
 - No link has been checked for being alive yet.
+- `3010 axial fan 24v` vs `3010 blower fans 24V` is still open. They were
+  reported as the same part, but V0/V0.2 list both on adjacent rows with
+  separate quantities and they link to different products (Mechatronics
+  MR3010H05B1 axial vs Delta BFB0305HHA blower), so they are left separate
+  pending a second look.
 - Categories are the guide's own, only lightly normalized. They're inconsistent
   between tabs and could use a real taxonomy.
 - The Cascade tab is empty in the workbook.

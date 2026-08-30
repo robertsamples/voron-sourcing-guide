@@ -18,6 +18,22 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 MASTER = "data/voron_sourcing_master.json"
+ALIASES = "data/aliases.json"
+
+
+def keep_separate_pairs():
+    """Look-alike pairs a human already reviewed and rejected."""
+    if not os.path.exists(ALIASES):
+        return set()
+    from normalize import name_key
+    data = json.load(open(ALIASES, encoding="utf-8"))
+    out = set()
+    for group in data.get("keep_separate", {}).get("groups", []):
+        keys = [name_key(n) for n in group if name_key(n)]
+        for a in range(len(keys)):
+            for b in range(a + 1, len(keys)):
+                out.add(frozenset((keys[a], keys[b])))
+    return out
 
 
 def tokens(k):
@@ -48,6 +64,7 @@ DISTINGUISHERS = {
 
 def cluster_candidates(items, threshold=0.72):
     """Near-duplicate search over normalised names, blocked on spec tokens."""
+    reviewed = keep_separate_pairs()
     by_spec = defaultdict(list)
     for i in items:
         by_spec[spec_tokens(i["name_key"])].append(i)
@@ -58,6 +75,10 @@ def cluster_candidates(items, threshold=0.72):
         for a_i in range(len(group)):
             for b_i in range(a_i + 1, len(group)):
                 a, b = group[a_i], group[b_i]
+                if a.get("base_key") and a["base_key"] == b["base_key"]:
+                    continue   # same part, deliberately split per project
+                if frozenset((a["base_key"], b["base_key"])) in reviewed:
+                    continue   # already reviewed and confirmed distinct
                 wa = tokens(a["name_key"]) - set(spec)
                 wb = tokens(b["name_key"]) - set(spec)
                 if not wa and not wb:

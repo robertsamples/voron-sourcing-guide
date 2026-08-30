@@ -14,7 +14,6 @@
     "review file deliberately lists look-alikes (SHCS vs BHCS, 2- vs 3-position)",
     "that must stay separate."
   ],
-
   "merge": {
     "M3 Threaded Insert": "M3 Heat Set Insert (M3x5x4)",
     "M3 Threaded Insert (M3x5mmx4mm)": "M3 Heat Set Insert (M3x5x4)",
@@ -24,57 +23,103 @@
     "M3 Brass Heatset Inserts - Short M3x5x4": "M3 Heat Set Insert (M3x5x4)",
     "M3 Brass heatstake inserts - short M3x5x4": "M3 Heat Set Insert (M3x5x4)",
     "M3 Brass Heatstake Inserts": "M3 Heat Set Insert (M3x5x4)",
-
     "GT2 20T Pulley (6mm wide, 5mm bore)": "GT2 20T (6mm wide) Pulley (5mm bore)",
     "GT2 20T (6mm wide) (5mm bore)": "GT2 20T (6mm wide) Pulley (5mm bore)",
-
     "Meanwell RS-25-5 PSU": "Mean Well RS-25-5 PSU",
-
     "M2x10 Self Tapping Screws for Plastic": "M2x10 Self Tapping Screw for Plastics",
     "M2x10 Self Tapping Screws for Plastic (Pan Head)": "M2x10 Self Tapping Screw for Plastics",
     "M2x10 self tapping screw": "M2x10 Self Tapping Screw for Plastics",
-
     "MR85 Bearing": "MR85 Bearings",
     "Bowden Clips": "Bowden Clip",
-
     "M3 Lock Nut": "M3 Locknut",
     "M3 Hex Locknut": "M3 Locknut",
     "M3 Nut": "M3 Hexnut",
     "M5 Nut": "M5 Hexnut",
-
     "M3 Hammerhead T-Nut": "M3 Hammer Head T-Nuts",
-
     "Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft])": "Silicone Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft])",
-
     "Voron V0.1 Kit - FYSTECH": "Voron V0.1 Kit - FYSETC",
-
     "TriangleLab Dragon HotEnd": "TL Dragon Hotend",
-
     "BMG Extruder Hardware Kit (if configured with direct feed)": "BMG Extruder Components Kit (if configured with direct feed)",
     "Bondtech Motor Gear (bowden only)": "Bondtech Motor Gear",
-
     "(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick (drawings and dxf on github)": "(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick",
     "TopHat Panels (OPTIONAL)": "TopHat Panels",
     "Raspberry Pi 3 (or better)": "Raspberry Pi 3",
-
     "Primary Color": "Primary Color (Black)",
-    "Secondary Color": "Secondary Color (Red)"
+    "Secondary Color": "Secondary Color (Red)",
+    "Dragon Hotend": "TL Dragon Hotend",
+    "40x40x20 Centrifugal Blower Fan (24V)": "40x40x20 Centrifugal Blower Fan - Ball Bearing (24V)",
+    "40x40x20 Radial Fan (Blower)": "40x40x20 Centrifugal Blower Fan - Ball Bearing (24V)",
+    "40x40x10 Axial Fan (24V)": "40x40x10 Axial Fan - Ball Bearing (24V)",
+    "40x40x10 Axial Fan- Ball Bearing (24V)": "40x40x10 Axial Fan - Ball Bearing (24V)",
+    "40x40x10 Axial Fan": "40x40x10 Axial Fan - Ball Bearing (24V)"
   },
-
   "names": {
     "M3 Heat Set Insert (M3x5x4)": "M3 Heat Set Insert (M3x5x4)",
     "M3 Hexnut": "M3 Hexnut",
     "M5 Hexnut": "M5 Hexnut",
     "M3 Locknut": "M3 Locknut",
     "MR85 Bearings": "MR85 Bearing",
-    "GT2 20T (6mm wide) Pulley (5mm bore)": "GT2 20T (6mm wide) Pulley (5mm bore)"
+    "GT2 20T (6mm wide) Pulley (5mm bore)": "GT2 20T (6mm wide) Pulley (5mm bore)",
+    "TL Dragon Hotend": "TriangleLab Dragon Hotend",
+    "40x40x20 Centrifugal Blower Fan - Ball Bearing (24V)": "40x40x20 Centrifugal Blower Fan - Ball Bearing (24V)",
+    "40x40x10 Axial Fan - Ball Bearing (24V)": "40x40x10 Axial Fan - Ball Bearing (24V)",
+    "Voron V0.1 Kit - FYSETC": "Voron V0.1 Kit - FYSETC"
   },
-
   "drop": [
     "OR",
     "Full kits are availible from a number of suppliers listed below",
     "Full Printer kits are availible from a number of trusted suppliers listed below",
     "As an Amazon Associate we earn from qualifying purchases.",
     "As an Aliexpress Affiliate we earn from qualifying purchases."
-  ]
+  ],
+  "split_by_project": {
+    "_comment": [
+      "Parts that are machine-specific even when different tabs give them the",
+      "same name. These never merge across tabs -- each project keeps its own",
+      "item, with a `scope` field and a project-suffixed id.",
+      "",
+      "Panels: every printer's panels are cut to that printer.",
+      "Beds: a 350mm Trident bed and a 350mm 2.4 bed are not the same plate."
+    ],
+    "categories": [
+      "Panels"
+    ],
+    "names": [
+      "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country)",
+      "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country)"
+    ]
+  },
+  "keep_separate": {
+    "_comment": [
+      "Pairs/groups that look alike but are different parts. Reviewed and",
+      "rejected, so tools/report.py stops surfacing them in",
+      "review_name_clusters.csv. Every name in a group is distinct from every",
+      "other name in that group."
+    ],
+    "groups": [
+      [
+        "DuPont Connector Plug 2 Position",
+        "JST-XH Connector Plug 2 Position"
+      ],
+      [
+        "DuPont Connector Plug 3 Position",
+        "JST-XH Connector Plug 3 Position"
+      ],
+      [
+        "DuPont Connector Plug 4 Position",
+        "JST-XH Connector Plug 4 Position"
+      ],
+      [
+        "Voron V0.1 Kit - FORMBOT",
+        "Voron V0.1 Kit - FYSETC",
+        "Voron V0.1 Kit - FYSTECH",
+        "Voron V0.1 Kit - LDO",
+        "Voron V0.1 Kit - SIBOOR"
+      ],
+      [
+        "Micro USB Power Cable",
+        "USB C Power Cable"
+      ]
+    ]
+  }
 }

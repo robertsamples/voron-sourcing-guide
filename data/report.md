@@ -4,15 +4,15 @@
 | --- | ---: |
 | tabs read | 17 |
 | spreadsheet rows read | 1103 |
-| distinct components | 480 |
-| components used by more than one tab | 207 |
+| distinct components | 493 |
+| components used by more than one tab | 195 |
 | distinct product links | 606 |
-| component x link entries | 801 |
+| component x link entries | 816 |
 | links that are affiliate links | 142 |
-| components whose tabs disagree on the link | 54 |
+| components whose tabs disagree on the link | 53 |
 | ... counting only the currently-shipping tabs | 22 |
 | shortened links that cannot be compared without resolving | 142 |
-| near-duplicate name pairs still awaiting a human call | 16 |
+| near-duplicate name pairs still awaiting a human call | 1 |
 
 ## Components per tab
 
@@ -40,28 +40,28 @@
 
 | vendor | links |
 | --- | ---: |
-| AliExpress | 363 |
-| Amazon | 83 |
+| AliExpress | 361 |
 | Digi-Key | 82 |
+| Amazon | 81 |
 | Bolt Depot | 46 |
 | McMaster-Carr | 44 |
 | Misumi | 33 |
 | Filastruder | 17 |
 | StepperOnline | 15 |
+| mnlasercutting.com | 13 |
+| tapplastics.com | 13 |
 | keenovo.store | 10 |
 | Zyltech | 9 |
+| clever3d.de | 8 |
 | arrow.com | 8 |
-| mnlasercutting.com | 8 |
 | SDP/SI | 8 |
-| tapplastics.com | 8 |
 | Printed Solid | 7 |
 | Mouser | 7 |
 | E3D | 6 |
 | Bondtech | 6 |
+| michaels.com | 5 |
 | catalog.cshyde.com | 4 |
 | muellerbestellung.de | 4 |
 | LDO Motors | 4 |
 | RobotDigg | 3 |
-| clever3d.de | 2 |
 | cnckitchenus.store | 2 |
-| villageplastics.com | 2 |

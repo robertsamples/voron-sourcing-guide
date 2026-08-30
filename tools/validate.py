@@ -66,15 +66,15 @@ def main():
         if key.startswith("as an amazon") or key.startswith("as an aliexpress"):
             continue
         want_pairs.add((key, sheets[r["sheet"]]))
-    have_pairs = set()
-    alias_of = {}
+    # (name as written, project) -> item id; scoped items mean one name can
+    # map to several ids, so the project has to be part of the lookup
+    covered = set()
     for i in m["items"]:
+        projects = {u["project"] for u in i["used_by"]}
         for n in [i["name"]] + i["aliases"]:
-            alias_of[name_key(n)] = i["id"]
-        for u in i["used_by"]:
-            have_pairs.add((i["id"], u["project"]))
-    unresolved = [(k, p) for k, p in want_pairs
-                  if (alias_of.get(k), p) not in have_pairs]
+            for p in projects:
+                covered.add((name_key(n), p))
+    unresolved = [(k, p) for k, p in want_pairs if (k, p) not in covered]
     print("2. (component, tab) pairs: %d, unresolved: %d"
           % (len(want_pairs), len(unresolved)))
     for k, p in unresolved[:10]:

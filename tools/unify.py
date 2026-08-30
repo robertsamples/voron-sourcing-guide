@@ -155,9 +155,10 @@ def pair_entries(entries):
 
 
 def load_aliases():
-    """-> (alias key -> canonical key, canonical key -> display name, dropped keys)"""
+    """-> (merge map, preferred names, dropped keys, split rules)"""
+    empty = ({}, {}, set(), {"categories": set(), "names": set()})
     if not os.path.exists(ALIASES):
-        return {}, {}, set()
+        return empty
     with open(ALIASES, encoding="utf-8") as fh:
         data = json.load(fh)
     merge = {}
@@ -170,14 +171,19 @@ def load_aliases():
         if name_key(k):
             names[name_key(k)] = clean_text(v)
     drop = {name_key(k) for k in data.get("drop", []) if name_key(k)}
-    return merge, names, drop
+    sp = data.get("split_by_project", {})
+    split = {
+        "categories": {c.strip().lower() for c in sp.get("categories", [])},
+        "names": {name_key(n) for n in sp.get("names", []) if name_key(n)},
+    }
+    return merge, names, drop, split
 
 
 def main():
     with open(RAW, encoding="utf-8") as fh:
         raw = json.load(fh)
     rows = raw["rows"]
-    aliases, pref_names, dropped = load_aliases()
+    aliases, pref_names, dropped, split = load_aliases()
     groups = choice_groups(rows)
 
     items = OrderedDict()   # key -> item dict
@@ -195,11 +201,20 @@ def main():
         if not key or key in dropped:
             continue
         key = aliases.get(key, key)
+        base_key, scope = key, None
+        cat = norm_category(r["category"])
+        if (key in split["names"]
+                or (cat and cat.lower() in split["categories"])):
+            # machine-specific part: never share it between tabs
+            scope = proj_id
+            key = "%s @%s" % (key, proj_id)
 
         it = items.get(key)
         if it is None:
             it = items[key] = {
                 "key": key,
+                "base_key": base_key,
+                "scope": scope,
                 "names": Counter(),
                 "categories": Counter(),
                 "standards": Counter(),
@@ -209,7 +224,6 @@ def main():
                 "notes": OrderedDict(),
             }
         it["names"][comp] += 1
-        cat = norm_category(r["category"])
         if cat:
             it["categories"][cat] += 1
         std = clean_text(r["standard"])
@@ -298,9 +312,11 @@ def main():
     used_ids = set()
     out_items = []
     for key, it in items.items():
-        name = pref_names.get(key) or it["names"].most_common(1)[0][0]
+        name = pref_names.get(it["base_key"]) or it["names"].most_common(1)[0][0]
         cat = it["categories"].most_common(1)[0][0] if it["categories"] else None
         base = "%s.%s" % (slug(cat or "misc"), slug(name))
+        if it["scope"]:
+            base = "%s.%s" % (base, it["scope"])
         iid, n = base, 2
         while iid in used_ids:
             iid, n = "%s-%d" % (base, n), n + 1
@@ -314,6 +330,8 @@ def main():
             ("id", iid),
             ("name", name),
             ("name_key", key),
+            ("base_key", it["base_key"]),
+            ("scope", it["scope"]),
             ("aliases", [n for n, _ in it["names"].most_common() if n != name]),
             ("category", cat),
             ("categories", [c for c, _ in it["categories"].most_common()]),
@@ -345,7 +363,7 @@ def main():
     proj_ids = [p[0] for p in PROJECTS.values()]
     with open(OUT_ITEMS_CSV, "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.writer(fh)
-        w.writerow(["id", "category", "name", "standard", "aliases",
+        w.writerow(["id", "category", "name", "scope", "standard", "aliases",
                     "n_projects", "n_links", "projects"]
                    + ["qty:" + p for p in proj_ids])
         for i in out_items:
@@ -354,7 +372,8 @@ def main():
                 qty[u["project"]] = "; ".join(
                     ("%s@%s" % (q["qty"], q["size"]) if q["size"] not in (None, "All")
                      else q["qty"]) for q in u["qty"])
-            w.writerow([i["id"], i["category"], i["name"], i["standard"],
+            w.writerow([i["id"], i["category"], i["name"], i["scope"] or "",
+                        i["standard"],
                         " | ".join(i["aliases"]), len(i["used_by"]),
                         len(i["sources"]),
                         " ".join(u["project"] for u in i["used_by"])]

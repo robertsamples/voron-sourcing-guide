@@ -24,8 +24,8 @@ import csv
 import json
 from collections import Counter, defaultdict
 
-from unify import (PROJECTS, RAW, is_drop_row, load_aliases, pair_entries,
-                   role_of)
+from unify import (PROJECTS, RAW, is_drop_row, load_aliases, norm_category,
+                   pair_entries, role_of)
 from normalize import canonical_url, clean_text, name_key, url_key
 
 OUT_CSV = "data/workload_by_component.csv"
@@ -33,7 +33,7 @@ OUT_CSV = "data/workload_by_component.csv"
 
 def main():
     raw = json.load(open(RAW, encoding="utf-8"))
-    aliases, pref_names, dropped = load_aliases()
+    aliases, pref_names, dropped, split = load_aliases()
 
     # component key -> project -> (name as written, {(url, role)})
     comp = defaultdict(lambda: defaultdict(lambda: [None, set()]))
@@ -50,6 +50,9 @@ def main():
         key = aliases.get(key, key)
         rows_seen += 1
         proj = PROJECTS[r["sheet"]][0]
+        cat = norm_category(r["category"])
+        if key in split["names"] or (cat and cat.lower() in split["categories"]):
+            key = "%s @%s" % (key, proj)   # machine-specific, never shared
         slot = comp[key][proj]
         slot[0] = slot[0] or name
         for s in pair_entries(r["entries"]):

@@ -12,8 +12,10 @@ MicroSD Card,9,4,4,1,MicroSD Card,voron-0 voron-0.1 voron-0.2 voron-1.6.2 voron-
 Insulated Crimp Receptical,8,4,4,1,Insulated Crimp Receptical,voron-0 voron-0.1 voron-0.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
 Secondary Color,8,4,4,2,Secondary Color | Secondary Color (Red),mobius-3.1 voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
 6mm x 3mm Round Neodymium Magnets,6,4,4,1,6mm x 3mm Round Neodymium Magnets,voron-0 voron-0.1 voron-0.2 voron-2.4 voron-switchwire voron-trident
+40x40x10 Axial Fan,5,4,4,3,40x40x10 Axial Fan | 40x40x10 Axial Fan (24V) | 40x40x10 Axial Fan- Ball Bearing (24V),afterburner voron-1.8 voron-2.4 voron-switchwire voron-trident
 M3 Locknut,5,4,3,3,M3 Hex Locknut | M3 Lock Nut | M3 Locknut,jetpack mobius-3.1 voron-0.1 voron-2.2 voron-trident
 NEMA17 Motor 17HS19-2004S,5,4,4,1,NEMA17 Motor 17HS19-2004S,mobius-3.1 voron-1.6.2 voron-1.8 voron-2.2 voron-2.4
+40x40x20 Radial Fan (Blower),4,4,4,3,40x40x20 Centrifugal Blower Fan (24V) | 40x40x20 Centrifugal Blower Fan - Ball Bearing (24V) | 40x40x20 Radial Fan (Blower),afterburner voron-1.8 voron-2.4 voron-switchwire
 M3x6 FHCS,4,4,4,1,M3x6 FHCS,stealthburner voron-2.4 voron-switchwire voron-trident
 NEMA17 Motor 17HS08-1004S,4,4,4,1,NEMA17 Motor 17HS08-1004S,afterburner jetpack voron-1.8 voron-trident
 M3x12 SHCS,10,3,3,1,M3x12 SHCS,afterburner jetpack mobius-3.1 stealthburner voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
@@ -32,6 +34,7 @@ M5x16 BHCS,5,3,3,1,M5x16 BHCS,voron-1.8 voron-2.2 voron-2.4 voron-switchwire vor
 M5x30 BHCS,5,3,3,1,M5x30 BHCS,voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
 Thumb Screw Assembly,5,3,3,1,Thumb Screw Assembly,afterburner voron-0 voron-0.1 voron-0.2 voron-m4
 Bondtech Motor Gear,4,3,3,2,Bondtech Motor Gear | Bondtech Motor Gear (bowden only),afterburner voron-0 voron-0.1 voron-0.2
+Dragon Hotend,4,3,2,3,Dragon Hotend | TL Dragon Hotend | TriangleLab Dragon HotEnd,afterburner optional-parts voron-0 voron-0.1
 JST-XH Connector Plug 2 Position,4,3,3,1,JST-XH Connector Plug 2 Position,voron-1.8 voron-2.4 voron-switchwire voron-trident
 JST-XH Connector Plug 3 Position,4,3,3,1,JST-XH Connector Plug 3 Position,voron-1.8 voron-2.4 voron-switchwire voron-trident
 JST-XH Connector Plug 4 Position,4,3,3,1,JST-XH Connector Plug 4 Position,voron-1.8 voron-2.4 voron-switchwire voron-trident
@@ -49,9 +52,8 @@ M2x8 SHCS,3,3,3,1,M2x8 SHCS,voron-0 voron-0.1 voron-0.2
 "Omron TL-Q5MC2 - NPN, NC, 5mm Sense",3,3,3,1,"Omron TL-Q5MC2 - NPN, NC, 5mm Sense",optional-parts voron-switchwire voron-trident
 BAT85 Diode,6,2,2,1,BAT85 Diode,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
 Fuse Medium Time Delay Acting 8A 250V Holder Cartridge 5 X 20mm Glass,6,2,2,1,Fuse Medium Time Delay Acting 8A 250V Holder Cartridge 5 X 20mm Glass,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
-M3 washer,6,2,1,2,M3 Washer | M3 washer,stealthburner voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-trident
+M3 Washer,6,2,1,2,M3 Washer | M3 washer,stealthburner voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-trident
 ZF - Rocker Switches DPST 16A ON-OFF,6,2,2,1,ZF - Rocker Switches DPST 16A ON-OFF,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
-Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),5,2,2,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-trident
 Fork Spade Terminal,5,2,2,1,Fork Spade Terminal,voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
 MicroFit Connector Plug 2 Position (43640-0201),5,2,2,1,MicroFit Connector Plug 2 Position (43640-0201),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
 MicroFit Connector Plug 3 Position (43640-0301),5,2,2,1,MicroFit Connector Plug 3 Position (43640-0301),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
@@ -71,10 +73,9 @@ Misumi HFSB5-2020 (Size depends - use configurator),4,2,2,1,Misumi HFSB5-2020 (S
 Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR,4,2,2,1,Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR,voron-1.6.2 voron-1.8 voron-2.2 voron-trident
 5x10x1 Shim Ring,3,2,2,1,5x10x1 Shim Ring,voron-2.2 voron-2.4 voron-switchwire
 7mm x 7mm cable chain (less than 1/2 meter needed),3,2,2,1,7mm x 7mm cable chain (less than 1/2 meter needed),voron-0 voron-0.1 voron-0.2
-Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),3,2,2,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),voron-0 voron-0.1 voron-0.2
 BMG Extruder Insides,3,2,2,1,BMG Extruder Insides,afterburner stealthburner voron-0
 DC/DC PSU/buck converter - 24V to 5V,3,2,2,1,DC/DC PSU/buck converter - 24V to 5V,voron-0 voron-0.1 voron-0.2
-Dupont Female Pin,3,2,2,2,DuPont Female Pin | Dupont Female Pin,voron-1.8 voron-2.2 voron-trident
+DuPont Female Pin,3,2,2,2,DuPont Female Pin | Dupont Female Pin,voron-1.8 voron-2.2 voron-trident
 F623-RS Bearing,3,2,2,1,F623-RS Bearing,voron-0 voron-0.1 voron-0.2
 F695 2RS Bearing,3,2,2,1,F695 2RS Bearing,voron-2.2 voron-2.4 voron-switchwire
 Fuse Medium Time Delay Acting 4A 250V Holder Cartridge 5 X 20mm Glass,3,2,2,1,Fuse Medium Time Delay Acting 4A 250V Holder Cartridge 5 X 20mm Glass,voron-2.4 voron-switchwire voron-trident
@@ -92,15 +93,10 @@ M3x8 BHCS,3,2,2,1,M3x8 BHCS,voron-0 voron-0.1 voron-0.2
 MGN7H Linear Rail with Carriage (150mm),3,2,2,1,MGN7H Linear Rail with Carriage (150mm),voron-0 voron-0.1 voron-0.2
 Makerbeam XL 15x15 200mm,3,2,2,1,Makerbeam XL 15x15 200mm,voron-0 voron-0.1 voron-0.2
 Raspberry Pi 3,3,2,1,2,Raspberry Pi 3 | Raspberry Pi 3 (or better),voron-0 voron-0.1 voron-0.2
-Side/Front/Top Polycarbonate Panels,3,2,2,1,Side/Front/Top Polycarbonate Panels,voron-1.8 voron-2.2 voron-trident
 T8 flange Nut 8mm Lead --anti-backlash prefered-- (SEE NOTE SECTION),3,2,2,1,T8 flange Nut 8mm Lead --anti-backlash prefered-- (SEE NOTE SECTION),voron-0 voron-0.1 voron-0.2
-TopHat Panels,3,2,2,2,TopHat Panels | TopHat Panels (OPTIONAL),voron-0 voron-0.1 voron-0.2
 TycoElectronics - 10EGG1-1 (Normal) or 10EHG1-1 (Medical): Filtered Power Inlet,3,2,2,1,TycoElectronics - 10EGG1-1 (Normal) or 10EHG1-1 (Medical): Filtered Power Inlet,voron-2.4 voron-switchwire voron-trident
-"(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick",2,2,1,2,"(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick | (Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick (drawings and dxf on github)",voron-0.1 voron-0.2
 3010 axial fan 24v,2,2,2,2,3010 axial fan 24V | 3010 axial fan 24v,voron-0 voron-0.2
-40x40x10 Axial Fan- Ball Bearing (24V),2,2,2,1,40x40x10 Axial Fan- Ball Bearing (24V),voron-2.4 voron-switchwire
 40x40x20 Axial Fan (12V),2,2,2,1,40x40x20 Axial Fan (12V),voron-1.6.2 voron-2.2
-40x40x20 Centrifugal Blower Fan - Ball Bearing (24V),2,2,2,1,40x40x20 Centrifugal Blower Fan - Ball Bearing (24V),voron-2.4 voron-switchwire
 A4988 Stepper Motor Driver,2,2,2,1,A4988 Stepper Motor Driver,voron-1.6.2 voron-2.2
 Arduino Mega 2560,2,2,2,1,Arduino Mega 2560,voron-1.6.2 voron-2.2
 BMG Extruder Hardware Kit (if configured with direct feed),2,2,2,2,BMG Extruder Components Kit (if configured with direct feed) | BMG Extruder Hardware Kit (if configured with direct feed),voron-2.4 voron-switchwire
@@ -109,7 +105,6 @@ Bondtech Drive Gear Kit,2,2,2,1,Bondtech Drive Gear Kit,afterburner voron-0
 Bowden Clip,2,2,1,2,Bowden Clip | Bowden Clips,mobius-3.1 voron-m4
 Bowden Tube 4mm OD/2mm ID,2,2,2,2,"Bowden Tube (4mm OD, 2mm ID) | Bowden Tube 4mm OD/2mm ID",jetpack voron-switchwire
 E3D V6 Bowden Hotend Kit (24V),2,2,2,1,E3D V6 Bowden Hotend Kit (24V),voron-1.8 voron-trident
-Front Door 212mm x 239mm x 2.5mm (PC or Acrylic),2,2,2,1,Front Door 212mm x 239mm x 2.5mm (PC or Acrylic),voron-0 voron-0.1
 GT2 Open Belt LL-2GT-6 (6mm wide) - Length Dependant on Config,2,2,2,1,GT2 Open Belt LL-2GT-6 (6mm wide) - Length Dependant on Config,voron-2.2 voron-2.4
 HFSB5-2020-290,2,2,2,1,HFSB5-2020-290,voron-1.8 voron-trident
 HFSB5-2020-330,2,2,2,1,HFSB5-2020-330,voron-1.8 voron-trident
@@ -125,9 +120,6 @@ RAMPs 1.4,2,2,2,1,RAMPs 1.4,voron-1.6.2 voron-2.2
 RaspberryPi4,2,2,2,1,RaspberryPi4,voron-2.4 voron-switchwire
 RepRap Full Graphics Display,2,2,2,1,RepRap Full Graphics Display,voron-1.6.2 voron-2.2
 SKR 1.4,2,2,2,1,SKR 1.4,voron-1.8 voron-2.4
-Side Panel 212mm x 230mm x 2.5mm (PC or Acrylic),2,2,2,1,Side Panel 212mm x 230mm x 2.5mm (PC or Acrylic),voron-0 voron-0.1
-Side/Front/Top Acrylic Panels,2,2,2,1,Side/Front/Top Acrylic Panels,voron-2.4 voron-switchwire
-TL Dragon Hotend,2,2,2,2,TL Dragon Hotend | TriangleLab Dragon HotEnd,afterburner optional-parts
 TMC 2209 Drivers,2,2,2,1,TMC 2209 Drivers,voron-1.8 voron-trident
 Thermal Fuse 125C,2,2,2,1,Thermal Fuse 125C,voron-0 voron-0.1
 Threaded v6 Hotend kit 24V (All Metal),2,2,2,1,Threaded v6 Hotend kit 24V (All Metal),voron-0 voron-0.1
@@ -137,7 +129,6 @@ Voron V0.1 Kit - FYSETC,2,2,1,2,Voron V0.1 Kit - FYSETC | Voron V0.1 Kit - FYSTE
 Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft]),2,2,1,2,Silicone Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft]) | Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft]),voron-0.1 voron-0.2
 Silicone AC Heater 200x200mm,5,1,1,1,Silicone AC Heater 200x200mm,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-trident
 Thermal Fuse,5,1,1,1,Thermal Fuse,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-trident
-Bottom/Back/Electronics Bay Panels,4,1,1,1,Bottom/Back/Electronics Bay Panels,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4
 M4x6 BHCS,4,1,1,1,M4x6 BHCS,voron-1.8 voron-2.2 voron-2.4 voron-trident
 MLX Female Pin (02-08-1002),4,1,1,1,MLX Female Pin (02-08-1002),voron-1.8 voron-2.2 voron-2.4 voron-trident
 MLX Male Pin (02-08-2004),4,1,1,1,MLX Male Pin (02-08-2004),voron-1.8 voron-2.2 voron-2.4 voron-trident
@@ -155,7 +146,6 @@ Thermistor for your hotend of choice,3,1,1,1,Thermistor for your hotend of choic
 120x120x15 Fan (12V) (Rear can use 120x120x25 Fan),2,1,1,1,120x120x15 Fan (12V) (Rear can use 120x120x25 Fan),voron-1.6.2 voron-2.2
 2mmx100mm zip ties,2,1,1,1,2mmx100mm zip ties,voron-0.1 voron-0.2
 3m 5952 VHB,2,1,1,1,3m 5952 VHB,voron-0.1 voron-0.2
-40x40x10 Axial Fan (24V),2,1,1,1,40x40x10 Axial Fan (24V),voron-1.8 voron-trident
 40x40x10 Centrifugal Blower Fan (12V),2,1,1,1,40x40x10 Centrifugal Blower Fan (12V),voron-1.6.2 voron-2.2
 5mm x 50mm Shaft,2,1,1,1,5mm x 50mm Shaft,mobius-3.1 voron-m4
 5x60mm Shaft - Grind Flat,2,1,1,1,5x60mm Shaft - Grind Flat,voron-2.2 voron-2.4
@@ -165,7 +155,6 @@ BMG Extruder Insides 5mmID,2,1,1,1,BMG Extruder Insides 5mmID,voron-0.1 voron-0.
 Bondtech Drive Gear Kit 5mmID,2,1,1,1,Bondtech Drive Gear Kit 5mmID,voron-0.1 voron-0.2
 "DIN Rail - Electronics Enclosure - Steel - 35mm wide, 7.5mm tall, Steel",2,1,1,1,"DIN Rail - Electronics Enclosure - Steel - 35mm wide, 7.5mm tall, Steel",voron-1.8 voron-trident
 Dragon Fly BMO Hotend,2,1,1,1,Dragon Fly BMO Hotend,voron-0.1 voron-0.2
-Dragon Hotend,2,1,1,1,Dragon Hotend,voron-0 voron-0.1
 Dupont 2 Pin Connector,2,1,1,1,Dupont 2 Pin Connector,voron-1.8 voron-trident
 E3D V6 Bowden Hotend Kit (12V),2,1,1,1,E3D V6 Bowden Hotend Kit (12V),voron-1.6.2 voron-2.2
 F695 2RS,2,1,1,1,F695 2RS,mobius-3.1 voron-m4
@@ -198,7 +187,6 @@ OpenBuilds Angle Corner Connector,2,1,1,1,OpenBuilds Angle Corner Connector,voro
 PTFE Wire 20gauge 10ft,2,1,1,1,PTFE Wire 20gauge 10ft,voron-0.1 voron-0.2
 "PTFE Wire 22gauge 100ft (get 5m of 6 colors for 30m total, tin plated)",2,1,1,1,"PTFE Wire 22gauge 100ft (get 5m of 6 colors for 30m total, tin plated)",voron-0.1 voron-0.2
 Raspberry Pi 4 2GB,2,1,1,1,Raspberry Pi 4 2GB,voron-1.8 voron-trident
-Rear Panel 212mm x 248mm (whatever material you want),2,1,1,1,Rear Panel 212mm x 248mm (whatever material you want),voron-0.1 voron-0.2
 SSR DIN Mount,2,1,1,1,SSR DIN Mount,voron-1.8 voron-trident
 Shim Washer - 6mm OD - 3mm ID - 0.5mm Thick (thickness is important),2,1,1,1,Shim Washer - 6mm OD - 3mm ID - 0.5mm Thick (thickness is important),voron-0.1 voron-0.2
 Silicone DC 24V Heater 100x100mm 60W,2,1,1,1,Silicone DC 24V Heater 100x100mm 60W,voron-0.1 voron-0.2
@@ -207,6 +195,8 @@ USB Cable A-male B-male,2,1,1,1,USB Cable A-male B-male,voron-1.6.2 voron-2.2
 Voron V0.1 Kit - FORMBOT,2,1,1,1,Voron V0.1 Kit - FORMBOT,voron-0.1 voron-0.2
 Voron V0.1 Kit - LDO,2,1,1,1,Voron V0.1 Kit - LDO,voron-0.1 voron-0.2
 #4 x 3/8 Flat Head Self Tapping Screw,1,1,1,1,#4 x 3/8 Flat Head Self Tapping Screw,voron-2.2
+"(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick",1,1,1,1,"(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick",voron-0.1
+"(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick (drawings and dxf on github)",1,1,1,1,"(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick (drawings and dxf on github)",voron-0.2
 "(Deck front,Deck back, Mid panel) 3mm thick",1,1,1,1,"(Deck front,Deck back, Mid panel) 3mm thick",voron-0
 10x11 Cable Chain - Openable (1m),1,1,1,1,10x11 Cable Chain - Openable (1m),voron-switchwire
 "10x11mm - 1 meter with 2 end sets (2 fixed end, 2 free end), R18 (18mm radius)",1,1,1,1,"10x11mm - 1 meter with 2 end sets (2 fixed end, 2 free end), R18 (18mm radius)",voron-1.8
@@ -238,9 +228,6 @@ Voron V0.1 Kit - LDO,2,1,1,1,Voron V0.1 Kit - LDO,voron-0.1 voron-0.2
 4 Pin KK Connector Housing,1,1,1,1,4 Pin KK Connector Housing,optional-parts
 4010 Axial Fan,1,1,1,1,4010 Axial Fan,stealthburner
 40w Heater Cartridge,1,1,1,1,40w Heater Cartridge,optional-parts
-40x40x10 Axial Fan,1,1,1,1,40x40x10 Axial Fan,afterburner
-40x40x20 Centrifugal Blower Fan (24V),1,1,1,1,40x40x20 Centrifugal Blower Fan (24V),voron-1.8
-40x40x20 Radial Fan (Blower),1,1,1,1,40x40x20 Radial Fan (Blower),afterburner
 5 Pin KK Connector Housing,1,1,1,1,5 Pin KK Connector Housing,optional-parts
 50w Heater Cartridge,1,1,1,1,50w Heater Cartridge,optional-parts
 50x50x15 Centrifugal Fan,1,1,1,1,50x50x15 Centrifugal Fan,stealthburner
@@ -256,12 +243,24 @@ Voron V0.1 Kit - LDO,2,1,1,1,Voron V0.1 Kit - LDO,voron-0.1 voron-0.2
 6x6x3 Spacer,1,1,1,1,6x6x3 Spacer,voron-switchwire
 8mm T8x8 Trapezoidal ACME Lead Screw 200mm (8mm lead),1,1,1,1,8mm T8x8 Trapezoidal ACME Lead Screw 200mm (8mm lead),voron-0
 AC Inlet,1,1,1,1,AC Inlet,voron-0.1
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),1,1,1,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-2.4
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),1,1,1,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-trident
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),1,1,1,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-1.8
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),1,1,1,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-1.6.2
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),1,1,1,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-2.2
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),1,1,1,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),voron-0.2
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),1,1,1,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),voron-0
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),1,1,1,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),voron-0.1
 Auto Adjusting - Wire Strippers,1,1,1,1,Auto Adjusting - Wire Strippers,tools
 Battery Backup (110V US Only) (1500VA/900w),1,1,1,1,Battery Backup (110V US Only) (1500VA/900w),optional-parts
 Bigtree SKR 1.4,1,1,1,1,Bigtree SKR 1.4,optional-parts
 Bigtreetech SKR Pico,1,1,1,1,Bigtreetech SKR Pico,voron-0.2
 Bigtreetech SKR mini E3 (v1.2 or v2),1,1,1,1,Bigtreetech SKR mini E3 (v1.2 or v2),voron-0
 Bigtreetech SKR mini E3 (v2),1,1,1,1,Bigtreetech SKR mini E3 (v2),voron-0.1
+Bottom/Back/Electronics Bay Panels,1,1,1,1,Bottom/Back/Electronics Bay Panels,voron-2.4
+Bottom/Back/Electronics Bay Panels,1,1,1,1,Bottom/Back/Electronics Bay Panels,voron-1.8
+Bottom/Back/Electronics Bay Panels,1,1,1,1,Bottom/Back/Electronics Bay Panels,voron-1.6.2
+Bottom/Back/Electronics Bay Panels,1,1,1,1,Bottom/Back/Electronics Bay Panels,voron-2.2
 Bowden Coupler (for 4mm OD tube),1,1,1,1,Bowden Coupler (for 4mm OD tube),voron-2.4
 "Bowden Tube (4mm OD, 3mm ID) optional for reverse bowden",1,1,1,1,"Bowden Tube (4mm OD, 3mm ID) optional for reverse bowden",voron-switchwire
 "Bowden Tube (4mm OD, ID depends on extruder type)",1,1,1,1,"Bowden Tube (4mm OD, ID depends on extruder type)",voron-2.4
@@ -295,6 +294,8 @@ Ferrule Crimping Tool,1,1,1,1,Ferrule Crimping Tool,tools
 Filament Out Switch,1,1,1,1,Filament Out Switch,optional-parts
 Flush Wire Cutters,1,1,1,1,Flush Wire Cutters,tools
 Foam Panel Tape (5mm Wide/1mm Thick),1,1,1,1,Foam Panel Tape (5mm Wide/1mm Thick),optional-parts
+Front Door 212mm x 239mm x 2.5mm (PC or Acrylic),1,1,1,1,Front Door 212mm x 239mm x 2.5mm (PC or Acrylic),voron-0
+Front Door 212mm x 239mm x 2.5mm (PC or Acrylic),1,1,1,1,Front Door 212mm x 239mm x 2.5mm (PC or Acrylic),voron-0.1
 Front Door 212mm x 239mm x 3mm (PC or Acrylic),1,1,1,1,Front Door 212mm x 239mm x 3mm (PC or Acrylic),voron-0.2
 Fume Extractor Carbon Filter Element,1,1,1,1,Fume Extractor Carbon Filter Element,optional-parts
 GE5C Spherical Bearing,1,1,1,1,GE5C Spherical Bearing,voron-trident
@@ -446,10 +447,19 @@ Prusa MK52 Heated Bed - 24V,1,1,1,1,Prusa MK52 Heated Bed - 24V,voron-switchwire
 RaspberryPi3 B+,1,1,1,1,RaspberryPi3 B+,voron-1.6.2
 "RaspberryPi3 B+ (dont get a 4, they have issues)",1,1,1,1,"RaspberryPi3 B+ (dont get a 4, they have issues)",voron-2.2
 Ratcheting Wire Terminal Crimper,1,1,1,1,Ratcheting Wire Terminal Crimper,tools
+Rear Panel 212mm x 248mm (whatever material you want),1,1,1,1,Rear Panel 212mm x 248mm (whatever material you want),voron-0.2
+Rear Panel 212mm x 248mm (whatever material you want),1,1,1,1,Rear Panel 212mm x 248mm (whatever material you want),voron-0.1
 Rear Panel 212mm x 248mm x 2.5mm (whatever material you want),1,1,1,1,Rear Panel 212mm x 248mm x 2.5mm (whatever material you want),voron-0
 Rubber Foot,1,1,1,1,Rubber Foot,voron-trident
 SKR Mini E3 V2,1,1,1,1,SKR Mini E3 V2,voron-switchwire
+Side Panel 212mm x 230mm x 2.5mm (PC or Acrylic),1,1,1,1,Side Panel 212mm x 230mm x 2.5mm (PC or Acrylic),voron-0
+Side Panel 212mm x 230mm x 2.5mm (PC or Acrylic),1,1,1,1,Side Panel 212mm x 230mm x 2.5mm (PC or Acrylic),voron-0.1
 Side Panel 212mm x 230mm x 3mm (PC or Acrylic),1,1,1,1,Side Panel 212mm x 230mm x 3mm (PC or Acrylic),voron-0.2
+Side/Front/Top Acrylic Panels,1,1,1,1,Side/Front/Top Acrylic Panels,voron-2.4
+Side/Front/Top Acrylic Panels,1,1,1,1,Side/Front/Top Acrylic Panels,voron-switchwire
+Side/Front/Top Polycarbonate Panels,1,1,1,1,Side/Front/Top Polycarbonate Panels,voron-trident
+Side/Front/Top Polycarbonate Panels,1,1,1,1,Side/Front/Top Polycarbonate Panels,voron-1.8
+Side/Front/Top Polycarbonate Panels,1,1,1,1,Side/Front/Top Polycarbonate Panels,voron-2.2
 Silicon Wire 24gauge 100ft (individual strand length total [example: 25ft of 4p wire=100ft]),1,1,1,1,Silicon Wire 24gauge 100ft (individual strand length total [example: 25ft of 4p wire=100ft]),voron-0
 Silicone AC 120V/240V Heater 100x100mm 100W,1,1,1,1,Silicone AC 120V/240V Heater 100x100mm 100W,voron-0
 Silicone AC Heater 250x250mm,1,1,1,1,Silicone AC Heater 250x250mm,voron-2.4
@@ -464,6 +474,9 @@ TR8x8 Lead Screw Nut,1,1,1,1,TR8x8 Lead Screw Nut,voron-1.6.2
 Tap Handle - For Tap,1,1,1,1,Tap Handle - For Tap,tools
 The 2.x guides should have the rest of the required parts,1,1,1,1,The 2.x guides should have the rest of the required parts,voron-1.6.2
 Thermal Fuse 150C,1,1,1,1,Thermal Fuse 150C,voron-0.2
+TopHat Panels,1,1,1,1,TopHat Panels,voron-0.2
+TopHat Panels,1,1,1,1,TopHat Panels,voron-0.1
+TopHat Panels (OPTIONAL),1,1,1,1,TopHat Panels (OPTIONAL),voron-0
 USB Cable A-male B-male (Included with SKR),1,1,1,1,USB Cable A-male B-male (Included with SKR),voron-2.4
 USB Cable A-male Mini B-male (1 Included with SKR Mini),1,1,1,1,USB Cable A-male Mini B-male (1 Included with SKR Mini),voron-switchwire
 V0-Display,1,1,1,1,V0-Display,voron-0.2
