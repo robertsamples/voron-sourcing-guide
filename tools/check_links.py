@@ -878,15 +878,16 @@ def save(cache, targets, fresh=None):
     import csv
     with open(REPORT, "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.writer(fh)
-        w.writerow(["status", "http", "reason", "vendor_host", "url",
-                    "final_url", "checked_at", "items"])
+        w.writerow(["status", "date_checked", "http", "reason", "vendor_host",
+                    "url", "final_url", "checked_at", "items"])
         order = {"no": 0, "maybe": 1, "yes": 2}
         for url, res in sorted(cache.items(),
                                key=lambda kv: (order.get(kv[1]["status"], 3),
                                                host_of(kv[0]))):
-            w.writerow([res["status"], res.get("http") or "", res["reason"],
-                        host_of(url), url, res.get("final_url") or "",
-                        res.get("checked_at", ""),
+            when = (res.get("checked_at") or "")[:10] or                 datetime.now(timezone.utc).date().isoformat()
+            w.writerow([res["status"], when, res.get("http") or "",
+                        res["reason"], host_of(url), url,
+                        res.get("final_url") or "", res.get("checked_at", ""),
                         " ".join(sorted(targets.get(url, ())))])
 
 

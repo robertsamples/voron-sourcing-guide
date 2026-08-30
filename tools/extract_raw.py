@@ -205,11 +205,19 @@ def main():
             if comp is None and cat is None and not entries:
                 continue
 
+            # A footer line is not a component, so a blank row under it is not
+            # a continuation of anything. VORON 1.8 keeps a frame calculator
+            # below its affiliate footer, and without this those rows inherit
+            # the footer's text as their part name.
+            is_footer = bool(comp and re.match(r"^\W*as an (amazon|aliexpress)",
+                                               comp, re.I))
             is_cont = comp is None
             if is_cont:
                 comp, cat, std = last_comp, cat or last_cat, std or last_std
-            else:
+            elif not is_footer:
                 last_comp, last_cat, last_std = comp, cat, std
+            else:
+                last_comp = last_cat = last_std = None
             if comp is None:
                 continue
 

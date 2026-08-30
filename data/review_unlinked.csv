@@ -89,7 +89,6 @@ hotend.trianglelab-dragon-hotend,TriangleLab Dragon Hotend,Hotend,afterburner,le
 misc.medium-strength-thread-locker,medium strength thread locker,Misc,voron-0.2,current,
 motion.gt2-20t-6mm-wide-pulley-5mm-bore-no-set-screw-hub,GT2 20T (6mm wide) Pulley (5mm bore) - No Set Screw Hub,Motion,voron-2.2,legacy,Build from 2x POWGE 20t 6mm Pulley
 motion.gt2-open-belt-ll-2gt-6-6mm-wide-800mm,GT2 Open Belt LL-2GT-6 (6mm wide) - 800mm,Motion,voron-switchwire,current,
-motion.linear-rail-mgn9h-for-z-axis,Linear Rail MGN9H for Z Axis,Motion,voron-trident,current,
 panels.side-front-top-acrylic-panels.voron-switchwire,Side/Front/Top Acrylic Panels,Panels,voron-switchwire,current,
 printed-parts.printed-parts,Printed Parts,Printed Parts,mobius-3.1,legacy,Print Yourself
 printed-parts.printed-parts,Printed Parts,Printed Parts,voron-0,legacy,

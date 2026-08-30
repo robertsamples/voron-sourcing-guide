@@ -3,14 +3,10 @@ bowden.bowden-clip,Bowden,Bowden Clip,,,Bowden Clips,2,1,voron-m4 mobius-3.1,,,,
 bowden.bowden-fitting,Bowden,Bowden Fitting,,,,6,2,voron-0.2 voron-m4 mobius-3.1 jetpack voron-0 voron-0.1,,,2,,,,,,,1,2,1,2,2,,,
 bowden.bowden-tube-4mm-od-3mm-id,Bowden,Bowden Tube 4mm OD/3mm ID,,,,1,1,jetpack,,,,,,,,,,,,3m,,,,,
 bowden.bowden-tubing-4mmod-2mmid-1-meter,Bowden,Bowden Tubing 4mmOD 2mmID (1 meter),,,,3,3,voron-0.2 voron-0 voron-0.1,,,1,,,,,,,,,,1,1,,,
-buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.voron-2.4,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-2.4,,,1,1,voron-2.4,1@250; 1@300; 1@350,,,,,,,,,,,,,,,,
+buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.v2,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),v2,,,2,1,voron-2.4 voron-2.2,1@250; 1@300; 1@350,,,,,,,,,,,,,,,,1@250; 1@300; 1@350
 buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.voron-trident,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-trident,,,1,2,voron-trident,,"10x10""@250; 12x12""@300; 14x14""@350",,,,,,,,,,,,,,,
-buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.voron-1.8,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-1.8,,,1,1,voron-1.8,,,,,,,,,,,,,,,"10x10""@250; 12x12""@300",,
-buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.voron-1.6.2,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-1.6.2,,,1,1,voron-1.6.2,,,,,,,,,,,,,,,,1,
-buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.voron-2.2,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-2.2,,,1,1,voron-2.2,,,,,,,,,,,,,,,,,1@250; 1@300; 1@350
-buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-120x120mm-4-75inx4-75in-1-4in-or-6mm-depending-on-whats-available-in-your-country.voron-0.2,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),voron-0.2,,,1,1,voron-0.2,,,1,,,,,,,,,,,,,,
-buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-120x120mm-4-75inx4-75in-1-4in-or-6mm-depending-on-whats-available-in-your-country.voron-0,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),voron-0,,,1,1,voron-0,,,,,,,,,,,,,1,,,,
-buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-120x120mm-4-75inx4-75in-1-4in-or-6mm-depending-on-whats-available-in-your-country.voron-0.1,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),voron-0.1,,,1,1,voron-0.1,,,,,,,,,,,,,,1,,,
+buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.v1,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),v1,,,2,1,voron-1.8 voron-1.6.2,,,,,,,,,,,,,,,"10x10""@250; 12x12""@300",1,
+buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-120x120mm-4-75inx4-75in-1-4in-or-6mm-depending-on-whats-available-in-your-country.v0,Buildplate,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),v0,,,3,1,voron-0.2 voron-0 voron-0.1,,,1,,,,,,,,,,1,1,,,
 buildplate.high-temperature-magnet,Buildplate,High Temperature Magnet,,,,1,3,optional-parts,,,,,,,optional,,,,,,,,,,
 buildplate.magnetic-sheet-pei-optional,Buildplate,Magnetic Sheet + PEI (optional),,,,1,1,voron-2.4,1,,,,,,,,,,,,,,,,
 buildplate.magnetic-sheet-for-spring-steel-plate-120x120-optional,Buildplate,Magnetic sheet for spring steel plate 120x120 (OPTIONAL),,,,2,1,voron-0.2 voron-0.1,,,1,,,,,,,,,,,1,,,
@@ -110,15 +106,11 @@ controller.micro-usb-power-cable,Controller,Micro USB Power Cable,,,,2,1,voron-1
 controller.microsd-card,Controller,MicroSD Card,,,,9,3,voron-2.4 voron-trident voron-0.2 voron-switchwire voron-0 voron-0.1 voron-1.8 voron-1.6.2 voron-2.2,1,1,1,1,,,,,,,,,1,1,1,1,1
 controller.mini-12864-display-type-b,Controller,Mini 12864 Display (Type B),,,,2,2,voron-2.4 voron-switchwire,1,,,1,,,,,,,,,,,,,
 controller.ramps-1-4,Controller,RAMPs 1.4,,,,2,1,voron-1.6.2 voron-2.2,,,,,,,,,,,,,,,,1,2
-controller.raspberry-pi-4-2gb,Controller,Raspberry Pi 4 2GB,,,,2,2,voron-trident voron-1.8,,1,,,,,,,,,,,,,1,,
-controller.raspberrypi3-b,Controller,RaspberryPi3 B+,,,,1,1,voron-1.6.2,,,,,,,,,,,,,,,,1,
-controller.raspberrypi3-b-dont-get-a-4-they-have-issues,Controller,"RaspberryPi3 B+ (dont get a 4, they have issues)",,,,1,1,voron-2.2,,,,,,,,,,,,,,,,,1
-controller.raspberrypi4,Controller,RaspberryPi4,,,,2,1,voron-2.4 voron-switchwire,1,,,1,,,,,,,,,,,,,
+controller.raspberrypi3-b,Controller,RaspberryPi3 B+,,,"RaspberryPi3 B+ (dont get a 4, they have issues)",2,1,voron-1.6.2 voron-2.2,,,,,,,,,,,,,,,,1,1
+controller.raspberrypi4,Controller,RaspberryPi4,,,Raspberry Pi 4 2GB,4,3,voron-2.4 voron-trident voron-switchwire voron-1.8,1,1,,1,,,,,,,,,,,1,,
 controller.reprap-full-graphics-display,Controller,RepRap Full Graphics Display,,,,2,2,voron-1.6.2 voron-2.2,,,,,,,,,,,,,,,,1,1
 controller.skr-1-4,Controller,SKR 1.4,,,,2,3,voron-2.4 voron-1.8,2,,,,,,,,,,,,,,1,,
-controller.tmc-2209-drivers,Controller,TMC 2209 Drivers,,,,2,1,voron-trident voron-1.8,,6,,,,,,,,,,,,,5,,
-controller.tmc2209-stepper-motor-driver,Controller,TMC2209 Stepper Motor Driver,,,,1,2,voron-2.4,7,,,,,,,,,,,,,,,,
-controller.tmc2209-stepsticks-for-skr-1-3,Controller,TMC2209 Stepsticks for SKR 1.3,,,,1,2,optional-parts,,,,,,,7,,,,,,,,,,
+controller.tmc-2209-drivers,Controller,TMC 2209 Drivers,,,TMC2209 Stepper Motor Driver | TMC2209 Stepsticks for SKR 1.3,4,4,voron-2.4 voron-trident optional-parts voron-1.8,7,6,,,,,7,,,,,,,,5,,
 controller.usb-c-power-cable,Controller,USB C Power Cable,,,,2,1,voron-2.4 voron-switchwire,1,,,1,,,,,,,,,,,,,
 controller.usb-cable-a-male-b-male,Controller,USB Cable A-male B-male,,,USB Cable A-male B-male (Included with SKR),3,0,voron-2.4 voron-1.6.2 voron-2.2,2,,,,,,,,,,,,,,,2,2
 electronics.120x120x15-fan-12v-rear-can-use-120x120x25-fan,Electronics,120x120x15 Fan (12V) (Rear can use 120x120x25 Fan),,,,2,1,voron-1.6.2 voron-2.2,,,,,,,,,,,,,,,,1,2
@@ -136,7 +128,6 @@ electronics.40x40x20-centrifugal-blower-fan-ball-bearing-24v,Electronics,40x40x2
 electronics.50w-heater-cartridge,Electronics,50w Heater Cartridge,,,,1,2,optional-parts,,,,,,,Spare,,,,,,,,,,
 electronics.50x50x15-centrifugal-fan-24v,Electronics,50x50x15 Centrifugal Fan (24V),,,50x50x15 Centrifugal Fan,2,0,voron-trident stealthburner,,1,,,,1,,,,,,,,,,,
 electronics.60x60x20-axial-fan-24v,Electronics,60x60x20 Axial Fan (24V),,,,4,3,voron-2.4 voron-trident voron-switchwire voron-1.8,3,2,,1,,,,,,,,,,,3,,
-electronics.ac-inlet,Electronics,AC Inlet,,,,1,1,voron-0.1,,,,,,,,,,,,,,1,,,
 electronics.bat85-diode,Electronics,BAT85 Diode,,,,6,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-1.6.2 voron-2.2,1,1,,1,,,,,,,,,,,1,1,1
 electronics.battery-backup-110v-us-only-1500va-900w,Electronics,Battery Backup (110V US Only) (1500VA/900w),,,,1,2,optional-parts,,,,,,,1,,,,,,,,,,
 electronics.bigtreetech-skr-mini-e3-v1-2-or-v2,Electronics,Bigtreetech SKR mini E3 (v1.2 or v2),,,,1,2,voron-0,,,,,,,,,,,,,1,,,,
@@ -155,8 +146,7 @@ electronics.fuse-2-5a-250v-holder-cartridge-5-x-20mm-glass,Electronics,Fuse 2.5A
 electronics.fuse-medium-time-delay-acting-4a-250v-holder-cartridge-5-x-20mm-glass,Electronics,Fuse Medium Time Delay Acting 4A 250V Holder Cartridge 5 X 20mm Glass,,,,3,1,voron-2.4 voron-trident voron-switchwire,2,2,,2,,,,,,,,,,,,,
 electronics.fuse-medium-time-delay-acting-8a-250v-holder-cartridge-5-x-20mm-glass,Electronics,Fuse Medium Time Delay Acting 8A 250V Holder Cartridge 5 X 20mm Glass,,,,6,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-1.6.2 voron-2.2,2,2,,2,,,,,,,,,,,2,2,2
 electronics.harness-for-adxl-sensor-module,Electronics,Harness for ADXL Sensor Module,,,,1,0,stealthburner,,,,,,1,,,,,,,,,,,
-electronics.iec320-c14-inlet,Electronics,IEC320 C14 inlet,,,,1,1,voron-0.2,,,1,,,,,,,,,,,,,,
-electronics.iec320-c14-inlet-push-fit-w-rocker-switch-fuse,Electronics,IEC320 C14 Inlet - Push-fit - w/ Rocker Switch & Fuse,,,,2,1,voron-2.4 voron-switchwire,1,,,1,,,,,,,,,,,,,
+electronics.iec320-c14-inlet-push-fit-w-rocker-switch-fuse,Electronics,IEC320 C14 Inlet - Push-fit - w/ Rocker Switch & Fuse,,,IEC320 C14 inlet | AC Inlet,4,1,voron-2.4 voron-0.2 voron-switchwire voron-0.1,1,,1,1,,,,,,,,,,1,,,
 electronics.inductive-probe,Electronics,Inductive Probe,,,,1,3,voron-2.4,1,,,,,,,,,,,,,,,,
 electronics.led-light-bar-12v-24v,Electronics,LED Light Bar (12v/24v),,,,1,1,optional-parts,,,,,,,2,,,,,,,,,,
 electronics.mean-well-lrs-200-12-psu,Electronics,Mean Well LRS-200-12 PSU,,,,2,1,voron-1.6.2 voron-2.2,,,,,,,,,,,,,,,,1,1
@@ -174,16 +164,13 @@ electronics.nema14-stepper-motor-14hs17-0504s,Electronics,NEMA14 Stepper Motor (
 electronics.nema14-stepper-motor-40ncm,Electronics,NEMA14 Stepper Motor 40Ncm,,,,2,3,voron-0.2 voron-0.1,,,2,,,,,,,,,,,2,,,
 electronics.nema17-motor-17hs08-1004s,Electronics,NEMA17 Motor 17HS08-1004S,,,,4,4,voron-trident afterburner jetpack voron-1.8,,1,,,,,,,1,,,1,,,1,,
 electronics.nema17-motor-17hs15-1504s1,Electronics,NEMA17 Motor 17HS15-1504S1,,,,2,3,voron-switchwire voron-m4,,,,3,,,,,,1,,,,,,,
-electronics.nema17-motor-17hs19-2004s,Electronics,NEMA17 Motor 17HS19-2004S,,,,5,5,voron-2.4 mobius-3.1 voron-1.8 voron-1.6.2 voron-2.2,6,,,,,,,,,,1,,,,2,2,6
-electronics.nema17-motor-17hs19-2004s-min-35mm-shaft-for-double-shear,Electronics,NEMA17 Motor 17HS19-2004S (min 35mm shaft for double shear),,,,1,4,voron-trident,,2,,,,,,,,,,,,,,,
+electronics.nema17-motor-17hs19-2004s,Electronics,NEMA17 Motor 17HS19-2004S,,,NEMA17 Motor 17HS19-2004S (min 35mm shaft for double shear),6,6,voron-2.4 voron-trident mobius-3.1 voron-1.8 voron-1.6.2 voron-2.2,6,2,,,,,,,,,1,,,,2,2,6
 electronics.nema17-motor-with-leadscrew-17ls19-1684e-300g,Electronics,NEMA17 Motor with Leadscrew (17LS19-1684E-300G),,,,1,2,voron-1.6.2,,,,,,,,,,,,,,,,2,
-electronics.nema17-stepper-motor-34mm-max-with-integrated-lead-screw-200mm-t8x8,Electronics,NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8,,,,1,2,voron-0.1,,,,,,,,,,,,,,1,,,
-electronics.nema17-stepper-motor-with-integrated-lead-screw-200mm-t8x8,Electronics,NEMA17 Stepper Motor with integrated lead screw 200mm T8x8,,,,1,2,voron-0.2,,,1,,,,,,,,,,,,,,
+electronics.nema17-stepper-motor-with-integrated-lead-screw-200mm-t8x8,Electronics,NEMA17 Stepper Motor with integrated lead screw 200mm T8x8,,,NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8,2,2,voron-0.2 voron-0.1,,,1,,,,,,,,,,,1,,,
 electronics.neopixel-rgbw-mini-button-pcb,Electronics,NeoPixel RGBW Mini Button PCB,,,,1,0,stealthburner,,,,,,3,,,,,,,,,,,
 electronics.ntc-100k-beta-3950-thermistor-sensor,Electronics,NTC 100K Beta 3950 Thermistor Sensor,,,,1,1,optional-parts,,,,,,,Spare,,,,,,,,,,
 electronics.nylon-pcb-standoff-kit-m3,Electronics,Nylon PCB Standoff Kit (M3),,,,1,1,voron-0,,,,,,,,,,,,,1,,,,
-electronics.omron-g3na-210b-dc5-10a-or-crydom-d2425-25a-or-crydom-84134000-10a-ssr,Electronics,Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR,,,,4,4,voron-trident voron-1.8 voron-1.6.2 voron-2.2,,1,,,,,,,,,,,,,1,1,1
-electronics.omron-g3na-210b-dc5-10a-or-crydom-d2425-25a-or-crydom-84134000-10a-ssr-or-panasonic-aqa211vl-15a,Electronics,Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR or Panasonic AQA211VL (15A),,,,1,5,voron-2.4,1,,,,,,,,,,,,,,,,
+electronics.omron-g3na-210b-dc5-10a-or-crydom-d2425-25a-or-crydom-84134000-10a-ssr,Electronics,Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR,,,Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR or Panasonic AQA211VL (15A),5,6,voron-2.4 voron-trident voron-1.8 voron-1.6.2 voron-2.2,1,1,,,,,,,,,,,,,1,1,1
 electronics.omron-mouse-button-micro-switch,Electronics,Omron Mouse Button - Micro Switch,,,,9,4,voron-2.4 voron-trident voron-0.2 voron-switchwire voron-0 voron-0.1 voron-1.8 voron-1.6.2 voron-2.2,3,3,1,2,,,,,,,,,3,3,3,3,3
 electronics.omron-tl-q5mc2-npn-nc-5mm-sense,Electronics,"Omron TL-Q5MC2 - NPN, NC, 5mm Sense",,,,3,5,voron-trident voron-switchwire optional-parts,,1,,1,,,1,,,,,,,,,,
 electronics.pl-08n-inductive-probe,Electronics,PL-08N Inductive Probe,,,,3,1,voron-1.8 voron-1.6.2 voron-2.2,,,,,,,,,,,,,,,1,1,1
@@ -205,11 +192,8 @@ electronics.usb-cable-a-male-mini-b-male-1-included-with-skr-mini,Electronics,US
 electronics.v0-display,Electronics,V0-Display,,,,1,2,voron-0.2,,,1,,,,,,,,,,,,,,
 electronics.vhb-tape-20mm-or-so-is-good,Electronics,VHB tape (20mm or so is good),,,,2,2,voron-0 voron-0.1,,,,,,,,,,,,,1,1,,,
 electronics.zf-rocker-switches-dpst-16a-on-off,Electronics,ZF - Rocker Switches DPST 16A ON-OFF,,,,6,2,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-1.6.2 voron-2.2,1,1,,1,,,,,,,,,,,1,1,1
-extruder.bmg-extruder-insides-5mmid,Extruder,BMG Extruder Insides 5mmID,,,,2,1,voron-0.2 voron-0.1,,,1,,,,,,,,,,,1,,,
-extruder.bmg-extruder-kit-used-for-gears,Extruder,BMG Extruder Kit (used for gears),,,,2,5,voron-trident voron-1.8,,1,,,,,,,,,,,,,1,,
-extruder.bondtech-drive-gear-kit-5mmid,Extruder,Bondtech Drive Gear Kit 5mmID,,,,2,3,voron-0.2 voron-0.1,,,1,,,,,,,,,,,1,,,
 extruder.bondtech-motor-gear-bowden-only,Extruder,Bondtech Motor Gear (bowden only),,,Bondtech Motor Gear,4,4,voron-0.2 afterburner voron-0 voron-0.1,,,1,,,,,,1,,,,1,1,,,
-extruder.complete-bmg-extruder-clone,Extruder,Complete BMG Extruder Clone,,,,5,3,voron-0.2 stealthburner afterburner voron-0 voron-0.1,,,1,,,1,,,1,,,,1,1,,,
+extruder.complete-bmg-extruder-clone,Extruder,Complete BMG Extruder Clone,,,BMG Extruder Insides | Bondtech Drive Gear Set | BMG Extruder Kit (used for gears) | BMG Extruder Insides 5mmID | Bondtech Drive Gear Kit 5mmID | Bondtech Drive Gear Kit,10,15,voron-trident voron-0.2 stealthburner afterburner voron-m4 mobius-3.1 jetpack voron-0 voron-0.1 voron-1.8,,1,1,,,1,,,1,1,1,1,1,1,1,,
 extruder.mr85-bearing,Extruder,MR85 Bearing,,,MR85 Bearings,4,2,voron-0.2 afterburner voron-0 voron-0.1,,,2,,,,,,2,,,,2,2,,,
 extruder.shaft-idler-assembly,Extruder,Shaft/Idler Assembly,,,,4,4,voron-0.2 afterburner voron-0 voron-0.1,,,1,,,,,,1,,,,1,1,,,
 fasteners.4-x-3-8-flat-head-self-tapping-screw,Fasteners,#4 x 3/8 Flat Head Self Tapping Screw,,,,1,2,voron-2.2,,,,,,,,,,,,,,,,,2
@@ -217,9 +201,8 @@ fasteners.10x16x0-2-shim-ring,Fasteners,10x16x0.2 Shim Ring,,DIN 988,,1,3,voron-
 fasteners.5x10x0-5-shim-ring,Fasteners,5x10x0.5 Shim Ring,,DIN 988,,1,3,voron-2.2,,,,,,,,,,,,,,,,,8
 fasteners.5x10x1-shim-ring,Fasteners,5x10x1 Shim Ring,,DIN 988,,3,3,voron-2.4 voron-switchwire voron-2.2,42,,,19,,,,,,,,,,,,,26
 fasteners.6x6x3-spacer,Fasteners,6x6x3 Spacer,,,,1,2,voron-switchwire,,,,,,,,,,,,,,,,,
-fasteners.m2-x-12-or-13mm-plastite-self-tapping-screw,Fasteners,M2 x 12 or 13mm Plastite Self Tapping Screw,,,,1,2,mobius-3.1,,,,,,,,,,,2,,,,,,
 fasteners.m2x10-self-tapping-screw-for-plastics,Fasteners,M2x10 Self Tapping Screw for Plastics,,,M2x10 Self Tapping Screws for Plastic | M2x10 self tapping screw | M2x10 Self Tapping Screws for Plastic (Pan Head),7,6,voron-2.4 voron-trident voron-0.2 voron-switchwire stealthburner voron-0 voron-0.1,15,17,30,8,,2,,,,,,,11,15,,,
-fasteners.m2x12-self-tapping-screw-for-plastics,Fasteners,M2x12 Self Tapping Screw for Plastics,,,,2,2,voron-1.8 voron-2.2,,,,,,,,,,,,,,,2,,6
+fasteners.m2x12-self-tapping-screw-for-plastics,Fasteners,M2x12 Self Tapping Screw for Plastics,,,M2 x 12 or 13mm Plastite Self Tapping Screw,3,2,mobius-3.1 voron-1.8 voron-2.2,,,,,,,,,,,2,,,,2,,6
 fasteners.m2x8-self-tapping-screw-for-plastics,Fasteners,M2x8 Self Tapping Screw for Plastics,,,,1,2,voron-2.2,,,,,,,,,,,,,,,,,18
 fasteners.m3-hammer-head-t-nuts,Fasteners,M3 Hammer Head T-Nuts,,,M3 Hammerhead T-Nut,2,2,voron-2.4 voron-trident,47,55,,,,,,,,,,,,,,,
 fasteners.m3-heat-set-insert-m3x5x4,Fasteners,M3 Heat Set Insert (M3x5x4),,,M3 Heat Set Inserts (M3x5x4) | M3 Threaded Insert | M3 Threaded Insert (M3x5mmx4mm) | M3 Brass heatstake inserts - short M3x5x4 | M3 Brass Heat Set Inserts - Short | M3 Threaded Inserts - short | M3 Brass Heatstake Inserts | M3 Brass Heatstake Inserts - Short (M3x5x4) | M3 Brass Heatset Inserts - Short M3x5x4,10,7,voron-2.4 voron-trident voron-0.2 voron-switchwire stealthburner afterburner voron-m4 voron-0 voron-0.1 voron-1.8,90,109,50,54,,19; 2,,,15,5,,,20,50,40,,
@@ -260,7 +243,7 @@ fasteners.m5x40-bhcs,Fasteners,M5x40 BHCS,,ISO 7380-1,,1,2,voron-trident,,4,,,,,
 fasteners.m5x40-shcs,Fasteners,M5x40 SHCS,,ISO 4762 / DIN 912,,4,2,voron-2.4 voron-switchwire voron-1.8 voron-2.2,25,,,6,,,,,,,,,,,8,,12
 fasteners.m8x16-bhcs,Fasteners,M8x16 BHCS,,ISO 7380,,1,1,voron-switchwire,,,,8,,,,,,,,,,,,,
 filament.primary-color-black,Filament,Primary Color (Black),,,Primary Color,8,2,voron-2.4 voron-trident voron-switchwire voron-m4 mobius-3.1 voron-1.8 voron-1.6.2 voron-2.2,2,2,,1,,,,,,1,1,,,,1,2,2
-filament.secondary-color-red,Filament,Secondary Color (Red),,,Secondary Color,8,4,voron-2.4 voron-trident voron-switchwire voron-m4 mobius-3.1 voron-1.8 voron-1.6.2 voron-2.2,1,1,,1,,,,,,1,1,,,,1,1,1
+filament.secondary-color-red,Filament,Secondary Color (Red),,,Secondary Color,8,3,voron-2.4 voron-trident voron-switchwire voron-m4 mobius-3.1 voron-1.8 voron-1.6.2 voron-2.2,1,1,,1,,,,,,1,1,,,,1,1,1
 frame.hfsb5-2020-150-tpw,Frame,HFSB5-2020-150-TPW,,,,1,1,voron-1.8,,,,,,,,,,,,,,,2@250x250x230,,
 frame.hfsb5-2020-200-tpw,Frame,HFSB5-2020-200-TPW,,,,1,0,voron-1.8,,,,,,,,,,,,,,,2@300x300x230,,
 frame.hfsb5-2020-230,Frame,HFSB5-2020-230,,,,1,1,voron-1.8,,,,,,,,,,,,,,,2@250x250x230; 2@300x300x230,,
@@ -301,8 +284,6 @@ frame.misumi-hfsb5-2020-size-depends-use-configurator,Frame,Misumi HFSB5-2020 (S
 frame.openbuilds-angle-corner-connector,Frame,OpenBuilds Angle Corner Connector,,,,2,1,voron-2.4 voron-2.2,4,,,,,,,,,,,,,,,,4
 hardware.3x5x0-5-shim-ring-3mm-id-5mm-od,Hardware,"3x5x0.5 Shim Ring (3mm ID, 5mm OD)",,,,1,4,voron-0,,,,,,,,,,,,,4,,,,
 hardware.3x7x0-5-shim-ring-3mm-id-7-mm-od,Hardware,"3x7x0.5 Shim Ring (3mm ID, 7 mm OD)",,DIN988,,1,3,voron-0,,,,,,,,,,,,,26,,,,
-hardware.bmg-extruder-insides,Hardware,BMG Extruder Insides,,,,3,2,stealthburner afterburner voron-0,,,,,,1,,,1,,,,1,,,,
-hardware.bondtech-drive-gear-kit,Hardware,Bondtech Drive Gear Kit,,,,2,4,afterburner voron-0,,,,,,,,,1,,,,1,,,,
 hardware.hotend-mounting-screws-m2-5-m3,Hardware,Hotend Mounting Screws (M2.5/M3),,,,1,0,stealthburner,,,,,,2-4,,,,,,,,,,,
 hardware.m2-nut,Hardware,M2 Nut,,ISO 4033 / DIN 934,,3,2,voron-0.2 voron-0 voron-0.1,,,60,,,,,,,,,,25-50,55,,,
 hardware.m2-5x12-shcs-for-dragon-hotend-only,Hardware,M2.5x12 SHCS (for dragon hotend only),,DIN 912,,1,1,voron-0,,,,,,,,,,,,,4,,,,
@@ -390,14 +371,10 @@ motion.5x50mm-shaft-grind-flat,Motion,5x50mm Shaft - Grind Flat,,,,1,1,voron-2.2
 motion.5x60mm-shaft-grind-flat,Motion,5x60mm Shaft - Grind Flat,,,,2,1,voron-2.4 voron-2.2,4,,,,,,,,,,,,,,,,4
 motion.625-2rs-bearing,Motion,625 2RS Bearing,,,,2,2,voron-2.4 voron-2.2,12,,,,,,,,,,,,,,,,16
 motion.8mm-t8x8-trapezoidal-acme-lead-screw-200mm-8mm-lead,Motion,8mm T8x8 Trapezoidal ACME Lead Screw 200mm (8mm lead),,,,1,2,voron-0,,,,,,,,,,,,,1,,,,
-motion.bondtech-drive-gear-set,Motion,Bondtech Drive Gear Set,,,,3,2,voron-m4 mobius-3.1 jetpack,,,,,,,,,,1,1,1,,,,,
 motion.extruder-spring,Motion,Extruder Spring,,,,1,1,jetpack,,,,,,,,,,,,1,,,,,
 motion.f623-rs-bearing,Motion,F623-RS Bearing,,,,3,3,voron-0.2 voron-0 voron-0.1,,,24,,,,,,,,,,20,24,,,
 motion.f688-rs-bearing,Motion,F688-RS Bearing,,,,1,2,voron-0,,,,,,,,,,,,,1,,,,
-motion.f695-2rs,Motion,F695 2RS,,,,2,2,voron-m4 mobius-3.1,,,,,,,,,,2,2,,,,,,
-motion.f695-2rs-bearing,Motion,F695 2RS Bearing,,,,3,3,voron-2.4 voron-switchwire voron-2.2,20,,,20,,,,,,,,,,,,,36
-motion.f695-bearing,Motion,F695 Bearing,,,,1,2,voron-1.8,,,,,,,,,,,,,,,20,,
-motion.f695-bearing-add-two-for-stepper-double-shear,Motion,F695 Bearing (add two for stepper double shear),,,,1,2,voron-trident,,24,,,,,,,,,,,,,,,
+motion.f695-2rs-bearing,Motion,F695 2RS Bearing,,,F695 2RS | F695 Bearing (add two for stepper double shear) | F695 Bearing,7,3,voron-2.4 voron-trident voron-switchwire voron-m4 mobius-3.1 voron-1.8 voron-2.2,20,24,,20,,,,,,2,2,,,,20,,36
 motion.ge5c-spherical-bearing,Motion,GE5C Spherical Bearing,,,,1,2,voron-trident,,3,,,,,,,,,,,,,,,
 motion.gt2-16t-6mm-wide-pulley-5mm-bore,Motion,GT2 16T (6mm wide) Pulley (5mm bore),,,,3,1,voron-2.4 jetpack voron-2.2,4,,,,,,,,,,,2,,,,,4
 motion.gt2-16t-toothed-idler-w-bearing-6mm-wide-3mm-bore-13mmod,Motion,GT2 16T Toothed idler w/bearing (6mm wide) (3mm bore) (13mmOD),,,,1,1,voron-0,,,,,,,,,,,,,2,,,,
@@ -425,12 +402,8 @@ motion.key-bak-super48-36-13oz,Motion,"Key-bak Super48 36"" 13oz",,,,1,1,voron-s
 motion.kfl08-pillow-bearing-8mm-id,Motion,KFL08 pillow bearing 8mm ID,,,,1,1,voron-0,,,,,,,,,,,,,1,,,,
 motion.linear-bearings-lmuw8,Motion,Linear Bearings (LMUW8),,,,1,1,voron-1.6.2,,,,,,,,,,,,,,,,8,
 motion.linear-bearings-lm8luu,Motion,Linear Bearings - LM8LUU,,,,1,1,voron-1.8,,,,,,,,,,,,,,,4,,
-motion.linear-rail-mgn12h-300mm,Motion,Linear Rail MGN12H (300mm),,,,1,2,voron-switchwire,,,,4,,,,,,,,,,,,,
-motion.linear-rail-mgn12h-see-configurator-for-length,Motion,Linear Rail MGN12H ** See Configurator for length **,,,,1,3,voron-2.4,1@250; 1@300; 1@350,,,,,,,,,,,,,,,,
-motion.linear-rail-mgn12h-for-x-axis,Motion,Linear Rail MGN12H for X Axis,,,,1,4,voron-trident,,1@250x250 -> 300mm rails; 1@300x300 -> 350mm rails; 1@350x350 -> 400mm rails,,,,,,,,,,,,,,,
-motion.linear-rail-mgn9h-see-configurator-for-length,Motion,Linear Rail MGN9H ** See Configurator for length **,,,,3,3,voron-2.4 voron-1.8 voron-2.2,6@250; 6@300; 6@350,,,,,,,,,,,,,,4@250x250 -> 300mm rails; 4@300x300 -> 350mm rails,,7@250; 7@300; 7@350
-motion.linear-rail-mgn9h-for-y-axis,Motion,Linear Rail MGN9H for Y Axis,,,,1,2,voron-trident,,2@250x250 -> 300mm rails; 2@300x300 -> 350mm rails; 2@350x350 -> 400mm rails,,,,,,,,,,,,,,,
-motion.linear-rail-mgn9h-for-z-axis,Motion,Linear Rail MGN9H for Z Axis,,,,1,0,voron-trident,,3@All builds -> 300mm rails,,,,,,,,,,,,,,,
+motion.linear-rail-mgn12h-see-configurator-for-length,Motion,Linear Rail MGN12H ** See Configurator for length **,,,Linear Rail MGN12H for X Axis | Linear Rail MGN12H (300mm),3,5,voron-2.4 voron-trident voron-switchwire,1@250; 1@300; 1@350,1@250x250 -> 300mm rails; 1@300x300 -> 350mm rails; 1@350x350 -> 400mm rails,,4,,,,,,,,,,,,,
+motion.linear-rail-mgn9h-see-configurator-for-length,Motion,Linear Rail MGN9H ** See Configurator for length **,,,Linear Rail MGN9H for Y Axis | Linear Rail MGN9H for Z Axis,4,3,voron-2.4 voron-trident voron-1.8 voron-2.2,6@250; 6@300; 6@350,2@250x250 -> 300mm rails; 2@300x300 -> 350mm rails; 2@350x350 -> 400mm rails; 3@All builds -> 300mm rails,,,,,,,,,,,,,4@250x250 -> 300mm rails; 4@300x300 -> 350mm rails,,7@250; 7@300; 7@350
 motion.linear-rods-psfj8-320,Motion,Linear Rods (PSFJ8-320),,,,1,1,voron-1.6.2,,,,,,,,,,,,,,,,8,
 motion.linear-rods-8mm-320mm-long-for-230mm-z,Motion,"Linear Rods - 8mm, 320mm Long (for 230mm Z)",,,,1,1,voron-1.8,,,,,,,,,,,,,,,4,,
 motion.mgn7h-linear-rail-with-carriage-150mm,Motion,MGN7H Linear Rail with Carriage (150mm),,,,3,2,voron-0.2 voron-0 voron-0.1,,,5,,,,,,,,,,5,5,,,

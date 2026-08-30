@@ -1,0 +1,20 @@
+{
+ "Bowden": "FFB6D7A8",
+ "Buildplate": "FFD9D9D9",
+ "Cables": "FFA4C2F4",
+ "Controller": "FFF9CB9C",
+ "Electronics": "FFD9EAD3",
+ "Extruder": "FFFFE599",
+ "Fasteners": "FFC9DAF8",
+ "Filament": "FFF9CB9C",
+ "Frame": "FFEAD1DC",
+ "Hardware": "FFC9DAF8",
+ "Hotend": "FFC9DAF8",
+ "Kits": "FFEA9999",
+ "Misc": "FFFFD966",
+ "Motion": "FFCCCCCC",
+ "Panels": "FFE6B8AF",
+ "Printed Parts": "FFF9CB9C",
+ "Tools": "FFD5A6BD",
+ "Vibration Management": "FFFFE599"
+}

@@ -141,7 +141,7 @@
   {
    "id": "amazon",
    "name": "Amazon",
-   "links": 140
+   "links": 133
   },
   {
    "id": "mcmaster",
@@ -1042,11 +1042,11 @@
    ]
   },
   {
-   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.voron-2.4",
+   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.v2",
    "name": "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country)",
-   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country @voron-2.4",
+   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country @v2",
    "base_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country",
-   "scope": "voron-2.4",
+   "scope": "v2",
    "base_product": null,
    "machining": null,
    "aliases": [],
@@ -1084,6 +1084,34 @@
      ],
      "choice_group": null,
      "flags": []
+    },
+    {
+     "project": "voron-2.2",
+     "sheet": "VORON 2.2",
+     "rows": [
+      103,
+      104,
+      105
+     ],
+     "qty": [
+      {
+       "size": "250",
+       "qty": "1",
+       "qty_num": 1.0
+      },
+      {
+       "size": "300",
+       "qty": "1",
+       "qty_num": 1.0
+      },
+      {
+       "size": "350",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
     }
    ],
    "sources": [
@@ -1099,7 +1127,8 @@
       "alternative"
      ],
      "projects": [
-      "voron-2.4"
+      "voron-2.4",
+      "voron-2.2"
      ],
      "affiliate_urls": [],
      "raw_urls": [
@@ -1115,6 +1144,15 @@
         "J"
        ],
        "slot": "Alternative Source 2"
+      },
+      {
+       "project": "voron-2.2",
+       "sheet": "VORON 2.2",
+       "row": 103,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source"
       }
      ],
      "link_ok": "yes",
@@ -1135,7 +1173,8 @@
     {
      "text": "Thicker material is fine too, just keep in mind your heat up times will greatly increase",
      "projects": [
-      "voron-2.4"
+      "voron-2.4",
+      "voron-2.2"
      ]
     }
    ]
@@ -1277,11 +1316,11 @@
    ]
   },
   {
-   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.voron-1.8",
+   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.v1",
    "name": "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country)",
-   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country @voron-1.8",
+   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country @v1",
    "base_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country",
-   "scope": "voron-1.8",
+   "scope": "v1",
    "base_product": null,
    "machining": null,
    "aliases": [],
@@ -1311,78 +1350,7 @@
      ],
      "choice_group": null,
      "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_US?ObjectPath=%2FShops%2F7a4290fc-7c7f-46cc-9b99-eadef22228e2%2FProducts%2FAluGuss8mm",
-     "url_key": "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_us?objectpath=%2fshops%2f7a4290fc-7c7f-46cc-9b99-eadef22228e2%2fproducts%2faluguss8mm",
-     "vendor": "clever3d.de",
-     "vendor_name": "clever3d.de",
-     "labels": [
-      "Clever3D.de"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-1.8"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_US/?ObjectPath=/Shops/7a4290fc-7c7f-46cc-9b99-eadef22228e2/Products/AluGuss8mm"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-1.8",
-       "sheet": "VORON 1.8",
-       "row": 111,
-       "cols": [
-        "J"
-       ],
-       "slot": "Alternative Source 2"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://clever3d.de/p/feinstgefraeste-aluminium-guss-platte-8mm-preis-pro-cm",
-      "at": "2026-08-30T15:13:31+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "Thicker material is fine too, just keep in mind your heat up times will greatly increase",
-     "projects": [
-      "voron-1.8"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.voron-1.6.2",
-   "name": "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country)",
-   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country @voron-1.6.2",
-   "base_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country",
-   "scope": "voron-1.6.2",
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Buildplate",
-   "categories": [
-    "Buildplate"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
+    },
     {
      "project": "voron-1.6.2",
      "sheet": "VORON 1.6.2",
@@ -1413,6 +1381,7 @@
       "alternative"
      ],
      "projects": [
+      "voron-1.8",
       "voron-1.6.2"
      ],
      "affiliate_urls": [],
@@ -1421,6 +1390,15 @@
      ],
      "affiliate": false,
      "seen": [
+      {
+       "project": "voron-1.8",
+       "sheet": "VORON 1.8",
+       "row": 111,
+       "cols": [
+        "J"
+       ],
+       "slot": "Alternative Source 2"
+      },
       {
        "project": "voron-1.6.2",
        "sheet": "VORON 1.6.2",
@@ -1449,116 +1427,18 @@
     {
      "text": "Thicker material is fine too, just keep in mind your heat up times will greatly increase",
      "projects": [
+      "voron-1.8",
       "voron-1.6.2"
      ]
     }
    ]
   },
   {
-   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-5-16in-or-8mm-depending-on-whats-available-in-your-country.voron-2.2",
-   "name": "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country)",
-   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country @voron-2.2",
-   "base_key": "aluminum build plate mic6 atp 5 jig plate etc 5 16in or 8mm depending on whats available in your country",
-   "scope": "voron-2.2",
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Buildplate",
-   "categories": [
-    "Buildplate"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-2.2",
-     "sheet": "VORON 2.2",
-     "rows": [
-      103,
-      104,
-      105
-     ],
-     "qty": [
-      {
-       "size": "250",
-       "qty": "1",
-       "qty_num": 1.0
-      },
-      {
-       "size": "300",
-       "qty": "1",
-       "qty_num": 1.0
-      },
-      {
-       "size": "350",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_US?ObjectPath=%2FShops%2F7a4290fc-7c7f-46cc-9b99-eadef22228e2%2FProducts%2FAluGuss8mm",
-     "url_key": "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_us?objectpath=%2fshops%2f7a4290fc-7c7f-46cc-9b99-eadef22228e2%2fproducts%2faluguss8mm",
-     "vendor": "clever3d.de",
-     "vendor_name": "clever3d.de",
-     "labels": [
-      "Clever3D.de"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-2.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_US/?ObjectPath=/Shops/7a4290fc-7c7f-46cc-9b99-eadef22228e2/Products/AluGuss8mm"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-2.2",
-       "sheet": "VORON 2.2",
-       "row": 103,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://clever3d.de/p/feinstgefraeste-aluminium-guss-platte-8mm-preis-pro-cm",
-      "at": "2026-08-30T15:13:31+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "Thicker material is fine too, just keep in mind your heat up times will greatly increase",
-     "projects": [
-      "voron-2.2"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-120x120mm-4-75inx4-75in-1-4in-or-6mm-depending-on-whats-available-in-your-country.voron-0.2",
+   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-120x120mm-4-75inx4-75in-1-4in-or-6mm-depending-on-whats-available-in-your-country.v0",
    "name": "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country)",
-   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 120x120mm 4.75inx4.75in 1 4in or 6mm depending on whats available in your country @voron-0.2",
+   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 120x120mm 4.75inx4.75in 1 4in or 6mm depending on whats available in your country @v0",
    "base_key": "aluminum build plate mic6 atp 5 jig plate etc 120x120mm 4.75inx4.75in 1 4in or 6mm depending on whats available in your country",
-   "scope": "voron-0.2",
+   "scope": "v0",
    "base_product": null,
    "machining": null,
    "aliases": [],
@@ -1584,88 +1464,7 @@
      ],
      "choice_group": null,
      "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_US?ObjectPath=%2FShops%2F7a4290fc-7c7f-46cc-9b99-eadef22228e2%2FProducts%2FAluGuss8mm",
-     "url_key": "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_us?objectpath=%2fshops%2f7a4290fc-7c7f-46cc-9b99-eadef22228e2%2fproducts%2faluguss8mm",
-     "vendor": "clever3d.de",
-     "vendor_name": "clever3d.de",
-     "labels": [
-      "Clever3D.de"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-0.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_US/?ObjectPath=/Shops/7a4290fc-7c7f-46cc-9b99-eadef22228e2/Products/AluGuss8mm"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-0.2",
-       "sheet": "VORON 0.2",
-       "row": 69,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source 2"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://clever3d.de/p/feinstgefraeste-aluminium-guss-platte-8mm-preis-pro-cm",
-      "at": "2026-08-30T15:13:31+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [
-    {
-     "text": "Local material supplier",
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-0.2"
-     ]
-    }
-   ],
-   "notes": [
-    {
-     "text": "Thicker material is fine too, just keep in mind your heat up times will greatly increase and youll lose z heght for however much thicker you go",
-     "projects": [
-      "voron-0.2"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-120x120mm-4-75inx4-75in-1-4in-or-6mm-depending-on-whats-available-in-your-country.voron-0",
-   "name": "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country)",
-   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 120x120mm 4.75inx4.75in 1 4in or 6mm depending on whats available in your country @voron-0",
-   "base_key": "aluminum build plate mic6 atp 5 jig plate etc 120x120mm 4.75inx4.75in 1 4in or 6mm depending on whats available in your country",
-   "scope": "voron-0",
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Buildplate",
-   "categories": [
-    "Buildplate"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
+    },
     {
      "project": "voron-0",
      "sheet": "VORON 0",
@@ -1681,78 +1480,7 @@
      ],
      "choice_group": null,
      "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_US?ObjectPath=%2FShops%2F7a4290fc-7c7f-46cc-9b99-eadef22228e2%2FProducts%2FAluGuss8mm",
-     "url_key": "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_us?objectpath=%2fshops%2f7a4290fc-7c7f-46cc-9b99-eadef22228e2%2fproducts%2faluguss8mm",
-     "vendor": "clever3d.de",
-     "vendor_name": "clever3d.de",
-     "labels": [
-      "Clever3D.de"
-     ],
-     "roles": [
-      "non_affiliate"
-     ],
-     "projects": [
-      "voron-0"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://clever3d.de/epages/7a4290fc-7c7f-46cc-9b99-eadef22228e2.sf/en_US/?ObjectPath=/Shops/7a4290fc-7c7f-46cc-9b99-eadef22228e2/Products/AluGuss8mm"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-0",
-       "sheet": "VORON 0",
-       "row": 58,
-       "cols": [
-        "H"
-       ],
-       "slot": "NON- Afiliate Links"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://clever3d.de/p/feinstgefraeste-aluminium-guss-platte-8mm-preis-pro-cm",
-      "at": "2026-08-30T15:13:31+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "Thicker material is fine too, just keep in mind your heat up times will greatly increase and youll lose z heght for however much thicker you go",
-     "projects": [
-      "voron-0"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "buildplate.aluminum-build-plate-mic6-atp-5-jig-plate-etc-120x120mm-4-75inx4-75in-1-4in-or-6mm-depending-on-whats-available-in-your-country.voron-0.1",
-   "name": "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country)",
-   "name_key": "aluminum build plate mic6 atp 5 jig plate etc 120x120mm 4.75inx4.75in 1 4in or 6mm depending on whats available in your country @voron-0.1",
-   "base_key": "aluminum build plate mic6 atp 5 jig plate etc 120x120mm 4.75inx4.75in 1 4in or 6mm depending on whats available in your country",
-   "scope": "voron-0.1",
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Buildplate",
-   "categories": [
-    "Buildplate"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
+    },
     {
      "project": "voron-0.1",
      "sheet": "VORON 0.1",
@@ -1780,9 +1508,12 @@
       "Clever3D.de"
      ],
      "roles": [
-      "alternative"
+      "alternative",
+      "non_affiliate"
      ],
      "projects": [
+      "voron-0.2",
+      "voron-0",
       "voron-0.1"
      ],
      "affiliate_urls": [],
@@ -1791,6 +1522,24 @@
      ],
      "affiliate": false,
      "seen": [
+      {
+       "project": "voron-0.2",
+       "sheet": "VORON 0.2",
+       "row": 69,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source 2"
+      },
+      {
+       "project": "voron-0",
+       "sheet": "VORON 0",
+       "row": 58,
+       "cols": [
+        "H"
+       ],
+       "slot": "NON- Afiliate Links"
+      },
       {
        "project": "voron-0.1",
        "sheet": "VORON 0.1",
@@ -1821,6 +1570,7 @@
       "recommended"
      ],
      "projects": [
+      "voron-0.2",
       "voron-0.1"
      ]
     }
@@ -1829,6 +1579,8 @@
     {
      "text": "Thicker material is fine too, just keep in mind your heat up times will greatly increase and youll lose z heght for however much thicker you go",
      "projects": [
+      "voron-0.2",
+      "voron-0",
       "voron-0.1"
      ]
     }
@@ -15279,14 +15031,16 @@
    ]
   },
   {
-   "id": "controller.raspberry-pi-4-2gb",
-   "name": "Raspberry Pi 4 2GB",
-   "name_key": "raspberry pi 4 2gb",
-   "base_key": "raspberry pi 4 2gb",
+   "id": "controller.raspberrypi3-b",
+   "name": "RaspberryPi3 B+",
+   "name_key": "raspberrypi3 b",
+   "base_key": "raspberrypi3 b",
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "RaspberryPi3 B+ (dont get a 4, they have issues)"
+   ],
    "category": "Controller",
    "categories": [
     "Controller"
@@ -15295,10 +15049,156 @@
    "standards": [],
    "used_by": [
     {
+     "project": "voron-1.6.2",
+     "sheet": "VORON 1.6.2",
+     "rows": [
+      25
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-2.2",
+     "sheet": "VORON 2.2",
+     "rows": [
+      67
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.arrow.com/en/products/raspberrypi3b/raspberry-pi-foundation",
+     "url_key": "https://arrow.com/en/products/raspberrypi3b/raspberry-pi-foundation",
+     "vendor": "arrow.com",
+     "vendor_name": "arrow.com",
+     "labels": [
+      "Arrow"
+     ],
+     "roles": [
+      "recommended"
+     ],
+     "projects": [
+      "voron-1.6.2",
+      "voron-2.2"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-1.6.2",
+       "sheet": "VORON 1.6.2",
+       "row": 25,
+       "cols": [
+        "E"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-2.2",
+       "sheet": "VORON 2.2",
+       "row": 67,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "checked by hand in a normal browser",
+      "http": null,
+      "final_url": null,
+      "at": "2026-08-30",
+      "verified": "manual",
+      "verified_by": "rsamples"
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    }
+   ],
+   "unlinked_sources": [],
+   "notes": [
+    {
+     "text": "Also Buy a GOOD SD Card",
+     "projects": [
+      "voron-1.6.2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "controller.raspberrypi4",
+   "name": "RaspberryPi4",
+   "name_key": "raspberrypi4",
+   "base_key": "raspberrypi4",
+   "scope": null,
+   "base_product": null,
+   "machining": null,
+   "aliases": [
+    "Raspberry Pi 4 2GB"
+   ],
+   "category": "Controller",
+   "categories": [
+    "Controller",
+    "Electronics"
+   ],
+   "standard": null,
+   "standards": [],
+   "used_by": [
+    {
+     "project": "voron-2.4",
+     "sheet": "VORON 2.4",
+     "rows": [
+      66
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
      "project": "voron-trident",
      "sheet": "VORON Trident",
      "rows": [
       66
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-switchwire",
+     "sheet": "Voron Switchwire",
+     "rows": [
+      52
      ],
      "qty": [
       {
@@ -15360,6 +15260,46 @@
        "project": "voron-1.8",
        "sheet": "VORON 1.8",
        "row": 58,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      }
+     ],
+     "link_ok": "no",
+     "link_checked": {
+      "reason": "checked by hand in a normal browser",
+      "http": null,
+      "final_url": null,
+      "at": "2026-08-30",
+      "verified": "manual",
+      "verified_by": "rsamples"
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://www.arrow.com/en/products/raspberrypi4/raspberry-pi-foundation",
+     "url_key": "https://arrow.com/en/products/raspberrypi4/raspberry-pi-foundation",
+     "vendor": "arrow.com",
+     "vendor_name": "arrow.com",
+     "labels": [
+      "Arrow"
+     ],
+     "roles": [
+      "recommended"
+     ],
+     "projects": [
+      "voron-2.4"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-2.4",
+       "sheet": "VORON 2.4",
+       "row": 66,
        "cols": [
         "F"
        ],
@@ -15441,264 +15381,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "controller.raspberrypi3-b",
-   "name": "RaspberryPi3 B+",
-   "name_key": "raspberrypi3 b",
-   "base_key": "raspberrypi3 b",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Controller",
-   "categories": [
-    "Controller"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-1.6.2",
-     "sheet": "VORON 1.6.2",
-     "rows": [
-      25
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.arrow.com/en/products/raspberrypi3b/raspberry-pi-foundation",
-     "url_key": "https://arrow.com/en/products/raspberrypi3b/raspberry-pi-foundation",
-     "vendor": "arrow.com",
-     "vendor_name": "arrow.com",
-     "labels": [
-      "Arrow"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-1.6.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-1.6.2",
-       "sheet": "VORON 1.6.2",
-       "row": 25,
-       "cols": [
-        "E"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "checked by hand in a normal browser",
-      "http": null,
-      "final_url": null,
-      "at": "2026-08-30",
-      "verified": "manual",
-      "verified_by": "rsamples"
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "Also Buy a GOOD SD Card",
-     "projects": [
-      "voron-1.6.2"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "controller.raspberrypi3-b-dont-get-a-4-they-have-issues",
-   "name": "RaspberryPi3 B+ (dont get a 4, they have issues)",
-   "name_key": "raspberrypi3 b dont get a 4 they have issues",
-   "base_key": "raspberrypi3 b dont get a 4 they have issues",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Controller",
-   "categories": [
-    "Controller"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-2.2",
-     "sheet": "VORON 2.2",
-     "rows": [
-      67
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.arrow.com/en/products/raspberrypi3b/raspberry-pi-foundation",
-     "url_key": "https://arrow.com/en/products/raspberrypi3b/raspberry-pi-foundation",
-     "vendor": "arrow.com",
-     "vendor_name": "arrow.com",
-     "labels": [
-      "Arrow"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-2.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-2.2",
-       "sheet": "VORON 2.2",
-       "row": 67,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "checked by hand in a normal browser",
-      "http": null,
-      "final_url": null,
-      "at": "2026-08-30",
-      "verified": "manual",
-      "verified_by": "rsamples"
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
-   "id": "controller.raspberrypi4",
-   "name": "RaspberryPi4",
-   "name_key": "raspberrypi4",
-   "base_key": "raspberrypi4",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Controller",
-   "categories": [
-    "Controller",
-    "Electronics"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-2.4",
-     "sheet": "VORON 2.4",
-     "rows": [
-      66
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    },
-    {
-     "project": "voron-switchwire",
-     "sheet": "Voron Switchwire",
-     "rows": [
-      52
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.arrow.com/en/products/raspberrypi4/raspberry-pi-foundation",
-     "url_key": "https://arrow.com/en/products/raspberrypi4/raspberry-pi-foundation",
-     "vendor": "arrow.com",
-     "vendor_name": "arrow.com",
-     "labels": [
-      "Arrow"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-2.4"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-2.4",
-       "sheet": "VORON 2.4",
-       "row": 66,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "no",
-     "link_checked": {
-      "reason": "checked by hand in a normal browser",
-      "http": null,
-      "final_url": null,
-      "at": "2026-08-30",
-      "verified": "manual",
-      "verified_by": "rsamples"
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
   },
   {
    "id": "controller.reprap-full-graphics-display",
@@ -16080,121 +15762,15 @@
   {
    "id": "controller.tmc-2209-drivers",
    "name": "TMC 2209 Drivers",
-   "name_key": "tmc 2209 drivers",
-   "base_key": "tmc 2209 drivers",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Controller",
-   "categories": [
-    "Controller"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-trident",
-     "sheet": "VORON Trident",
-     "rows": [
-      69
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "6",
-       "qty_num": 6.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    },
-    {
-     "project": "voron-1.8",
-     "sheet": "VORON 1.8",
-     "rows": [
-      61
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "5",
-       "qty_num": 5.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/33047241001.html",
-     "url_key": "https://www.aliexpress.com/item/33047241001.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Just the Drivers (TMC 2209)"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-1.8"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/_dW2vIwt"
-     ],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/33047241001.html?spm=a2g0o.productlist.0.0.28b6aeaa9qB4Db&algo_pvid=605eb768-e27a-4e4e-aa99-5ace2b5126b1&algo_expid=605eb768-e27a-4e4e-aa99-5ace2b5126b1-5&btsid=0be3769015862278265362597e65f6&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-1.8",
-       "sheet": "VORON 1.8",
-       "row": 61,
-       "cols": [
-        "H",
-        "I"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832860926249.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:26:32+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "Generally purchasing BTT 2209s is the safest option",
-     "projects": [
-      "voron-trident",
-      "voron-1.8"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "controller.tmc2209-stepper-motor-driver",
-   "name": "TMC2209 Stepper Motor Driver",
    "name_key": "tmc2209 stepper motor driver",
    "base_key": "tmc2209 stepper motor driver",
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "TMC2209 Stepper Motor Driver",
+    "TMC2209 Stepsticks for SKR 1.3"
+   ],
    "category": "Controller",
    "categories": [
     "Controller"
@@ -16213,6 +15789,54 @@
        "size": "All",
        "qty": "7",
        "qty_num": 7.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-trident",
+     "sheet": "VORON Trident",
+     "rows": [
+      69
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "6",
+       "qty_num": 6.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "optional-parts",
+     "sheet": "VORON Optional Parts",
+     "rows": [
+      49
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "7",
+       "qty_num": 7.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-1.8",
+     "sheet": "VORON 1.8",
+     "rows": [
+      61
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "5",
+       "qty_num": 5.0
       }
      ],
      "choice_group": null,
@@ -16265,91 +15889,6 @@
      ],
      "link_note": null
     },
-    {
-     "url": "https://www.amazon.com/dp/B07W5S3KVF",
-     "url_key": "https://www.amazon.com/dp/b07w5s3kvf",
-     "vendor": "amazon",
-     "vendor_name": "Amazon",
-     "labels": [
-      "Amazon"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-2.4"
-     ],
-     "affiliate_urls": [
-      "https://amzn.to/3kzV6bz"
-     ],
-     "raw_urls": [
-      "hhttps://www.amazon.com/BIGTREETECH-TMC2209-Stepper-Driver-Printer/dp/B07W5S3KVF/ref=sr_1_3?dchild=1&keywords=BTT+2209&qid=1597166172&sr=8-3"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-2.4",
-       "sheet": "VORON 2.4",
-       "row": 70,
-       "cols": [
-        "H",
-        "I"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "no",
-     "link_checked": {
-      "reason": "checked by hand in a normal browser",
-      "http": null,
-      "final_url": null,
-      "at": "2026-08-30",
-      "verified": "manual",
-      "verified_by": "rsamples"
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
-   "id": "controller.tmc2209-stepsticks-for-skr-1-3",
-   "name": "TMC2209 Stepsticks for SKR 1.3",
-   "name_key": "tmc2209 stepsticks for skr 1.3",
-   "base_key": "tmc2209 stepsticks for skr 1.3",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Controller",
-   "categories": [
-    "Controller"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "optional-parts",
-     "sheet": "VORON Optional Parts",
-     "rows": [
-      49
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "7",
-       "qty_num": 7.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
     {
      "url": "https://www.aliexpress.com/item/4000206288948.html",
      "url_key": "https://www.aliexpress.com/item/4000206288948.html",
@@ -16407,16 +15946,29 @@
       "alternative"
      ],
      "projects": [
+      "voron-2.4",
       "optional-parts"
      ],
      "affiliate_urls": [
+      "https://amzn.to/3kzV6bz",
       "https://amzn.to/33MNSri"
      ],
      "raw_urls": [
+      "hhttps://www.amazon.com/BIGTREETECH-TMC2209-Stepper-Driver-Printer/dp/B07W5S3KVF/ref=sr_1_3?dchild=1&keywords=BTT+2209&qid=1597166172&sr=8-3",
       "https://www.amazon.com/BIGTREETECH-TMC2209-Stepper-Driver-Printer/dp/B07W5S3KVF"
      ],
      "affiliate": false,
      "seen": [
+      {
+       "project": "voron-2.4",
+       "sheet": "VORON 2.4",
+       "row": 70,
+       "cols": [
+        "H",
+        "I"
+       ],
+       "slot": "Alternative Source"
+      },
       {
        "project": "optional-parts",
        "sheet": "VORON Optional Parts",
@@ -16438,6 +15990,54 @@
       "verified_by": "rsamples"
      },
      "affiliate_link_ok": [
+      "yes",
+      "yes"
+     ],
+     "link_note": null
+    },
+    {
+     "url": "https://www.aliexpress.com/item/33047241001.html",
+     "url_key": "https://www.aliexpress.com/item/33047241001.html",
+     "vendor": "aliexpress",
+     "vendor_name": "AliExpress",
+     "labels": [
+      "Just the Drivers (TMC 2209)"
+     ],
+     "roles": [
+      "alternative"
+     ],
+     "projects": [
+      "voron-1.8"
+     ],
+     "affiliate_urls": [
+      "https://s.click.aliexpress.com/e/_dW2vIwt"
+     ],
+     "raw_urls": [
+      "https://www.aliexpress.com/item/33047241001.html?spm=a2g0o.productlist.0.0.28b6aeaa9qB4Db&algo_pvid=605eb768-e27a-4e4e-aa99-5ace2b5126b1&algo_expid=605eb768-e27a-4e4e-aa99-5ace2b5126b1-5&btsid=0be3769015862278265362597e65f6&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_"
+     ],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-1.8",
+       "sheet": "VORON 1.8",
+       "row": 61,
+       "cols": [
+        "H",
+        "I"
+       ],
+       "slot": "Alternative Source"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "listing has a title",
+      "http": 200,
+      "final_url": "https://www.aliexpress.us/item/2251832860926249.html?gatewayAdapt=glo2usa4itemAdapt",
+      "at": "2026-08-30T15:26:32+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [
       "yes"
      ],
      "link_note": null
@@ -16445,6 +16045,13 @@
    ],
    "unlinked_sources": [],
    "notes": [
+    {
+     "text": "Generally purchasing BTT 2209s is the safest option",
+     "projects": [
+      "voron-trident",
+      "voron-1.8"
+     ]
+    },
     {
      "text": "Use 2209 drivers w\\ SKR 1.4 boards",
      "projects": [
@@ -19437,84 +19044,6 @@
    "notes": []
   },
   {
-   "id": "electronics.ac-inlet",
-   "name": "AC Inlet",
-   "name_key": "ac inlet",
-   "base_key": "ac inlet",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Electronics",
-   "categories": [
-    "Electronics"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-0.1",
-     "sheet": "VORON 0.1",
-     "rows": [
-      47
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.digikey.com/en/products/detail/adam-tech/IEC-GS-1-100/9831135",
-     "url_key": "https://digikey.com/en/products/detail/adam-tech/iec-gs-1-100/9831135",
-     "vendor": "digikey",
-     "vendor_name": "Digi-Key",
-     "labels": [
-      "Digikey"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-0.1"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-0.1",
-       "sheet": "VORON 0.1",
-       "row": 47,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T17:01:19+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
    "id": "electronics.bat85-diode",
    "name": "BAT85 Diode",
    "name_key": "bat85 diode",
@@ -22067,92 +21596,17 @@
    "notes": []
   },
   {
-   "id": "electronics.iec320-c14-inlet",
-   "name": "IEC320 C14 inlet",
+   "id": "electronics.iec320-c14-inlet-push-fit-w-rocker-switch-fuse",
+   "name": "IEC320 C14 Inlet - Push-fit - w/ Rocker Switch & Fuse",
    "name_key": "iec320 c14 inlet",
    "base_key": "iec320 c14 inlet",
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
-   "category": "Electronics",
-   "categories": [
-    "Electronics"
+   "aliases": [
+    "IEC320 C14 inlet",
+    "AC Inlet"
    ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-0.2",
-     "sheet": "VORON 0.2",
-     "rows": [
-      47
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.digikey.com/en/products/detail/adam-tech/IEC-GS-1-100/9831135",
-     "url_key": "https://digikey.com/en/products/detail/adam-tech/iec-gs-1-100/9831135",
-     "vendor": "digikey",
-     "vendor_name": "Digi-Key",
-     "labels": [
-      "Digikey"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-0.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-0.2",
-       "sheet": "VORON 0.2",
-       "row": 47,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T17:01:19+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
-   "id": "electronics.iec320-c14-inlet-push-fit-w-rocker-switch-fuse",
-   "name": "IEC320 C14 Inlet - Push-fit - w/ Rocker Switch & Fuse",
-   "name_key": "iec320 c14 inlet push fit w rocker switch and fuse",
-   "base_key": "iec320 c14 inlet push fit w rocker switch and fuse",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
    "category": "Electronics",
    "categories": [
     "Electronics"
@@ -22165,6 +21619,22 @@
      "sheet": "VORON 2.4",
      "rows": [
       60
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-0.2",
+     "sheet": "VORON 0.2",
+     "rows": [
+      47
      ],
      "qty": [
       {
@@ -22191,6 +21661,22 @@
      ],
      "choice_group": null,
      "flags": []
+    },
+    {
+     "project": "voron-0.1",
+     "sheet": "VORON 0.1",
+     "rows": [
+      47
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
     }
    ],
    "sources": [
@@ -22200,13 +21686,16 @@
      "vendor": "digikey",
      "vendor_name": "Digi-Key",
      "labels": [
-      "See note for PiF Digikey"
+      "See note for PiF Digikey",
+      "Digikey"
      ],
      "roles": [
       "recommended"
      ],
      "projects": [
-      "voron-2.4"
+      "voron-2.4",
+      "voron-0.2",
+      "voron-0.1"
      ],
      "affiliate_urls": [],
      "raw_urls": [],
@@ -22216,6 +21705,24 @@
        "project": "voron-2.4",
        "sheet": "VORON 2.4",
        "row": 60,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-0.2",
+       "sheet": "VORON 0.2",
+       "row": 47,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-0.1",
+       "sheet": "VORON 0.1",
+       "row": 47,
        "cols": [
         "F"
        ],
@@ -24789,12 +24296,14 @@
   {
    "id": "electronics.nema17-motor-17hs19-2004s",
    "name": "NEMA17 Motor 17HS19-2004S",
-   "name_key": "nema17 motor 17hs19 2004s",
-   "base_key": "nema17 motor 17hs19 2004s",
+   "name_key": "nema17 motor 17hs19 2004s min 35mm shaft for double shear",
+   "base_key": "nema17 motor 17hs19 2004s min 35mm shaft for double shear",
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "NEMA17 Motor 17HS19-2004S (min 35mm shaft for double shear)"
+   ],
    "category": "Electronics",
    "categories": [
     "Electronics"
@@ -24813,6 +24322,22 @@
        "size": "All",
        "qty": "6",
        "qty_num": 6.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-trident",
+     "sheet": "VORON Trident",
+     "rows": [
+      49
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "2",
+       "qty_num": 2.0
       }
      ],
      "choice_group": null,
@@ -24897,6 +24422,7 @@
      ],
      "projects": [
       "voron-2.4",
+      "voron-trident",
       "voron-1.8",
       "voron-1.6.2",
       "voron-2.2"
@@ -24909,6 +24435,15 @@
        "project": "voron-2.4",
        "sheet": "VORON 2.4",
        "row": 52,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 49,
        "cols": [
         "F"
        ],
@@ -25091,6 +24626,7 @@
      ],
      "projects": [
       "voron-2.4",
+      "voron-trident",
       "voron-1.8"
      ],
      "affiliate_urls": [
@@ -25108,6 +24644,15 @@
        "cols": [
         "J",
         "K"
+       ],
+       "slot": "Alternative Source 2"
+      },
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 49,
+       "cols": [
+        "J"
        ],
        "slot": "Alternative Source 2"
       },
@@ -25148,14 +24693,27 @@
       "alternative"
      ],
      "projects": [
+      "voron-trident",
       "voron-1.8"
      ],
-     "affiliate_urls": [],
+     "affiliate_urls": [
+      "https://s.click.aliexpress.com/e/_9J8aJa"
+     ],
      "raw_urls": [
       "https://www.aliexpress.com/item/32572890101.html?spm=2114.12010615.8148356.2.789746a4EhVp4N"
      ],
      "affiliate": false,
      "seen": [
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 49,
+       "cols": [
+        "H",
+        "I"
+       ],
+       "slot": "Alternative Source"
+      },
       {
        "project": "voron-1.8",
        "sheet": "VORON 1.8",
@@ -25175,189 +24733,9 @@
       "verified": "automated",
       "verified_by": null
      },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "Strongly advise buying the specific steppers to reduce the chance of underperformance",
-     "projects": [
-      "voron-2.4",
-      "voron-1.8",
-      "voron-2.2"
-     ]
-    },
-    {
-     "text": "strongly advise buying the spec steppers to avoid performance issues",
-     "projects": [
-      "voron-1.6.2"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "electronics.nema17-motor-17hs19-2004s-min-35mm-shaft-for-double-shear",
-   "name": "NEMA17 Motor 17HS19-2004S (min 35mm shaft for double shear)",
-   "name_key": "nema17 motor 17hs19 2004s min 35mm shaft for double shear",
-   "base_key": "nema17 motor 17hs19 2004s min 35mm shaft for double shear",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Electronics",
-   "categories": [
-    "Electronics"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-trident",
-     "sheet": "VORON Trident",
-     "rows": [
-      49
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "2",
-       "qty_num": 2.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.omc-stepperonline.com/nema-17-bipolar-59ncm-84oz-in-2a-42x48mm-4-wires-w-1m-cable-and-connector.html",
-     "url_key": "https://omc-stepperonline.com/nema-17-bipolar-59ncm-84oz-in-2a-42x48mm-4-wires-w-1m-cable-and-connector.html",
-     "vendor": "stepperonline",
-     "vendor_name": "StepperOnline",
-     "labels": [
-      "Stepper Online"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 49,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.omc-stepperonline.com/nema-17-bipolar-59ncm-84oz-in-2a-42x48mm-4-wires-w-1m-cable-connector-17hs19-2004s1",
-      "at": "2026-08-30T15:15:25+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.aliexpress.com/item/32572890101.html",
-     "url_key": "https://www.aliexpress.com/item/32572890101.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Stepper Online"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/_9J8aJa"
-     ],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/32572890101.html?spm=2114.12010615.8148356.2.789746a4EhVp4N"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 49,
-       "cols": [
-        "H",
-        "I"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832386575349.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:28:15+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
      "affiliate_link_ok": [
       "yes"
      ],
-     "link_note": null
-    },
-    {
-     "url": "https://www.amazon.com/dp/B00PNEQKC0",
-     "url_key": "https://www.amazon.com/dp/b00pneqkc0",
-     "vendor": "amazon",
-     "vendor_name": "Amazon",
-     "labels": [
-      "Amazon"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.amazon.com/STEPPERONLINE-Stepper-Bipolar-Connector-compatible/dp/B00PNEQKC0/ref=sr_1_4?crid=3HWFT2JRA2OQE&dchild=1&keywords=17hs19-2004s1&qid=1599500107&s=industrial&sprefix=17hs19%2Cindustrial%2C156&sr=1-4"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 49,
-       "cols": [
-        "J"
-       ],
-       "slot": "Alternative Source 2"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "product page",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T17:05:18+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
      "link_note": null
     },
     {
@@ -25404,7 +24782,22 @@
     }
    ],
    "unlinked_sources": [],
-   "notes": []
+   "notes": [
+    {
+     "text": "Strongly advise buying the specific steppers to reduce the chance of underperformance",
+     "projects": [
+      "voron-2.4",
+      "voron-1.8",
+      "voron-2.2"
+     ]
+    },
+    {
+     "text": "strongly advise buying the spec steppers to avoid performance issues",
+     "projects": [
+      "voron-1.6.2"
+     ]
+    }
+   ]
   },
   {
    "id": "electronics.nema17-motor-with-leadscrew-17ls19-1684e-300g",
@@ -25530,14 +24923,16 @@
    "notes": []
   },
   {
-   "id": "electronics.nema17-stepper-motor-34mm-max-with-integrated-lead-screw-200mm-t8x8",
-   "name": "NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8",
-   "name_key": "nema17 stepper motor 34mm max with integrated lead screw 200mm t8x8",
-   "base_key": "nema17 stepper motor 34mm max with integrated lead screw 200mm t8x8",
+   "id": "electronics.nema17-stepper-motor-with-integrated-lead-screw-200mm-t8x8",
+   "name": "NEMA17 Stepper Motor with integrated lead screw 200mm T8x8",
+   "name_key": "nema17 stepper motor with integrated lead screw 200mm t8x8",
+   "base_key": "nema17 stepper motor with integrated lead screw 200mm t8x8",
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8"
+   ],
    "category": "Electronics",
    "categories": [
     "Electronics"
@@ -25545,6 +24940,22 @@
    "standard": null,
    "standards": [],
    "used_by": [
+    {
+     "project": "voron-0.2",
+     "sheet": "VORON 0.2",
+     "rows": [
+      40
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
     {
      "project": "voron-0.1",
      "sheet": "VORON 0.1",
@@ -25575,12 +24986,22 @@
       "recommended"
      ],
      "projects": [
+      "voron-0.2",
       "voron-0.1"
      ],
      "affiliate_urls": [],
      "raw_urls": [],
      "affiliate": false,
      "seen": [
+      {
+       "project": "voron-0.2",
+       "sheet": "VORON 0.2",
+       "row": 40,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
       {
        "project": "voron-0.1",
        "sheet": "VORON 0.1",
@@ -25615,12 +25036,22 @@
       "alternative"
      ],
      "projects": [
+      "voron-0.2",
       "voron-0.1"
      ],
      "affiliate_urls": [],
      "raw_urls": [],
      "affiliate": true,
      "seen": [
+      {
+       "project": "voron-0.2",
+       "sheet": "VORON 0.2",
+       "row": 40,
+       "cols": [
+        "G"
+       ],
+       "slot": "Alternative Source"
+      },
       {
        "project": "voron-0.1",
        "sheet": "VORON 0.1",
@@ -25649,132 +25080,8 @@
     {
      "text": "OMC: (17LS13-0404E-200G) LDO: (42STH25-1004CL200E)",
      "projects": [
+      "voron-0.2",
       "voron-0.1"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "electronics.nema17-stepper-motor-with-integrated-lead-screw-200mm-t8x8",
-   "name": "NEMA17 Stepper Motor with integrated lead screw 200mm T8x8",
-   "name_key": "nema17 stepper motor with integrated lead screw 200mm t8x8",
-   "base_key": "nema17 stepper motor with integrated lead screw 200mm t8x8",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Electronics",
-   "categories": [
-    "Electronics"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-0.2",
-     "sheet": "VORON 0.2",
-     "rows": [
-      40
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.omc-stepperonline.com/nema-17-external-34mm-stack-04a-lead-8mm031496-length-200mm-17ls13-0404e-200g.html",
-     "url_key": "https://omc-stepperonline.com/nema-17-external-34mm-stack-04a-lead-8mm031496-length-200mm-17ls13-0404e-200g.html",
-     "vendor": "stepperonline",
-     "vendor_name": "StepperOnline",
-     "labels": [
-      "OMC Stepper"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-0.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-0.2",
-       "sheet": "VORON 0.2",
-       "row": 40,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.omc-stepperonline.com/nema-17-external-34mm-stack-0-4a-lead-8mm-0-31496-length-200mm-17e13s0404mb2-200rs",
-      "at": "2026-08-30T15:15:30+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://s.click.aliexpress.com/e/_9JMcTz",
-     "url_key": "https://s.click.aliexpress.com/e/_9jmctz",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Aliexpress"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-0.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": true,
-     "seen": [
-      {
-       "project": "voron-0.2",
-       "sheet": "VORON 0.2",
-       "row": 40,
-       "cols": [
-        "G"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "no",
-     "link_checked": {
-      "reason": "listing has no title (removed)",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832778100375.html?spm=a2g0o.productlist.0.0.1ec034a5c2VQLq&algo_pvid=f76b592b-daa5-48a4-90a0-3ab1b55fbcd6&algo_expid=f76b592b-daa5-48a4-90a0-3ab1b55fbcd6-0&btsid=0bb0620316189574026531730ec5f2&ws_ab_test=searchweb0_0%2Csearchweb201602_%2Csearchweb201603_&aff_fcid=d331ce3eb42d40b7941687636a3d3c2e-1788105377715-02176-_9JMcTz&aff_fsk=_9JMcTz&aff_platform=portals-tool&sk=_9JMcTz&aff_trace_key=d331ce3eb42d40b7941687636a3d3c2e-1788105377715-02176-_9JMcTz&terminal_id=b6cf602e55c147bc876b5703aca0949c&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:56:33+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": "the only link is a dead affiliate code, so the product it pointed at cannot be recovered"
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "OMC: (17LS13-0404E-200G) LDO: (42STH25-1004CL200E)",
-     "projects": [
-      "voron-0.2"
      ]
     }
    ]
@@ -25987,12 +25294,14 @@
   {
    "id": "electronics.omron-g3na-210b-dc5-10a-or-crydom-d2425-25a-or-crydom-84134000-10a-ssr",
    "name": "Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR",
-   "name_key": "omron g3na 210b dc5 10a or crydom d2425 25a or crydom 84134000 10a ssr",
-   "base_key": "omron g3na 210b dc5 10a or crydom d2425 25a or crydom 84134000 10a ssr",
+   "name_key": "omron g3na 210b dc5 10a or crydom d2425 25a or crydom 84134000 10a ssr or panasonic aqa211vl 15a",
+   "base_key": "omron g3na 210b dc5 10a or crydom d2425 25a or crydom 84134000 10a ssr or panasonic aqa211vl 15a",
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR or Panasonic AQA211VL (15A)"
+   ],
    "category": "Electronics",
    "categories": [
     "Electronics"
@@ -26000,6 +25309,22 @@
    "standard": null,
    "standards": [],
    "used_by": [
+    {
+     "project": "voron-2.4",
+     "sheet": "VORON 2.4",
+     "rows": [
+      51
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
     {
      "project": "voron-trident",
      "sheet": "VORON Trident",
@@ -26078,6 +25403,7 @@
       "recommended"
      ],
      "projects": [
+      "voron-2.4",
       "voron-trident",
       "voron-1.8"
      ],
@@ -26087,6 +25413,15 @@
      ],
      "affiliate": false,
      "seen": [
+      {
+       "project": "voron-2.4",
+       "sheet": "VORON 2.4",
+       "row": 51,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
       {
        "project": "voron-trident",
        "sheet": "VORON Trident",
@@ -26171,236 +25506,6 @@
      "link_note": null
     },
     {
-     "url": "https://www.digikey.com/product-detail/en/sensata-crydom/D2425/CC1006-ND/139477",
-     "url_key": "https://digikey.com/product-detail/en/sensata-crydom/d2425/cc1006-nd/139477",
-     "vendor": "digikey",
-     "vendor_name": "Digi-Key",
-     "labels": [
-      "Digikey (Crydom 25A)"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident",
-      "voron-1.8",
-      "voron-1.6.2",
-      "voron-2.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 47,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-1.8",
-       "sheet": "VORON 1.8",
-       "row": 42,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-1.6.2",
-       "sheet": "VORON 1.6.2",
-       "row": 10,
-       "cols": [
-        "G"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-2.2",
-       "sheet": "VORON 2.2",
-       "row": 54,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.digikey.com/en/products/detail/sensata-crydom/D2425/CC1006-ND/139477",
-      "at": "2026-08-30T17:01:45+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.digikey.com/product-detail/en/sensata-crydom/84134000/646-1227-ND/1816787",
-     "url_key": "https://digikey.com/product-detail/en/sensata-crydom/84134000/646-1227-nd/1816787",
-     "vendor": "digikey",
-     "vendor_name": "Digi-Key",
-     "labels": [
-      "Digikey (Crydom 10A)"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident",
-      "voron-1.8",
-      "voron-1.6.2",
-      "voron-2.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 47,
-       "cols": [
-        "J"
-       ],
-       "slot": "Alternative Source 2"
-      },
-      {
-       "project": "voron-1.8",
-       "sheet": "VORON 1.8",
-       "row": 42,
-       "cols": [
-        "J"
-       ],
-       "slot": "Alternative Source 2"
-      },
-      {
-       "project": "voron-1.6.2",
-       "sheet": "VORON 1.6.2",
-       "row": 10,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source 2"
-      },
-      {
-       "project": "voron-2.2",
-       "sheet": "VORON 2.2",
-       "row": 54,
-       "cols": [
-        "J"
-       ],
-       "slot": "Alternative Source 2"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.digikey.com/en/products/detail/sensata-crydom/84134000/646-1227-ND/1816787",
-      "at": "2026-08-30T17:01:46+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "Crydom (2nd Link, also valid alternative), UTU PN just adds TUV support as a certification to the relay (Omron Only)",
-     "projects": [
-      "voron-trident",
-      "voron-1.8",
-      "voron-1.6.2",
-      "voron-2.2"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "electronics.omron-g3na-210b-dc5-10a-or-crydom-d2425-25a-or-crydom-84134000-10a-ssr-or-panasonic-aqa211vl-15a",
-   "name": "Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR or Panasonic AQA211VL (15A)",
-   "name_key": "omron g3na 210b dc5 10a or crydom d2425 25a or crydom 84134000 10a ssr or panasonic aqa211vl 15a",
-   "base_key": "omron g3na 210b dc5 10a or crydom d2425 25a or crydom 84134000 10a ssr or panasonic aqa211vl 15a",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Electronics",
-   "categories": [
-    "Electronics"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-2.4",
-     "sheet": "VORON 2.4",
-     "rows": [
-      51
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.digikey.com/en/products/detail/omron-automation-and-safety/G3NA-210B-UTU-DC5-24/634443",
-     "url_key": "https://digikey.com/en/products/detail/omron-automation-and-safety/g3na-210b-utu-dc5-24/634443",
-     "vendor": "digikey",
-     "vendor_name": "Digi-Key",
-     "labels": [
-      "Digikey (Omron)"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-2.4"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.digikey.com/en/products/detail/omron-automation-and-safety/G3NA-210B-UTU-DC5-24/634443?"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-2.4",
-       "sheet": "VORON 2.4",
-       "row": 51,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T17:01:43+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
      "url": "https://www.digikey.com/en/products/detail/panasonic-electric-works/AQA211VL/2364682",
      "url_key": "https://digikey.com/en/products/detail/panasonic-electric-works/aqa211vl/2364682",
      "vendor": "digikey",
@@ -26452,7 +25557,11 @@
       "alternative"
      ],
      "projects": [
-      "voron-2.4"
+      "voron-2.4",
+      "voron-trident",
+      "voron-1.8",
+      "voron-1.6.2",
+      "voron-2.2"
      ],
      "affiliate_urls": [],
      "raw_urls": [],
@@ -26462,6 +25571,42 @@
        "project": "voron-2.4",
        "sheet": "VORON 2.4",
        "row": 51,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 47,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-1.8",
+       "sheet": "VORON 1.8",
+       "row": 42,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-1.6.2",
+       "sheet": "VORON 1.6.2",
+       "row": 10,
+       "cols": [
+        "G"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-2.2",
+       "sheet": "VORON 2.2",
+       "row": 54,
        "cols": [
         "H"
        ],
@@ -26492,7 +25637,11 @@
       "alternative"
      ],
      "projects": [
-      "voron-2.4"
+      "voron-2.4",
+      "voron-trident",
+      "voron-1.8",
+      "voron-1.6.2",
+      "voron-2.2"
      ],
      "affiliate_urls": [],
      "raw_urls": [],
@@ -26502,6 +25651,42 @@
        "project": "voron-2.4",
        "sheet": "VORON 2.4",
        "row": 51,
+       "cols": [
+        "J"
+       ],
+       "slot": "Alternative Source 2"
+      },
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 47,
+       "cols": [
+        "J"
+       ],
+       "slot": "Alternative Source 2"
+      },
+      {
+       "project": "voron-1.8",
+       "sheet": "VORON 1.8",
+       "row": 42,
+       "cols": [
+        "J"
+       ],
+       "slot": "Alternative Source 2"
+      },
+      {
+       "project": "voron-1.6.2",
+       "sheet": "VORON 1.6.2",
+       "row": 10,
+       "cols": [
+        "I"
+       ],
+       "slot": "Alternative Source 2"
+      },
+      {
+       "project": "voron-2.2",
+       "sheet": "VORON 2.2",
+       "row": 54,
        "cols": [
         "J"
        ],
@@ -26566,7 +25751,11 @@
     {
      "text": "Crydom (2nd Link, also valid alternative), UTU PN just adds TUV support as a certification to the relay (Omron Only)",
      "projects": [
-      "voron-2.4"
+      "voron-2.4",
+      "voron-trident",
+      "voron-1.8",
+      "voron-1.6.2",
+      "voron-2.2"
      ]
     }
    ]
@@ -29968,597 +29157,6 @@
    ]
   },
   {
-   "id": "extruder.bmg-extruder-insides-5mmid",
-   "name": "BMG Extruder Insides 5mmID",
-   "name_key": "bmg extruder insides 5mmid",
-   "base_key": "bmg extruder insides 5mmid",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Extruder",
-   "categories": [
-    "Extruder"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-0.2",
-     "sheet": "VORON 0.2",
-     "rows": [
-      23
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": "voron-0.2#or21",
-     "flags": []
-    },
-    {
-     "project": "voron-0.1",
-     "sheet": "VORON 0.1",
-     "rows": [
-      25
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": "voron-0.1#or23",
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://s.click.aliexpress.com/e/_dY14nbA",
-     "url_key": "https://s.click.aliexpress.com/e/_dy14nba",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Aliexpress (TL)"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-0.2",
-      "voron-0.1"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": true,
-     "seen": [
-      {
-       "project": "voron-0.2",
-       "sheet": "VORON 0.2",
-       "row": 23,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      },
-      {
-       "project": "voron-0.1",
-       "sheet": "VORON 0.1",
-       "row": 25,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2255799834871688.html?aff_fcid=11716aff4c5f41b2b9825045c004604a-1788105584878-01472-_dY14nbA&aff_fsk=_dY14nbA&aff_platform=portals-tool&sk=_dY14nbA&aff_trace_key=11716aff4c5f41b2b9825045c004604a-1788105584878-01472-_dY14nbA&terminal_id=b6cf602e55c147bc876b5703aca0949c&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:59:45+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
-   "id": "extruder.bmg-extruder-kit-used-for-gears",
-   "name": "BMG Extruder Kit (used for gears)",
-   "name_key": "bmg extruder kit used for gears",
-   "base_key": "bmg extruder kit used for gears",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Extruder",
-   "categories": [
-    "Extruder"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-trident",
-     "sheet": "VORON Trident",
-     "rows": [
-      42
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    },
-    {
-     "project": "voron-1.8",
-     "sheet": "VORON 1.8",
-     "rows": [
-      37
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/2255799834871688.html",
-     "url_key": "https://www.aliexpress.com/item/2255799834871688.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Aliexpress (TriangleLabs)"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/_Asx8EC"
-     ],
-     "raw_urls": [
-      "https://www.aliexpress.us/item/2255799834871688.html?"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 42,
-       "cols": [
-        "F",
-        "G"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2255799834871688.html?gatewayAdapt=glo2usa",
-      "at": "2026-08-30T15:29:49+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "no"
-     ],
-     "link_note": "affiliate code is dead but the product link still works - drop or regenerate the code"
-    },
-    {
-     "url": "https://www.aliexpress.com/item/32917029058.html",
-     "url_key": "https://www.aliexpress.com/item/32917029058.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Aliexpress (TriangleLabs)"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-1.8"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/32917029058.html?spm=2114.12010612.8148356.2.228a55b45RJT32"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-1.8",
-       "sheet": "VORON 1.8",
-       "row": 37,
-       "cols": [
-        "F",
-        "G"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "no",
-     "link_checked": {
-      "reason": "listing has no title (removed)",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832730714306.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:30:07+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://smile.amazon.com/Bowden-Extruder-Universal-Geared-Printer/dp/B08KP189KN",
-     "url_key": "https://smile.amazon.com/bowden-extruder-universal-geared-printer/dp/b08kp189kn",
-     "vendor": "amazon",
-     "vendor_name": "Amazon",
-     "labels": [
-      "Amazon (TriangleLabs)"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident",
-      "voron-1.8"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 42,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-1.8",
-       "sheet": "VORON 1.8",
-       "row": 37,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "no",
-     "link_checked": {
-      "reason": "checked by hand in a normal browser",
-      "http": null,
-      "final_url": null,
-      "at": "2026-08-30",
-      "verified": "manual",
-      "verified_by": "rsamples"
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.filastruder.com/products/bondtech-bmg-internals-set?_pos=1&_sid=8f05bd81a&_ss=r",
-     "url_key": "https://filastruder.com/products/bondtech-bmg-internals-set?_pos=1&_sid=8f05bd81a&_ss=r",
-     "vendor": "filastruder",
-     "vendor_name": "Filastruder",
-     "labels": [
-      "Filastruder"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 42,
-       "cols": [
-        "J"
-       ],
-       "slot": "Alternative Source 2"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T16:53:51+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.printedsolid.com/products/bondtech-bmg-extruder",
-     "url_key": "https://printedsolid.com/products/bondtech-bmg-extruder",
-     "vendor": "printedsolid",
-     "vendor_name": "Printed Solid",
-     "labels": [
-      "Printed Solid"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 42,
-       "cols": [
-        "K"
-       ],
-       "slot": "Alternative Source 2"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T16:54:18+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "if you buy the entire extruder you will have to disassemble it for the parts as the housing is not needed",
-     "projects": [
-      "voron-trident"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "extruder.bondtech-drive-gear-kit-5mmid",
-   "name": "Bondtech Drive Gear Kit 5mmID",
-   "name_key": "bondtech drive gear kit 5mmid",
-   "base_key": "bondtech drive gear kit 5mmid",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Extruder",
-   "categories": [
-    "Extruder"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-0.2",
-     "sheet": "VORON 0.2",
-     "rows": [
-      25
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": "voron-0.2#or21",
-     "flags": []
-    },
-    {
-     "project": "voron-0.1",
-     "sheet": "VORON 0.1",
-     "rows": [
-      27
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": "voron-0.1#or23",
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.bondtech.se/en/product/drivegear-kits",
-     "url_key": "https://bondtech.se/en/product/drivegear-kits",
-     "vendor": "bondtech",
-     "vendor_name": "Bondtech",
-     "labels": [
-      "Bondtech"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-0.2",
-      "voron-0.1"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.bondtech.se/en/product/drivegear-kits/"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-0.2",
-       "sheet": "VORON 0.2",
-       "row": 25,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      },
-      {
-       "project": "voron-0.1",
-       "sheet": "VORON 0.1",
-       "row": 27,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.bondtech.se/product/drivegear-kits/?v=0b3b97fa6688",
-      "at": "2026-08-30T16:53:33+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://s.click.aliexpress.com/e/_dS7fWDW",
-     "url_key": "https://s.click.aliexpress.com/e/_ds7fwdw",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "TriangleLabs"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-0.2",
-      "voron-0.1"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": true,
-     "seen": [
-      {
-       "project": "voron-0.2",
-       "sheet": "VORON 0.2",
-       "row": 25,
-       "cols": [
-        "G"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-0.1",
-       "sheet": "VORON 0.1",
-       "row": 27,
-       "cols": [
-        "G"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832760879052.html?aff_fcid=ad7e2ae26ced4a109ec29edf0525ba1a-1788105605075-02468-_dS7fWDW&aff_fsk=_dS7fWDW&aff_platform=portals-tool&sk=_dS7fWDW&aff_trace_key=ad7e2ae26ced4a109ec29edf0525ba1a-1788105605075-02468-_dS7fWDW&terminal_id=b6cf602e55c147bc876b5703aca0949c&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T16:00:05+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.filastruder.com/collections/bondtech/products/drivegear-kit",
-     "url_key": "https://filastruder.com/collections/bondtech/products/drivegear-kit",
-     "vendor": "filastruder",
-     "vendor_name": "Filastruder",
-     "labels": [
-      "Filastruder"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-0.2",
-      "voron-0.1"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-0.2",
-       "sheet": "VORON 0.2",
-       "row": 25,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source 2"
-      },
-      {
-       "project": "voron-0.1",
-       "sheet": "VORON 0.1",
-       "row": 27,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source 2"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T16:53:53+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
    "id": "extruder.bondtech-motor-gear-bowden-only",
    "name": "Bondtech Motor Gear (bowden only)",
    "name_key": "bondtech motor gear",
@@ -30902,7 +29500,14 @@
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "BMG Extruder Insides",
+    "Bondtech Drive Gear Set",
+    "BMG Extruder Kit (used for gears)",
+    "BMG Extruder Insides 5mmID",
+    "Bondtech Drive Gear Kit 5mmID",
+    "Bondtech Drive Gear Kit"
+   ],
    "category": "Extruder",
    "categories": [
     "Extruder",
@@ -30913,10 +29518,28 @@
    "standards": [],
    "used_by": [
     {
+     "project": "voron-trident",
+     "sheet": "VORON Trident",
+     "rows": [
+      42
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
      "project": "voron-0.2",
      "sheet": "VORON 0.2",
      "rows": [
-      21
+      21,
+      23,
+      25
      ],
      "qty": [
       {
@@ -30932,7 +29555,8 @@
      "project": "stealthburner",
      "sheet": "Voron Stealthburner",
      "rows": [
-      21
+      21,
+      23
      ],
      "qty": [
       {
@@ -30948,7 +29572,9 @@
      "project": "afterburner",
      "sheet": "VORON Afterburner",
      "rows": [
-      17
+      17,
+      19,
+      21
      ],
      "qty": [
       {
@@ -30961,10 +29587,60 @@
      "flags": []
     },
     {
+     "project": "voron-m4",
+     "sheet": "VORON M4",
+     "rows": [
+      15
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "mobius-3.1",
+     "sheet": "VORON Mobius 3dot1",
+     "rows": [
+      18
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "jetpack",
+     "sheet": "VORON JetPack",
+     "rows": [
+      17
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
      "project": "voron-0",
      "sheet": "VORON 0",
      "rows": [
-      79
+      79,
+      81,
+      83
      ],
      "qty": [
       {
@@ -30980,7 +29656,9 @@
      "project": "voron-0.1",
      "sheet": "VORON 0.1",
      "rows": [
-      23
+      23,
+      25,
+      27
      ],
      "qty": [
       {
@@ -30991,9 +29669,368 @@
      ],
      "choice_group": "voron-0.1#or23",
      "flags": []
+    },
+    {
+     "project": "voron-1.8",
+     "sheet": "VORON 1.8",
+     "rows": [
+      37
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
     }
    ],
    "sources": [
+    {
+     "url": "https://www.bondtech.se/en/product/drivegear-kits",
+     "url_key": "https://bondtech.se/en/product/drivegear-kits",
+     "vendor": "bondtech",
+     "vendor_name": "Bondtech",
+     "labels": [
+      "Bondtech"
+     ],
+     "roles": [
+      "recommended",
+      "alternative",
+      "non_affiliate"
+     ],
+     "projects": [
+      "voron-0.2",
+      "afterburner",
+      "voron-0",
+      "voron-0.1"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [
+      "https://www.bondtech.se/en/product/drivegear-kits/"
+     ],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-0.2",
+       "sheet": "VORON 0.2",
+       "row": 25,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "afterburner",
+       "sheet": "VORON Afterburner",
+       "row": 21,
+       "cols": [
+        "I"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-0",
+       "sheet": "VORON 0",
+       "row": 83,
+       "cols": [
+        "H"
+       ],
+       "slot": "NON- Afiliate Links"
+      },
+      {
+       "project": "voron-0.1",
+       "sheet": "VORON 0.1",
+       "row": 27,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "http 200",
+      "http": 200,
+      "final_url": "https://www.bondtech.se/product/drivegear-kits/?v=0b3b97fa6688",
+      "at": "2026-08-30T16:53:33+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://www.filastruder.com/collections/bondtech/products/drivegear-kit",
+     "url_key": "https://filastruder.com/collections/bondtech/products/drivegear-kit",
+     "vendor": "filastruder",
+     "vendor_name": "Filastruder",
+     "labels": [
+      "Filastruder"
+     ],
+     "roles": [
+      "alternative",
+      "recommended"
+     ],
+     "projects": [
+      "voron-0.2",
+      "afterburner",
+      "voron-0",
+      "voron-0.1"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-0.2",
+       "sheet": "VORON 0.2",
+       "row": 25,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source 2"
+      },
+      {
+       "project": "afterburner",
+       "sheet": "VORON Afterburner",
+       "row": 21,
+       "cols": [
+        "G"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-0",
+       "sheet": "VORON 0",
+       "row": 83,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-0.1",
+       "sheet": "VORON 0.1",
+       "row": 27,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source 2"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "http 200",
+      "http": 200,
+      "final_url": null,
+      "at": "2026-08-30T16:53:53+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://s.click.aliexpress.com/e/_dY14nbA",
+     "url_key": "https://s.click.aliexpress.com/e/_dy14nba",
+     "vendor": "aliexpress",
+     "vendor_name": "AliExpress",
+     "labels": [
+      "Aliexpress (TL)"
+     ],
+     "roles": [
+      "recommended"
+     ],
+     "projects": [
+      "voron-0.2",
+      "voron-0",
+      "voron-0.1"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [],
+     "affiliate": true,
+     "seen": [
+      {
+       "project": "voron-0.2",
+       "sheet": "VORON 0.2",
+       "row": 23,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-0",
+       "sheet": "VORON 0",
+       "row": 81,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-0.1",
+       "sheet": "VORON 0.1",
+       "row": 25,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "listing has a title",
+      "http": 200,
+      "final_url": "https://www.aliexpress.us/item/2255799834871688.html?aff_fcid=11716aff4c5f41b2b9825045c004604a-1788105584878-01472-_dY14nbA&aff_fsk=_dY14nbA&aff_platform=portals-tool&sk=_dY14nbA&aff_trace_key=11716aff4c5f41b2b9825045c004604a-1788105584878-01472-_dY14nbA&terminal_id=b6cf602e55c147bc876b5703aca0949c&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt",
+      "at": "2026-08-30T15:59:45+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://www.aliexpress.com/item/32917029058.html",
+     "url_key": "https://www.aliexpress.com/item/32917029058.html",
+     "vendor": "aliexpress",
+     "vendor_name": "AliExpress",
+     "labels": [
+      "Aliexpress (TL)",
+      "Aliexpress (TriangleLabs)"
+     ],
+     "roles": [
+      "recommended"
+     ],
+     "projects": [
+      "stealthburner",
+      "afterburner",
+      "voron-1.8"
+     ],
+     "affiliate_urls": [
+      "https://s.click.aliexpress.com/e/_9u8JFO"
+     ],
+     "raw_urls": [
+      "https://www.aliexpress.com/item/32917029058.html?spm=2114.12010612.8148356.2.228a55b45RJT32"
+     ],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "stealthburner",
+       "sheet": "Voron Stealthburner",
+       "row": 21,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "afterburner",
+       "sheet": "VORON Afterburner",
+       "row": 17,
+       "cols": [
+        "G",
+        "H"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-1.8",
+       "sheet": "VORON 1.8",
+       "row": 37,
+       "cols": [
+        "F",
+        "G"
+       ],
+       "slot": "Recommended"
+      }
+     ],
+     "link_ok": "no",
+     "link_checked": {
+      "reason": "listing has no title (removed)",
+      "http": 200,
+      "final_url": "https://www.aliexpress.us/item/2251832730714306.html?gatewayAdapt=glo2usa4itemAdapt",
+      "at": "2026-08-30T15:30:07+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [
+      "no"
+     ],
+     "link_note": "affiliate code and product link are both dead"
+    },
+    {
+     "url": "https://www.aliexpress.com/item/32907327548.html",
+     "url_key": "https://www.aliexpress.com/item/32907327548.html",
+     "vendor": "aliexpress",
+     "vendor_name": "AliExpress",
+     "labels": [
+      "TriangleLab",
+      "TriangleLab (Aliexpress)"
+     ],
+     "roles": [
+      "recommended"
+     ],
+     "projects": [
+      "voron-m4",
+      "mobius-3.1",
+      "jetpack"
+     ],
+     "affiliate_urls": [
+      "https://s.click.aliexpress.com/e/5dL9AJgU"
+     ],
+     "raw_urls": [
+      "https://www.aliexpress.com/item/Drivegear-kit-dual-drive-gear-extruder-kit-Cloned-Btech-upgrade-for-extruder-for-Prusa-i3-3d/32907327548.html"
+     ],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-m4",
+       "sheet": "VORON M4",
+       "row": 15,
+       "cols": [
+        "E",
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "mobius-3.1",
+       "sheet": "VORON Mobius 3dot1",
+       "row": 18,
+       "cols": [
+        "E",
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "jetpack",
+       "sheet": "VORON JetPack",
+       "row": 17,
+       "cols": [
+        "E"
+       ],
+       "slot": "Recommended"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "listing has a title",
+      "http": 200,
+      "final_url": "https://www.aliexpress.us/item/2251832721012796.html?gatewayAdapt=glo2usa4itemAdapt",
+      "at": "2026-08-30T15:37:42+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [
+      "yes"
+     ],
+     "link_note": null
+    },
     {
      "url": "https://s.click.aliexpress.com/e/_AU7ik2",
      "url_key": "https://s.click.aliexpress.com/e/_au7ik2",
@@ -31045,8 +30082,8 @@
      "link_note": null
     },
     {
-     "url": "https://www.aliexpress.com/item/32917029058.html",
-     "url_key": "https://www.aliexpress.com/item/32917029058.html",
+     "url": "https://www.aliexpress.com/item/4000021186440.html",
+     "url_key": "https://www.aliexpress.com/item/4000021186440.html",
      "vendor": "aliexpress",
      "vendor_name": "AliExpress",
      "labels": [
@@ -31060,17 +30097,17 @@
       "afterburner"
      ],
      "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/_9u8JFO"
+      "https://s.click.aliexpress.com/e/_Alji4k"
      ],
      "raw_urls": [
-      "https://www.aliexpress.com/item/32917029058.html?spm=2114.12010612.8148356.2.228a55b45RJT32"
+      "https://www.aliexpress.com/item/4000021186440.html?spm=2114.12010612.8148356.22.3f2939a11poXsq"
      ],
      "affiliate": false,
      "seen": [
       {
        "project": "stealthburner",
        "sheet": "Voron Stealthburner",
-       "row": 21,
+       "row": 23,
        "cols": [
         "F"
        ],
@@ -31079,7 +30116,7 @@
       {
        "project": "afterburner",
        "sheet": "VORON Afterburner",
-       "row": 17,
+       "row": 19,
        "cols": [
         "G",
         "H"
@@ -31087,19 +30124,66 @@
        "slot": "Recommended"
       }
      ],
-     "link_ok": "no",
+     "link_ok": "yes",
      "link_checked": {
-      "reason": "listing has no title (removed)",
+      "reason": "listing has a title",
       "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832730714306.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:30:07+00:00",
+      "final_url": "https://www.aliexpress.us/item/2255799834871688.html?gatewayAdapt=glo2usa4itemAdapt",
+      "at": "2026-08-30T15:32:25+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [
+      "yes"
+     ],
+     "link_note": null
+    },
+    {
+     "url": "https://www.aliexpress.com/item/2255799834871688.html",
+     "url_key": "https://www.aliexpress.com/item/2255799834871688.html",
+     "vendor": "aliexpress",
+     "vendor_name": "AliExpress",
+     "labels": [
+      "Aliexpress (TriangleLabs)"
+     ],
+     "roles": [
+      "recommended"
+     ],
+     "projects": [
+      "voron-trident"
+     ],
+     "affiliate_urls": [
+      "https://s.click.aliexpress.com/e/_Asx8EC"
+     ],
+     "raw_urls": [
+      "https://www.aliexpress.us/item/2255799834871688.html?"
+     ],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 42,
+       "cols": [
+        "F",
+        "G"
+       ],
+       "slot": "Recommended"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "listing has a title",
+      "http": 200,
+      "final_url": "https://www.aliexpress.us/item/2255799834871688.html?gatewayAdapt=glo2usa",
+      "at": "2026-08-30T15:29:49+00:00",
       "verified": "automated",
       "verified_by": null
      },
      "affiliate_link_ok": [
       "no"
      ],
-     "link_note": "affiliate code and product link are both dead"
+     "link_note": "affiliate code is dead but the product link still works - drop or regenerate the code"
     },
     {
      "url": "https://s.click.aliexpress.com/e/_d8khc8c",
@@ -31140,10 +30224,309 @@
      },
      "affiliate_link_ok": [],
      "link_note": "the only link is a dead affiliate code, so the product it pointed at cannot be recovered"
+    },
+    {
+     "url": "https://s.click.aliexpress.com/e/_dS7fWDW",
+     "url_key": "https://s.click.aliexpress.com/e/_ds7fwdw",
+     "vendor": "aliexpress",
+     "vendor_name": "AliExpress",
+     "labels": [
+      "TriangleLabs"
+     ],
+     "roles": [
+      "alternative"
+     ],
+     "projects": [
+      "voron-0.2",
+      "voron-0",
+      "voron-0.1"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [],
+     "affiliate": true,
+     "seen": [
+      {
+       "project": "voron-0.2",
+       "sheet": "VORON 0.2",
+       "row": 25,
+       "cols": [
+        "G"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-0",
+       "sheet": "VORON 0",
+       "row": 83,
+       "cols": [
+        "G"
+       ],
+       "slot": "Alt Source 2"
+      },
+      {
+       "project": "voron-0.1",
+       "sheet": "VORON 0.1",
+       "row": 27,
+       "cols": [
+        "G"
+       ],
+       "slot": "Alternative Source"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "listing has a title",
+      "http": 200,
+      "final_url": "https://www.aliexpress.us/item/2251832760879052.html?aff_fcid=ad7e2ae26ced4a109ec29edf0525ba1a-1788105605075-02468-_dS7fWDW&aff_fsk=_dS7fWDW&aff_platform=portals-tool&sk=_dS7fWDW&aff_trace_key=ad7e2ae26ced4a109ec29edf0525ba1a-1788105605075-02468-_dS7fWDW&terminal_id=b6cf602e55c147bc876b5703aca0949c&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt",
+      "at": "2026-08-30T16:00:05+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://smile.amazon.com/Bowden-Extruder-Universal-Geared-Printer/dp/B08KP189KN",
+     "url_key": "https://smile.amazon.com/bowden-extruder-universal-geared-printer/dp/b08kp189kn",
+     "vendor": "amazon",
+     "vendor_name": "Amazon",
+     "labels": [
+      "Amazon (TriangleLabs)"
+     ],
+     "roles": [
+      "alternative"
+     ],
+     "projects": [
+      "voron-trident",
+      "voron-1.8"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 42,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-1.8",
+       "sheet": "VORON 1.8",
+       "row": 37,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source"
+      }
+     ],
+     "link_ok": "no",
+     "link_checked": {
+      "reason": "checked by hand in a normal browser",
+      "http": null,
+      "final_url": null,
+      "at": "2026-08-30",
+      "verified": "manual",
+      "verified_by": "rsamples"
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://www.filamentone.com/products/bondtech-drivegear-kit-1-75-5-0?_pos=11&_sid=f893ca158&_ss=r",
+     "url_key": "https://filamentone.com/products/bondtech-drivegear-kit-1-75-5-0?_pos=11&_sid=f893ca158&_ss=r",
+     "vendor": "filamentone.com",
+     "vendor_name": "filamentone.com",
+     "labels": [
+      "Bondtech"
+     ],
+     "roles": [
+      "alternative"
+     ],
+     "projects": [
+      "voron-m4",
+      "mobius-3.1"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-m4",
+       "sheet": "VORON M4",
+       "row": 15,
+       "cols": [
+        "G"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "mobius-3.1",
+       "sheet": "VORON Mobius 3dot1",
+       "row": 18,
+       "cols": [
+        "G"
+       ],
+       "slot": "Alternative Source"
+      }
+     ],
+     "link_ok": "no",
+     "link_checked": {
+      "reason": "domain is parked or for sale",
+      "http": 200,
+      "final_url": "https://www.hugedomains.com/domain_profile.cfm?d=filamentone.com",
+      "at": "2026-08-30T16:37:50+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://www.aliexpress.com/item/32947193804.html",
+     "url_key": "https://www.aliexpress.com/item/32947193804.html",
+     "vendor": "aliexpress",
+     "vendor_name": "AliExpress",
+     "labels": [
+      "TriangleLabs"
+     ],
+     "roles": [
+      "alternative"
+     ],
+     "projects": [
+      "afterburner"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [
+      "https://www.aliexpress.com/item/32947193804.html?spm=2114.12010612.8148356.12.2e9339a1uNOzWb"
+     ],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "afterburner",
+       "sheet": "VORON Afterburner",
+       "row": 21,
+       "cols": [
+        "J"
+       ],
+       "slot": "Alternative Source 2"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "listing has a title",
+      "http": 200,
+      "final_url": "https://www.aliexpress.us/item/2251832760879052.html?gatewayAdapt=glo2usa4itemAdapt",
+      "at": "2026-08-30T15:32:29+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://www.filastruder.com/products/bondtech-bmg-internals-set?_pos=1&_sid=8f05bd81a&_ss=r",
+     "url_key": "https://filastruder.com/products/bondtech-bmg-internals-set?_pos=1&_sid=8f05bd81a&_ss=r",
+     "vendor": "filastruder",
+     "vendor_name": "Filastruder",
+     "labels": [
+      "Filastruder"
+     ],
+     "roles": [
+      "alternative"
+     ],
+     "projects": [
+      "voron-trident"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 42,
+       "cols": [
+        "J"
+       ],
+       "slot": "Alternative Source 2"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "http 200",
+      "http": 200,
+      "final_url": null,
+      "at": "2026-08-30T16:53:51+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://www.printedsolid.com/products/bondtech-bmg-extruder",
+     "url_key": "https://printedsolid.com/products/bondtech-bmg-extruder",
+     "vendor": "printedsolid",
+     "vendor_name": "Printed Solid",
+     "labels": [
+      "Printed Solid"
+     ],
+     "roles": [
+      "alternative"
+     ],
+     "projects": [
+      "voron-trident"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 42,
+       "cols": [
+        "K"
+       ],
+       "slot": "Alternative Source 2"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "http 200",
+      "http": 200,
+      "final_url": null,
+      "at": "2026-08-30T16:54:18+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
     }
    ],
-   "unlinked_sources": [],
-   "notes": []
+   "unlinked_sources": [
+    {
+     "text": "<< only the TL clones and genuine Bondtech are known to have good machining",
+     "roles": [
+      "alternative"
+     ],
+     "projects": [
+      "mobius-3.1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "if you buy the entire extruder you will have to disassemble it for the parts as the housing is not needed",
+     "projects": [
+      "voron-trident"
+     ]
+    }
+   ]
   },
   {
    "id": "extruder.mr85-bearing",
@@ -32525,131 +31908,6 @@
    "notes": []
   },
   {
-   "id": "fasteners.m2-x-12-or-13mm-plastite-self-tapping-screw",
-   "name": "M2 x 12 or 13mm Plastite Self Tapping Screw",
-   "name_key": "m2x12 or 13mm plastite self tapping screw",
-   "base_key": "m2x12 or 13mm plastite self tapping screw",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Fasteners",
-   "categories": [
-    "Fasteners"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "mobius-3.1",
-     "sheet": "VORON Mobius 3dot1",
-     "rows": [
-      13
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "2",
-       "qty_num": 2.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.mcmaster.com/99397A269/",
-     "url_key": "https://www.mcmaster.com/99397a269/",
-     "vendor": "mcmaster",
-     "vendor_name": "McMaster-Carr",
-     "labels": [
-      "McMaster-Carr (50 pack)"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "mobius-3.1"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.mcmaster.com/99397a269"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "mobius-3.1",
-       "sheet": "VORON Mobius 3dot1",
-       "row": 13,
-       "cols": [
-        "E"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T16:38:38+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.aliexpress.com/item/32748428213.html",
-     "url_key": "https://www.aliexpress.com/item/32748428213.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Aliexpress"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "mobius-3.1"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/nBMZN9KC"
-     ],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "mobius-3.1",
-       "sheet": "VORON Mobius 3dot1",
-       "row": 13,
-       "cols": [
-        "G",
-        "H"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "no",
-     "link_checked": {
-      "reason": "listing has no title (removed)",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832562113461.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:31:21+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "no"
-     ],
-     "link_note": "affiliate code and product link are both dead"
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
    "id": "fasteners.m2x10-self-tapping-screw-for-plastics",
    "name": "M2x10 Self Tapping Screw for Plastics",
    "name_key": "m2x10 self tapping screw for plastics",
@@ -33161,7 +32419,9 @@
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "M2 x 12 or 13mm Plastite Self Tapping Screw"
+   ],
    "category": "Fasteners",
    "categories": [
     "Fasteners"
@@ -33169,6 +32429,22 @@
    "standard": null,
    "standards": [],
    "used_by": [
+    {
+     "project": "mobius-3.1",
+     "sheet": "VORON Mobius 3dot1",
+     "rows": [
+      13
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "2",
+       "qty_num": 2.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
     {
      "project": "voron-1.8",
      "sheet": "VORON 1.8",
@@ -33215,6 +32491,7 @@
       "recommended"
      ],
      "projects": [
+      "mobius-3.1",
       "voron-1.8",
       "voron-2.2"
      ],
@@ -33224,6 +32501,15 @@
      ],
      "affiliate": false,
      "seen": [
+      {
+       "project": "mobius-3.1",
+       "sheet": "VORON Mobius 3dot1",
+       "row": 13,
+       "cols": [
+        "E"
+       ],
+       "slot": "Recommended"
+      },
       {
        "project": "voron-1.8",
        "sheet": "VORON 1.8",
@@ -33267,15 +32553,27 @@
       "alternative"
      ],
      "projects": [
+      "mobius-3.1",
       "voron-1.8",
       "voron-2.2"
      ],
      "affiliate_urls": [
+      "https://s.click.aliexpress.com/e/nBMZN9KC",
       "https://s.click.aliexpress.com/e/lZCUQlFa"
      ],
      "raw_urls": [],
      "affiliate": false,
      "seen": [
+      {
+       "project": "mobius-3.1",
+       "sheet": "VORON Mobius 3dot1",
+       "row": 13,
+       "cols": [
+        "G",
+        "H"
+       ],
+       "slot": "Alternative Source"
+      },
       {
        "project": "voron-1.8",
        "sheet": "VORON 1.8",
@@ -33307,6 +32605,7 @@
       "verified_by": null
      },
      "affiliate_link_ok": [
+      "no",
       "no"
      ],
      "link_note": "affiliate code and product link are both dead"
@@ -42648,106 +41947,6 @@
      "link_note": null
     },
     {
-     "url": "https://amzn.to/2lqEYQ1",
-     "url_key": "https://amzn.to/2lqeyq1",
-     "vendor": "amazon",
-     "vendor_name": "Amazon",
-     "labels": [
-      "[Afilliate Link]"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-2.4",
-      "voron-switchwire",
-      "voron-m4",
-      "mobius-3.1",
-      "voron-1.8",
-      "voron-1.6.2",
-      "voron-2.2"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": true,
-     "seen": [
-      {
-       "project": "voron-2.4",
-       "sheet": "VORON 2.4",
-       "row": 3,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-switchwire",
-       "sheet": "Voron Switchwire",
-       "row": 3,
-       "cols": [
-        "G"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-m4",
-       "sheet": "VORON M4",
-       "row": 3,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "mobius-3.1",
-       "sheet": "VORON Mobius 3dot1",
-       "row": 3,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-1.8",
-       "sheet": "VORON 1.8",
-       "row": 3,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-1.6.2",
-       "sheet": "VORON 1.6.2",
-       "row": 3,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-2.2",
-       "sheet": "VORON 2.2",
-       "row": 3,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "product page",
-      "http": 200,
-      "final_url": "https://www.amazon.com/Paramount-3D-PANTONE-Filament-TRRL3020485A/dp/B01LR4VTMA/ref=as_li_ss_tl?keywords=Paramount+Black+ABS&qid=1569412059&sr=8-6&linkCode=sl1&tag=docjeevescom-20&linkId=716f78d29357e2dd2d0ff80e913c1cdf&language=en_US",
-      "at": "2026-08-30T15:11:07+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
      "url": "https://www.paramount-3d.com/product-page/abs-pantone-enzo-red-485c-1-75mm-1kg-filament-trrl3020485c",
      "url_key": "https://paramount-3d.com/product-page/abs-pantone-enzo-red-485c-1-75mm-1kg-filament-trrl3020485c",
      "vendor": "paramount3d",
@@ -42767,7 +41966,9 @@
       "voron-1.6.2",
       "voron-2.2"
      ],
-     "affiliate_urls": [],
+     "affiliate_urls": [
+      "https://amzn.to/2lqEYQ1"
+     ],
      "raw_urls": [],
      "affiliate": false,
      "seen": [
@@ -42776,7 +41977,8 @@
        "sheet": "VORON 2.4",
        "row": 3,
        "cols": [
-        "H"
+        "H",
+        "I"
        ],
        "slot": "Alternative Source"
       },
@@ -42785,7 +41987,8 @@
        "sheet": "Voron Switchwire",
        "row": 3,
        "cols": [
-        "F"
+        "F",
+        "G"
        ],
        "slot": "Alternative Source"
       },
@@ -42794,7 +41997,8 @@
        "sheet": "VORON M4",
        "row": 3,
        "cols": [
-        "G"
+        "G",
+        "H"
        ],
        "slot": "Alternative Source"
       },
@@ -42803,7 +42007,8 @@
        "sheet": "VORON Mobius 3dot1",
        "row": 3,
        "cols": [
-        "G"
+        "G",
+        "H"
        ],
        "slot": "Alternative Source"
       },
@@ -42812,7 +42017,8 @@
        "sheet": "VORON 1.8",
        "row": 3,
        "cols": [
-        "H"
+        "H",
+        "I"
        ],
        "slot": "Alternative Source"
       },
@@ -42821,7 +42027,8 @@
        "sheet": "VORON 1.6.2",
        "row": 3,
        "cols": [
-        "G"
+        "G",
+        "H"
        ],
        "slot": "Alternative Source"
       },
@@ -42830,7 +42037,8 @@
        "sheet": "VORON 2.2",
        "row": 3,
        "cols": [
-        "H"
+        "H",
+        "I"
        ],
        "slot": "Alternative Source"
       }
@@ -42844,7 +42052,9 @@
       "verified": "automated",
       "verified_by": null
      },
-     "affiliate_link_ok": [],
+     "affiliate_link_ok": [
+      "yes"
+     ],
      "link_note": null
     },
     {
@@ -46768,413 +45978,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "hardware.bmg-extruder-insides",
-   "name": "BMG Extruder Insides",
-   "name_key": "bmg extruder insides",
-   "base_key": "bmg extruder insides",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Hardware",
-   "categories": [
-    "Hardware",
-    "Motion"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "stealthburner",
-     "sheet": "Voron Stealthburner",
-     "rows": [
-      23
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": "stealthburner#or21",
-     "flags": []
-    },
-    {
-     "project": "afterburner",
-     "sheet": "VORON Afterburner",
-     "rows": [
-      19
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": "afterburner#or17",
-     "flags": []
-    },
-    {
-     "project": "voron-0",
-     "sheet": "VORON 0",
-     "rows": [
-      81
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": "voron-0#or79",
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/4000021186440.html",
-     "url_key": "https://www.aliexpress.com/item/4000021186440.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Aliexpress (TL)"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "stealthburner",
-      "afterburner"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/_Alji4k"
-     ],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/4000021186440.html?spm=2114.12010612.8148356.22.3f2939a11poXsq"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "stealthburner",
-       "sheet": "Voron Stealthburner",
-       "row": 23,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      },
-      {
-       "project": "afterburner",
-       "sheet": "VORON Afterburner",
-       "row": 19,
-       "cols": [
-        "G",
-        "H"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2255799834871688.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:32:25+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
-     "link_note": null
-    },
-    {
-     "url": "https://s.click.aliexpress.com/e/_dY14nbA",
-     "url_key": "https://s.click.aliexpress.com/e/_dy14nba",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Aliexpress (TL)"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-0"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": true,
-     "seen": [
-      {
-       "project": "voron-0",
-       "sheet": "VORON 0",
-       "row": 81,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2255799834871688.html?aff_fcid=11716aff4c5f41b2b9825045c004604a-1788105584878-01472-_dY14nbA&aff_fsk=_dY14nbA&aff_platform=portals-tool&sk=_dY14nbA&aff_trace_key=11716aff4c5f41b2b9825045c004604a-1788105584878-01472-_dY14nbA&terminal_id=b6cf602e55c147bc876b5703aca0949c&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:59:45+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
-   "id": "hardware.bondtech-drive-gear-kit",
-   "name": "Bondtech Drive Gear Kit",
-   "name_key": "bondtech drive gear kit",
-   "base_key": "bondtech drive gear kit",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Hardware",
-   "categories": [
-    "Hardware"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "afterburner",
-     "sheet": "VORON Afterburner",
-     "rows": [
-      21
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": "afterburner#or17",
-     "flags": []
-    },
-    {
-     "project": "voron-0",
-     "sheet": "VORON 0",
-     "rows": [
-      83
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": "voron-0#or79",
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.filastruder.com/collections/bondtech/products/drivegear-kit",
-     "url_key": "https://filastruder.com/collections/bondtech/products/drivegear-kit",
-     "vendor": "filastruder",
-     "vendor_name": "Filastruder",
-     "labels": [
-      "Filastruder"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "afterburner",
-      "voron-0"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "afterburner",
-       "sheet": "VORON Afterburner",
-       "row": 21,
-       "cols": [
-        "G"
-       ],
-       "slot": "Recommended"
-      },
-      {
-       "project": "voron-0",
-       "sheet": "VORON 0",
-       "row": 83,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T16:53:53+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.bondtech.se/en/product/drivegear-kits",
-     "url_key": "https://bondtech.se/en/product/drivegear-kits",
-     "vendor": "bondtech",
-     "vendor_name": "Bondtech",
-     "labels": [
-      "Bondtech"
-     ],
-     "roles": [
-      "alternative",
-      "non_affiliate"
-     ],
-     "projects": [
-      "afterburner",
-      "voron-0"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.bondtech.se/en/product/drivegear-kits/"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "afterburner",
-       "sheet": "VORON Afterburner",
-       "row": 21,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-0",
-       "sheet": "VORON 0",
-       "row": 83,
-       "cols": [
-        "H"
-       ],
-       "slot": "NON- Afiliate Links"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.bondtech.se/product/drivegear-kits/?v=0b3b97fa6688",
-      "at": "2026-08-30T16:53:33+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.aliexpress.com/item/32947193804.html",
-     "url_key": "https://www.aliexpress.com/item/32947193804.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "TriangleLabs"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "afterburner"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/32947193804.html?spm=2114.12010612.8148356.12.2e9339a1uNOzWb"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "afterburner",
-       "sheet": "VORON Afterburner",
-       "row": 21,
-       "cols": [
-        "J"
-       ],
-       "slot": "Alternative Source 2"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832760879052.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:32:29+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://s.click.aliexpress.com/e/_dS7fWDW",
-     "url_key": "https://s.click.aliexpress.com/e/_ds7fwdw",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "TriangleLabs"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-0"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": true,
-     "seen": [
-      {
-       "project": "voron-0",
-       "sheet": "VORON 0",
-       "row": 83,
-       "cols": [
-        "G"
-       ],
-       "slot": "Alt Source 2"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832760879052.html?aff_fcid=ad7e2ae26ced4a109ec29edf0525ba1a-1788105605075-02468-_dS7fWDW&aff_fsk=_dS7fWDW&aff_platform=portals-tool&sk=_dS7fWDW&aff_trace_key=ad7e2ae26ced4a109ec29edf0525ba1a-1788105605075-02468-_dS7fWDW&terminal_id=b6cf602e55c147bc876b5703aca0949c&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T16:00:05+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
   },
   {
    "id": "hardware.hotend-mounting-screws-m2-5-m3",
@@ -58694,205 +57497,6 @@
    "notes": []
   },
   {
-   "id": "motion.bondtech-drive-gear-set",
-   "name": "Bondtech Drive Gear Set",
-   "name_key": "bondtech drive gear set",
-   "base_key": "bondtech drive gear set",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Motion",
-   "categories": [
-    "Motion"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-m4",
-     "sheet": "VORON M4",
-     "rows": [
-      15
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    },
-    {
-     "project": "mobius-3.1",
-     "sheet": "VORON Mobius 3dot1",
-     "rows": [
-      18
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    },
-    {
-     "project": "jetpack",
-     "sheet": "VORON JetPack",
-     "rows": [
-      17
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/32907327548.html",
-     "url_key": "https://www.aliexpress.com/item/32907327548.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "TriangleLab",
-      "TriangleLab (Aliexpress)"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-m4",
-      "mobius-3.1",
-      "jetpack"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/5dL9AJgU"
-     ],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/Drivegear-kit-dual-drive-gear-extruder-kit-Cloned-Btech-upgrade-for-extruder-for-Prusa-i3-3d/32907327548.html"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-m4",
-       "sheet": "VORON M4",
-       "row": 15,
-       "cols": [
-        "E",
-        "F"
-       ],
-       "slot": "Recommended"
-      },
-      {
-       "project": "mobius-3.1",
-       "sheet": "VORON Mobius 3dot1",
-       "row": 18,
-       "cols": [
-        "E",
-        "F"
-       ],
-       "slot": "Recommended"
-      },
-      {
-       "project": "jetpack",
-       "sheet": "VORON JetPack",
-       "row": 17,
-       "cols": [
-        "E"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832721012796.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:37:42+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
-     "link_note": null
-    },
-    {
-     "url": "https://www.filamentone.com/products/bondtech-drivegear-kit-1-75-5-0?_pos=11&_sid=f893ca158&_ss=r",
-     "url_key": "https://filamentone.com/products/bondtech-drivegear-kit-1-75-5-0?_pos=11&_sid=f893ca158&_ss=r",
-     "vendor": "filamentone.com",
-     "vendor_name": "filamentone.com",
-     "labels": [
-      "Bondtech"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-m4",
-      "mobius-3.1"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-m4",
-       "sheet": "VORON M4",
-       "row": 15,
-       "cols": [
-        "G"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "mobius-3.1",
-       "sheet": "VORON Mobius 3dot1",
-       "row": 18,
-       "cols": [
-        "G"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "no",
-     "link_checked": {
-      "reason": "domain is parked or for sale",
-      "http": 200,
-      "final_url": "https://www.hugedomains.com/domain_profile.cfm?d=filamentone.com",
-      "at": "2026-08-30T16:37:50+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [
-    {
-     "text": "<< only the TL clones and genuine Bondtech are known to have good machining",
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "mobius-3.1"
-     ]
-    }
-   ],
-   "notes": []
-  },
-  {
    "id": "motion.extruder-spring",
    "name": "Extruder Spring",
    "name_key": "extruder spring",
@@ -59331,14 +57935,18 @@
    "notes": []
   },
   {
-   "id": "motion.f695-2rs",
-   "name": "F695 2RS",
-   "name_key": "f695 2rs",
-   "base_key": "f695 2rs",
+   "id": "motion.f695-2rs-bearing",
+   "name": "F695 2RS Bearing",
+   "name_key": "f695 2rs bearing",
+   "base_key": "f695 2rs bearing",
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "F695 2RS",
+    "F695 Bearing (add two for stepper double shear)",
+    "F695 Bearing"
+   ],
    "category": "Motion",
    "categories": [
     "Motion"
@@ -59346,6 +57954,54 @@
    "standard": null,
    "standards": [],
    "used_by": [
+    {
+     "project": "voron-2.4",
+     "sheet": "VORON 2.4",
+     "rows": [
+      37
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "20",
+       "qty_num": 20.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-trident",
+     "sheet": "VORON Trident",
+     "rows": [
+      31
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "24",
+       "qty_num": 24.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-switchwire",
+     "sheet": "Voron Switchwire",
+     "rows": [
+      33
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "20",
+       "qty_num": 20.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
     {
      "project": "voron-m4",
      "sheet": "VORON M4",
@@ -59377,164 +58033,12 @@
      ],
      "choice_group": null,
      "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/33001186278.html",
-     "url_key": "https://www.aliexpress.com/item/33001186278.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "RainDew"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-m4",
-      "mobius-3.1"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/ki24Gbqg"
-     ],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-m4",
-       "sheet": "VORON M4",
-       "row": 14,
-       "cols": [
-        "E",
-        "F"
-       ],
-       "slot": "Recommended"
-      },
-      {
-       "project": "mobius-3.1",
-       "sheet": "VORON Mobius 3dot1",
-       "row": 17,
-       "cols": [
-        "E",
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832814871526.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:37:49+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
-     "link_note": null
     },
     {
-     "url": "https://www.aliexpress.com/item/32850989216.html",
-     "url_key": "https://www.aliexpress.com/item/32850989216.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Fushi"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-m4",
-      "mobius-3.1"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/sNdv53Gc"
-     ],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/F695-2RS-Bearing-5-13-4mm-10-PCS-ABEC-1-Flanged-Miniature-F695RS-Ball-Bearings-RF/32850989216.html"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-m4",
-       "sheet": "VORON M4",
-       "row": 14,
-       "cols": [
-        "G",
-        "H"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "mobius-3.1",
-       "sheet": "VORON Mobius 3dot1",
-       "row": 17,
-       "cols": [
-        "G",
-        "H"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832664674464.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:37:53+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
-   "id": "motion.f695-2rs-bearing",
-   "name": "F695 2RS Bearing",
-   "name_key": "f695 2rs bearing",
-   "base_key": "f695 2rs bearing",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Motion",
-   "categories": [
-    "Motion"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-2.4",
-     "sheet": "VORON 2.4",
+     "project": "voron-1.8",
+     "sheet": "VORON 1.8",
      "rows": [
-      37
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "20",
-       "qty_num": 20.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    },
-    {
-     "project": "voron-switchwire",
-     "sheet": "Voron Switchwire",
-     "rows": [
-      33
+      30
      ],
      "qty": [
       {
@@ -59577,10 +58081,16 @@
      ],
      "projects": [
       "voron-2.4",
+      "voron-trident",
+      "voron-m4",
+      "mobius-3.1",
+      "voron-1.8",
       "voron-2.2"
      ],
      "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/FhQBXGmc"
+      "https://s.click.aliexpress.com/e/FhQBXGmc",
+      "https://s.click.aliexpress.com/e/_A8MSC4",
+      "https://s.click.aliexpress.com/e/ki24Gbqg"
      ],
      "raw_urls": [],
      "affiliate": false,
@@ -59589,6 +58099,46 @@
        "project": "voron-2.4",
        "sheet": "VORON 2.4",
        "row": 37,
+       "cols": [
+        "F",
+        "G"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 31,
+       "cols": [
+        "F",
+        "G"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-m4",
+       "sheet": "VORON M4",
+       "row": 14,
+       "cols": [
+        "E",
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "mobius-3.1",
+       "sheet": "VORON Mobius 3dot1",
+       "row": 17,
+       "cols": [
+        "E",
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-1.8",
+       "sheet": "VORON 1.8",
+       "row": 30,
        "cols": [
         "F",
         "G"
@@ -59616,6 +58166,8 @@
       "verified_by": null
      },
      "affiliate_link_ok": [
+      "yes",
+      "yes",
       "yes"
      ],
      "link_note": null
@@ -59633,11 +58185,17 @@
      ],
      "projects": [
       "voron-2.4",
+      "voron-trident",
       "voron-switchwire",
+      "voron-m4",
+      "mobius-3.1",
+      "voron-1.8",
       "voron-2.2"
      ],
      "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/Mv4uHJoM"
+      "https://s.click.aliexpress.com/e/Mv4uHJoM",
+      "https://s.click.aliexpress.com/e/_Aqmkpm",
+      "https://s.click.aliexpress.com/e/sNdv53Gc"
      ],
      "raw_urls": [
       "https://www.aliexpress.com/item/F695-2RS-Bearing-5-13-4mm-10-PCS-ABEC-1-Flanged-Miniature-F695RS-Ball-Bearings-RF/32850989216.html"
@@ -59655,12 +58213,52 @@
        "slot": "Alternative Source"
       },
       {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 31,
+       "cols": [
+        "H",
+        "I"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
        "project": "voron-switchwire",
        "sheet": "Voron Switchwire",
        "row": 33,
        "cols": [
         "F",
         "G"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-m4",
+       "sheet": "VORON M4",
+       "row": 14,
+       "cols": [
+        "G",
+        "H"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "mobius-3.1",
+       "sheet": "VORON Mobius 3dot1",
+       "row": 17,
+       "cols": [
+        "G",
+        "H"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-1.8",
+       "sheet": "VORON 1.8",
+       "row": 30,
+       "cols": [
+        "H",
+        "I"
        ],
        "slot": "Alternative Source"
       },
@@ -59685,6 +58283,8 @@
       "verified_by": null
      },
      "affiliate_link_ok": [
+      "yes",
+      "yes",
       "yes"
      ],
      "link_note": null
@@ -59729,266 +58329,6 @@
       "verified_by": null
      },
      "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
-   "id": "motion.f695-bearing",
-   "name": "F695 Bearing",
-   "name_key": "f695 bearing",
-   "base_key": "f695 bearing",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Motion",
-   "categories": [
-    "Motion"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-1.8",
-     "sheet": "VORON 1.8",
-     "rows": [
-      30
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "20",
-       "qty_num": 20.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/33001186278.html",
-     "url_key": "https://www.aliexpress.com/item/33001186278.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "RainDew"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-1.8"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/FhQBXGmc"
-     ],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-1.8",
-       "sheet": "VORON 1.8",
-       "row": 30,
-       "cols": [
-        "F",
-        "G"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832814871526.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:37:49+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
-     "link_note": null
-    },
-    {
-     "url": "https://www.aliexpress.com/item/32850989216.html",
-     "url_key": "https://www.aliexpress.com/item/32850989216.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Fushi"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-1.8"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/Mv4uHJoM"
-     ],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/F695-2RS-Bearing-5-13-4mm-10-PCS-ABEC-1-Flanged-Miniature-F695RS-Ball-Bearings-RF/32850989216.html"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-1.8",
-       "sheet": "VORON 1.8",
-       "row": 30,
-       "cols": [
-        "H",
-        "I"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832664674464.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:37:53+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
-   "id": "motion.f695-bearing-add-two-for-stepper-double-shear",
-   "name": "F695 Bearing (add two for stepper double shear)",
-   "name_key": "f695 bearing add two for stepper double shear",
-   "base_key": "f695 bearing add two for stepper double shear",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Motion",
-   "categories": [
-    "Motion"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-trident",
-     "sheet": "VORON Trident",
-     "rows": [
-      31
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "24",
-       "qty_num": 24.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/33001186278.html",
-     "url_key": "https://www.aliexpress.com/item/33001186278.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "RainDew"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/_A8MSC4"
-     ],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 31,
-       "cols": [
-        "F",
-        "G"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832814871526.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:37:49+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
-     "link_note": null
-    },
-    {
-     "url": "https://www.aliexpress.com/item/32850989216.html",
-     "url_key": "https://www.aliexpress.com/item/32850989216.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "Fushi"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [
-      "https://s.click.aliexpress.com/e/_Aqmkpm"
-     ],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/F695-2RS-Bearing-5-13-4mm-10-PCS-ABEC-1-Flanged-Miniature-F695RS-Ball-Bearings-RF/32850989216.html"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 31,
-       "cols": [
-        "H",
-        "I"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832664674464.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:37:53+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [
-      "yes"
-     ],
      "link_note": null
     }
    ],
@@ -63781,128 +62121,6 @@
    "notes": []
   },
   {
-   "id": "motion.linear-rail-mgn12h-300mm",
-   "name": "Linear Rail MGN12H (300mm)",
-   "name_key": "linear rail mgn12h 300mm",
-   "base_key": "linear rail mgn12h 300mm",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Motion",
-   "categories": [
-    "Motion"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-switchwire",
-     "sheet": "Voron Switchwire",
-     "rows": [
-      34
-     ],
-     "qty": [
-      {
-       "size": "All",
-       "qty": "4",
-       "qty_num": 4.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/32829826159.html",
-     "url_key": "https://www.aliexpress.com/item/32829826159.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "CNA"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-switchwire"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/32829826159.html?spm=2114.12010615.8148356.25.3bc86779CtUrBY"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-switchwire",
-       "sheet": "Voron Switchwire",
-       "row": 34,
-       "cols": [
-        "F"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832643511407.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:40:20+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block",
-     "url_key": "https://zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block",
-     "vendor": "zyltech",
-     "vendor_name": "Zyltech",
-     "labels": [
-      "Zyltech"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-switchwire"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "http://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block/"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-switchwire",
-       "sheet": "Voron Switchwire",
-       "row": 34,
-       "cols": [
-        "G"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block/",
-      "at": "2026-08-30T16:54:20+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
    "id": "motion.linear-rail-mgn12h-see-configurator-for-length",
    "name": "Linear Rail MGN12H ** See Configurator for length **",
    "name_key": "linear rail mgn12h see configurator for length",
@@ -63910,7 +62128,10 @@
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "Linear Rail MGN12H for X Axis",
+    "Linear Rail MGN12H (300mm)"
+   ],
    "category": "Motion",
    "categories": [
     "Motion"
@@ -63945,22 +62166,122 @@
      ],
      "choice_group": null,
      "flags": []
+    },
+    {
+     "project": "voron-trident",
+     "sheet": "VORON Trident",
+     "rows": [
+      34,
+      35,
+      36
+     ],
+     "qty": [
+      {
+       "size": "250x250 -> 300mm rails",
+       "qty": "1",
+       "qty_num": 1.0
+      },
+      {
+       "size": "300x300 -> 350mm rails",
+       "qty": "1",
+       "qty_num": 1.0
+      },
+      {
+       "size": "350x350 -> 400mm rails",
+       "qty": "1",
+       "qty_num": 1.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-switchwire",
+     "sheet": "Voron Switchwire",
+     "rows": [
+      34
+     ],
+     "qty": [
+      {
+       "size": "All",
+       "qty": "4",
+       "qty_num": 4.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
     }
    ],
    "sources": [
+    {
+     "url": "https://www.aliexpress.com/item/32829826159.html",
+     "url_key": "https://www.aliexpress.com/item/32829826159.html",
+     "vendor": "aliexpress",
+     "vendor_name": "AliExpress",
+     "labels": [
+      "CNA"
+     ],
+     "roles": [
+      "recommended",
+      "alternative"
+     ],
+     "projects": [
+      "voron-trident",
+      "voron-switchwire"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [
+      "https://www.aliexpress.com/item/32829826159.html?spm=2114.12010615.8148356.25.3bc86779CtUrBY"
+     ],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 34,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
+      },
+      {
+       "project": "voron-switchwire",
+       "sheet": "Voron Switchwire",
+       "row": 34,
+       "cols": [
+        "F"
+       ],
+       "slot": "Alternative Source"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "listing has a title",
+      "http": 200,
+      "final_url": "https://www.aliexpress.us/item/2251832643511407.html?gatewayAdapt=glo2usa4itemAdapt",
+      "at": "2026-08-30T15:40:20+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
     {
      "url": "https://www.robotdigg.com/product/1314/Black-anodized-linear-rail-7,-9,-12-and-15",
      "url_key": "https://robotdigg.com/product/1314/black-anodized-linear-rail-7,-9,-12-and-15",
      "vendor": "robotdigg",
      "vendor_name": "RobotDigg",
      "labels": [
-      "RobotDigg (Black Stainless Rails)"
+      "RobotDigg (Black Stainless Rails)",
+      "RobotDigg"
      ],
      "roles": [
-      "recommended"
+      "recommended",
+      "alternative"
      ],
      "projects": [
-      "voron-2.4"
+      "voron-2.4",
+      "voron-trident"
      ],
      "affiliate_urls": [],
      "raw_urls": [],
@@ -63992,6 +62313,15 @@
         "F"
        ],
        "slot": "Recommended"
+      },
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 34,
+       "cols": [
+        "H"
+       ],
+       "slot": "Alternative Source"
       }
      ],
      "link_ok": "yes",
@@ -64000,6 +62330,87 @@
       "http": 200,
       "final_url": null,
       "at": "2026-08-30T15:15:25+00:00",
+      "verified": "automated",
+      "verified_by": null
+     },
+     "affiliate_link_ok": [],
+     "link_note": null
+    },
+    {
+     "url": "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block",
+     "url_key": "https://zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block",
+     "vendor": "zyltech",
+     "vendor_name": "Zyltech",
+     "labels": [
+      "Zyltech"
+     ],
+     "roles": [
+      "alternative"
+     ],
+     "projects": [
+      "voron-2.4",
+      "voron-trident",
+      "voron-switchwire"
+     ],
+     "affiliate_urls": [],
+     "raw_urls": [
+      "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block/",
+      "http://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block/"
+     ],
+     "affiliate": false,
+     "seen": [
+      {
+       "project": "voron-2.4",
+       "sheet": "VORON 2.4",
+       "row": 44,
+       "cols": [
+        "I"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-2.4",
+       "sheet": "VORON 2.4",
+       "row": 45,
+       "cols": [
+        "I"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-2.4",
+       "sheet": "VORON 2.4",
+       "row": 46,
+       "cols": [
+        "I"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 34,
+       "cols": [
+        "I"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-switchwire",
+       "sheet": "Voron Switchwire",
+       "row": 34,
+       "cols": [
+        "G"
+       ],
+       "slot": "Alternative Source"
+      }
+     ],
+     "link_ok": "yes",
+     "link_checked": {
+      "reason": "http 200",
+      "http": 200,
+      "final_url": "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block/",
+      "at": "2026-08-30T16:54:20+00:00",
       "verified": "automated",
       "verified_by": null
      },
@@ -64067,175 +62478,6 @@
      "link_note": null
     },
     {
-     "url": "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block",
-     "url_key": "https://zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block",
-     "vendor": "zyltech",
-     "vendor_name": "Zyltech",
-     "labels": [
-      "Zyltech"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-2.4"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block/"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-2.4",
-       "sheet": "VORON 2.4",
-       "row": 44,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-2.4",
-       "sheet": "VORON 2.4",
-       "row": 45,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source"
-      },
-      {
-       "project": "voron-2.4",
-       "sheet": "VORON 2.4",
-       "row": 46,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block/",
-      "at": "2026-08-30T16:54:20+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": [
-    {
-     "text": "RobotDigg PN: GS_MGN12-1H-B300 pay attention to rail length vs build size, they are not the same",
-     "projects": [
-      "voron-2.4"
-     ]
-    },
-    {
-     "text": "RobotDigg PN: GS_MGN12-1H-B350 pay attention to rail length vs build size, they are not the same",
-     "projects": [
-      "voron-2.4"
-     ]
-    },
-    {
-     "text": "RobotDigg PN: GS_MGN12-1H-B400 pay attention to rail length vs build size, they are not the same",
-     "projects": [
-      "voron-2.4"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "motion.linear-rail-mgn12h-for-x-axis",
-   "name": "Linear Rail MGN12H for X Axis",
-   "name_key": "linear rail mgn12h for x axis",
-   "base_key": "linear rail mgn12h for x axis",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Motion",
-   "categories": [
-    "Motion"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-trident",
-     "sheet": "VORON Trident",
-     "rows": [
-      34,
-      35,
-      36
-     ],
-     "qty": [
-      {
-       "size": "250x250 -> 300mm rails",
-       "qty": "1",
-       "qty_num": 1.0
-      },
-      {
-       "size": "300x300 -> 350mm rails",
-       "qty": "1",
-       "qty_num": 1.0
-      },
-      {
-       "size": "350x350 -> 400mm rails",
-       "qty": "1",
-       "qty_num": 1.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/32829826159.html",
-     "url_key": "https://www.aliexpress.com/item/32829826159.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "CNA"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 34,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832643511407.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:40:20+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
      "url": "https://docs.ldomotors.com/en/voron/LDO_Voron_Distributors",
      "url_key": "https://docs.ldomotors.com/en/voron/ldo_voron_distributors",
      "vendor": "ldo",
@@ -64276,92 +62518,28 @@
      },
      "affiliate_link_ok": [],
      "link_note": null
-    },
-    {
-     "url": "https://www.robotdigg.com/product/1314/Black-anodized-linear-rail-7,-9,-12-and-15",
-     "url_key": "https://robotdigg.com/product/1314/black-anodized-linear-rail-7,-9,-12-and-15",
-     "vendor": "robotdigg",
-     "vendor_name": "RobotDigg",
-     "labels": [
-      "RobotDigg"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 34,
-       "cols": [
-        "H"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": null,
-      "at": "2026-08-30T15:15:25+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block",
-     "url_key": "https://zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block",
-     "vendor": "zyltech",
-     "vendor_name": "Zyltech",
-     "labels": [
-      "Zyltech"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block/"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 34,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.zyltech.com/zyltech-mgn12-h-type-linear-rail-with-single-or-double-carriage-block/",
-      "at": "2026-08-30T16:54:20+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
     }
    ],
    "unlinked_sources": [],
    "notes": [
+    {
+     "text": "RobotDigg PN: GS_MGN12-1H-B300 pay attention to rail length vs build size, they are not the same",
+     "projects": [
+      "voron-2.4"
+     ]
+    },
+    {
+     "text": "RobotDigg PN: GS_MGN12-1H-B350 pay attention to rail length vs build size, they are not the same",
+     "projects": [
+      "voron-2.4"
+     ]
+    },
+    {
+     "text": "RobotDigg PN: GS_MGN12-1H-B400 pay attention to rail length vs build size, they are not the same",
+     "projects": [
+      "voron-2.4"
+     ]
+    },
     {
      "text": "If ordering CNA, specify \"medium preload\" in order notes. RobotDigg PN: GS_MGN9-1H-B300",
      "projects": [
@@ -64378,7 +62556,10 @@
    "scope": null,
    "base_product": null,
    "machining": null,
-   "aliases": [],
+   "aliases": [
+    "Linear Rail MGN9H for Y Axis",
+    "Linear Rail MGN9H for Z Axis"
+   ],
    "category": "Motion",
    "categories": [
     "Motion"
@@ -64409,6 +62590,40 @@
        "size": "350",
        "qty": "6",
        "qty_num": 6.0
+      }
+     ],
+     "choice_group": null,
+     "flags": []
+    },
+    {
+     "project": "voron-trident",
+     "sheet": "VORON Trident",
+     "rows": [
+      37,
+      38,
+      39,
+      40
+     ],
+     "qty": [
+      {
+       "size": "250x250 -> 300mm rails",
+       "qty": "2",
+       "qty_num": 2.0
+      },
+      {
+       "size": "300x300 -> 350mm rails",
+       "qty": "2",
+       "qty_num": 2.0
+      },
+      {
+       "size": "350x350 -> 400mm rails",
+       "qty": "2",
+       "qty_num": 2.0
+      },
+      {
+       "size": "All builds -> 300mm rails",
+       "qty": "3",
+       "qty_num": 3.0
       }
      ],
      "choice_group": null,
@@ -64480,6 +62695,7 @@
      ],
      "projects": [
       "voron-2.4",
+      "voron-trident",
       "voron-1.8",
       "voron-2.2"
      ],
@@ -64515,6 +62731,15 @@
         "H"
        ],
        "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 37,
+       "cols": [
+        "F"
+       ],
+       "slot": "Recommended"
       },
       {
        "project": "voron-1.8",
@@ -64693,6 +62918,7 @@
      ],
      "projects": [
       "voron-2.4",
+      "voron-trident",
       "voron-1.8",
       "voron-2.2"
      ],
@@ -64724,6 +62950,15 @@
        "project": "voron-2.4",
        "sheet": "VORON 2.4",
        "row": 43,
+       "cols": [
+        "I"
+       ],
+       "slot": "Alternative Source"
+      },
+      {
+       "project": "voron-trident",
+       "sheet": "VORON Trident",
+       "row": 37,
        "cols": [
         "I"
        ],
@@ -64839,177 +63074,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "motion.linear-rail-mgn9h-for-y-axis",
-   "name": "Linear Rail MGN9H for Y Axis",
-   "name_key": "linear rail mgn9h for y axis",
-   "base_key": "linear rail mgn9h for y axis",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Motion",
-   "categories": [
-    "Motion"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-trident",
-     "sheet": "VORON Trident",
-     "rows": [
-      37,
-      38,
-      39
-     ],
-     "qty": [
-      {
-       "size": "250x250 -> 300mm rails",
-       "qty": "2",
-       "qty_num": 2.0
-      },
-      {
-       "size": "300x300 -> 350mm rails",
-       "qty": "2",
-       "qty_num": 2.0
-      },
-      {
-       "size": "350x350 -> 400mm rails",
-       "qty": "2",
-       "qty_num": 2.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [
-    {
-     "url": "https://www.aliexpress.com/item/32773296501.html",
-     "url_key": "https://www.aliexpress.com/item/32773296501.html",
-     "vendor": "aliexpress",
-     "vendor_name": "AliExpress",
-     "labels": [
-      "CNA"
-     ],
-     "roles": [
-      "recommended"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "https://www.aliexpress.com/item/32773296501.html?spm=2114.12010612.8148356.4.46a27cbep2UDWu"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 37,
-       "cols": [
-        "F"
-       ],
-       "slot": "Recommended"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "listing has a title",
-      "http": 200,
-      "final_url": "https://www.aliexpress.us/item/2251832586981749.html?gatewayAdapt=glo2usa4itemAdapt",
-      "at": "2026-08-30T15:40:26+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    },
-    {
-     "url": "https://www.zyltech.com/zyltech-mgn9-linear-rail-with-single-or-double-carriage-block",
-     "url_key": "https://zyltech.com/zyltech-mgn9-linear-rail-with-single-or-double-carriage-block",
-     "vendor": "zyltech",
-     "vendor_name": "Zyltech",
-     "labels": [
-      "Zyltech"
-     ],
-     "roles": [
-      "alternative"
-     ],
-     "projects": [
-      "voron-trident"
-     ],
-     "affiliate_urls": [],
-     "raw_urls": [
-      "http://www.zyltech.com/zyltech-mgn9-linear-rail-with-single-or-double-carriage-block/"
-     ],
-     "affiliate": false,
-     "seen": [
-      {
-       "project": "voron-trident",
-       "sheet": "VORON Trident",
-       "row": 37,
-       "cols": [
-        "I"
-       ],
-       "slot": "Alternative Source"
-      }
-     ],
-     "link_ok": "yes",
-     "link_checked": {
-      "reason": "http 200",
-      "http": 200,
-      "final_url": "https://www.zyltech.com/zyltech-mgn9-linear-rail-with-single-or-double-carriage-block/",
-      "at": "2026-08-30T16:54:22+00:00",
-      "verified": "automated",
-      "verified_by": null
-     },
-     "affiliate_link_ok": [],
-     "link_note": null
-    }
-   ],
-   "unlinked_sources": [],
-   "notes": []
-  },
-  {
-   "id": "motion.linear-rail-mgn9h-for-z-axis",
-   "name": "Linear Rail MGN9H for Z Axis",
-   "name_key": "linear rail mgn9h for z axis",
-   "base_key": "linear rail mgn9h for z axis",
-   "scope": null,
-   "base_product": null,
-   "machining": null,
-   "aliases": [],
-   "category": "Motion",
-   "categories": [
-    "Motion"
-   ],
-   "standard": null,
-   "standards": [],
-   "used_by": [
-    {
-     "project": "voron-trident",
-     "sheet": "VORON Trident",
-     "rows": [
-      40
-     ],
-     "qty": [
-      {
-       "size": "All builds -> 300mm rails",
-       "qty": "3",
-       "qty_num": 3.0
-      }
-     ],
-     "choice_group": null,
-     "flags": []
-    }
-   ],
-   "sources": [],
-   "unlinked_sources": [],
-   "notes": []
   },
   {
    "id": "motion.linear-rods-psfj8-320",

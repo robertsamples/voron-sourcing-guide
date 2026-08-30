@@ -58,7 +58,30 @@
     "MicroFit3 Male Pin": "MicroFit3 Male Pin (43031-0007)",
     "Makerbeam XL M3 t-nut (15 x 5.5 x 1.5mm)": "Makerbeam XL M3 t-nut",
     "50x50x15 Centrifugal Fan (24V)": "50x50x15 Centrifugal Fan",
-    "USB Cable A-male B-male (Included with SKR)": "USB Cable A-male B-male"
+    "USB Cable A-male B-male (Included with SKR)": "USB Cable A-male B-male",
+    "RaspberryPi3 B+ (dont get a 4, they have issues)": "RaspberryPi3 B+",
+    "Raspberry Pi 4 2GB": "RaspberryPi4",
+    "TMC 2209 Drivers": "TMC2209 Stepper Motor Driver",
+    "TMC2209 Stepsticks for SKR 1.3": "TMC2209 Stepper Motor Driver",
+    "AC Inlet": "IEC320 C14 inlet",
+    "IEC320 C14 Inlet - Push-fit - w/ Rocker Switch & Fuse": "IEC320 C14 inlet",
+    "NEMA17 Motor 17HS19-2004S": "NEMA17 Motor 17HS19-2004S (min 35mm shaft for double shear)",
+    "NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8": "NEMA17 Stepper Motor with integrated lead screw 200mm T8x8",
+    "Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR": "Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR or Panasonic AQA211VL (15A)",
+    "BMG Extruder Insides 5mmID": "Complete BMG Extruder Clone",
+    "BMG Extruder Insides": "Complete BMG Extruder Clone",
+    "BMG Extruder Kit (used for gears)": "Complete BMG Extruder Clone",
+    "Bondtech Drive Gear Kit 5mmID": "Complete BMG Extruder Clone",
+    "Bondtech Drive Gear Kit": "Complete BMG Extruder Clone",
+    "Bondtech Drive Gear Set": "Complete BMG Extruder Clone",
+    "M2 x 12 or 13mm Plastite Self Tapping Screw": "M2x12 Self Tapping Screw for Plastics",
+    "F695 2RS": "F695 2RS Bearing",
+    "F695 Bearing": "F695 2RS Bearing",
+    "F695 Bearing (add two for stepper double shear)": "F695 2RS Bearing",
+    "Linear Rail MGN12H (300mm)": "Linear Rail MGN12H ** See Configurator for length **",
+    "Linear Rail MGN12H for X Axis": "Linear Rail MGN12H ** See Configurator for length **",
+    "Linear Rail MGN9H for Y Axis": "Linear Rail MGN9H ** See Configurator for length **",
+    "Linear Rail MGN9H for Z Axis": "Linear Rail MGN9H ** See Configurator for length **"
   },
   "names": {
     "M3 Heat Set Insert (M3x5x4)": "M3 Heat Set Insert (M3x5x4)",
@@ -91,10 +114,7 @@
     "categories": [
       "Panels"
     ],
-    "names": [
-      "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country)",
-      "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country)"
-    ]
+    "names": []
   },
   "keep_separate": {
     "_comment": [
@@ -131,6 +151,17 @@
         "3010 axial fan 24v",
         "3010 blower fans 24V"
       ]
+    ]
+  },
+  "split_by_family": {
+    "_comment": [
+      "Machine-specific, but shared between revisions of the same machine.",
+      "A 350mm Trident bed is not a 350mm 2.4 bed, but the V0, V0.1 and V0.2",
+      "bed is one plate. Scoped per printer family rather than per tab."
+    ],
+    "names": [
+      "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country)",
+      "Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country)"
     ]
   }
 }

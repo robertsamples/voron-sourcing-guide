@@ -65,6 +65,16 @@ def misumi_part(name):
     return (base + ("-" + mach if mach else ""), base, mach or None)
 
 
+# The guide spells it "[Affiliate Link]", "[Afilliate Link]", "Affiliate Link".
+# A cell that is only this is a tag on the link beside it, not a vendor.
+AFFILIATE_LABEL_RE = re.compile(
+    r"^\W*\[?\s*af+i?l+i?ate\s+link\s*\]?\W*$", re.I)
+
+
+def is_affiliate_label(text):
+    return bool(text and AFFILIATE_LABEL_RE.match(text))
+
+
 def clean_size(v):
     """Normalise the build-size column: `250³` -> `250`, True/False -> All/None."""
     if v is None:

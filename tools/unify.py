@@ -17,7 +17,7 @@ os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from normalize import (clean_text, clean_size, name_key, canonical_url,
                        url_key, is_affiliate, vendor_of, clean_qty, unwrap,
-                       misumi_part)
+                       misumi_part, is_affiliate_label)
 
 RAW = "data/raw_extract.json"
 ALIASES = "data/aliases.json"
@@ -48,6 +48,15 @@ PROJECTS = {
     "VORON 1.6.2":          ("voron-1.6.2", "VORON 1.6.2", "printer", "legacy"),
     "VORON 2.2":            ("voron-2.2", "VORON 2.2", "printer", "legacy"),
 }
+
+# Revisions of one printer share their machine-specific parts; different
+# models do not. Used by the split_by_family rule in data/aliases.json.
+FAMILY = {
+    "voron-0": "v0", "voron-0.1": "v0", "voron-0.2": "v0",
+    "voron-1.6.2": "v1", "voron-1.8": "v1",
+    "voron-2.2": "v2", "voron-2.4": "v2",
+}
+
 
 # vendor-column header -> role
 ROLES = {
@@ -83,7 +92,7 @@ CATEGORY_MAP = {
 
 DROP_NAME_RE = re.compile(
     r"^(or|as an (amazon|aliexpress)|\W*$)", re.I)
-AFFILIATE_LABEL_RE = re.compile(r"^\W*\[?\s*affi?li?ate\s+link\s*\]?\W*$", re.I)
+
 
 
 def slug(s):
@@ -144,7 +153,7 @@ def pair_entries(entries):
     for e in sorted(entries, key=lambda e: (len(e["col"]), e["col"])):
         text = clean_text(e["text"])
         url = e["url"]
-        aff_label = bool(text and AFFILIATE_LABEL_RE.match(text))
+        aff_label = is_affiliate_label(text)
         if aff_label and out and out[-1]["slot"] == e["slot"] and out[-1]["url"]:
             if url:
                 out[-1]["affiliate_urls"].append(url)
@@ -175,9 +184,11 @@ def load_aliases():
             names[name_key(k)] = clean_text(v)
     drop = {name_key(k) for k in data.get("drop", []) if name_key(k)}
     sp = data.get("split_by_project", {})
+    sf = data.get("split_by_family", {})
     split = {
         "categories": {c.strip().lower() for c in sp.get("categories", [])},
         "names": {name_key(n) for n in sp.get("names", []) if name_key(n)},
+        "family_names": {name_key(n) for n in sf.get("names", []) if name_key(n)},
     }
     return merge, names, drop, split
 
@@ -238,7 +249,11 @@ def main():
             key = name_key(mis[0])
         base_key, scope = key, None
         cat = norm_category(r["category"])
-        if (key in split["names"]
+        if key in split["family_names"]:
+            # shared across revisions of one printer, not across models
+            scope = FAMILY.get(proj_id, proj_id)
+            key = "%s @%s" % (key, scope)
+        elif (key in split["names"]
                 or (cat and cat.lower() in split["categories"])):
             # machine-specific part: never share it between tabs
             scope = proj_id
