@@ -1,0 +1,180 @@
+{
+  "_comment": [
+    "Verdicts confirmed by hand, for links the checker cannot see for itself.",
+    "",
+    "Some shops hard-block automated browsers, so tools/check_links.py can only",
+    "ever record `maybe` for them. A person opening the page in a normal browser",
+    "can settle it in seconds. Those calls go here.",
+    "",
+    "This file always wins over data/link_status.json, and tools/unify.py marks",
+    "the source `verified: manual` so a hand-made call is never mistaken for a",
+    "measured one. Keep `by` and `at` filled in - the point is that the",
+    "provenance stays visible.",
+    "",
+    "Add an entry as:  \"<url>\": { \"status\": \"yes|no\", \"note\": \"...\", ... }"
+  ],
+  "links": {
+    "https://www.tapplastics.com/product/plastics/cut_to_size_plastic/acrylic_sheets_clear/508": {
+      "status": "yes",
+      "note": "acrylic cut-to-size page opens normally; the block only hits automated browsers",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.tapplastics.com/product/plastics/cut_to_size_plastic/polycarbonate_sheets/516": {
+      "status": "yes",
+      "note": "polycarbonate cut-to-size page opens normally; the block only hits automated browsers",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.mouser.com/ProductDetail/Crydom/ED24D3?qs=C7H2C2ytqFX%2Fs1r7lyp2Iw%3D%3D": {
+      "status": "yes",
+      "note": "Crydom ED24D3 still listed; Mouser blocks automated browsers, checked by hand",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.arrow.com/en/products/raspberrypi3b/raspberry-pi-foundation": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.arrow.com/en/products/raspberrypi4-2gb/raspberry-pi-foundation": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.arrow.com/en/products/raspberrypi4/raspberry-pi-foundation": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://cnckitchenus.store/products/heat-set-insert-m5-x-5-8-short-version-50-pieces": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://cnckitchenus.store/products/made-for-voron-gewindeeinsatz-threaded-insert-m3x5x4-100-stk-pcs": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.harborfreight.com/6-in-digital-caliper-with-sae-and-metric-fractional-readings-63731.html": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.mouser.com/ProductDetail/MEAN-WELL/LRS-150-24?qs=%2Fha2pyFadujaj%2F6cO0Hh6kYnnLsf9IOqcNQ0fcoOAnOylsolKT1NZQ%3D%3D": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.mouser.com/ProductDetail/Omron-Automation-and-Safety/TL-Q5MC2?qs=%2Fha2pyFadujGSyouhW07bDypqQHk8q5KtPum7PUL424%3D": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.mouser.com/ProductDetail/TE-Connectivity-PB/10EGG1-1?qs=vcjNRp8H9z1CsIf%2F5OknUw%3D%3D": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.mouser.com/ProductDetail/TE-Connectivity-PB/10EGG1-2?qs=vcjNRp8H9z2nhEkRL4AXYw%3D%3D": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.mouser.com/ProductDetail/ZF/WRG32F2BBRLN?qs=%2Fha2pyFadugTPgk3aI89ZNgIRYXUDJ2iew%252BR%252BPzJE%2FSagvnd6sid0w%3D%3D": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.mouser.com/productdetail/mean-well/lrs-100-24?qs=vDxCgdWo2h8VcCv3wQzZdg%3D%3D": {
+      "status": "yes",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://openbuildspartstore.com/black-angle-corner-connector": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.amazon.com/dp/B012VWH6PQ": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.amazon.com/dp/B01J3LP1HS": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.amazon.com/dp/B01M06HTVH": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.amazon.com/dp/B07RWMLKFM": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.amazon.com/dp/B07W5S3KVF": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.amazon.com/dp/B07WWJF4LG": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://www.amazon.com/dp/B08577444D": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://smile.amazon.com/BIQU-Printer-Smoothieboard-Compatible-Ramps1-4/dp/B082HCFL34": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://smile.amazon.com/Bowden-Extruder-Universal-Geared-Printer/dp/B08KP189KN": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://smile.amazon.com/Silverstone-Professional-Fine-Tuned-Performance-FW121/dp/B00NOTVCUQ": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    },
+    "https://smile.amazon.com/dp/B06XCZC89W": {
+      "status": "no",
+      "note": "checked by hand in a normal browser",
+      "by": "rsamples",
+      "at": "2026-08-30"
+    }
+  }
+}

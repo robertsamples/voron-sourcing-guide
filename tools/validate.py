@@ -98,6 +98,21 @@ def main():
     for n in list(lost)[:5]:
         fails.append("missing note %r" % n[:60])
 
+    # 4b. hand-made verdicts must point at links that exist ----------------
+    manual_path = "data/link_status_manual.json"
+    if os.path.exists(manual_path):
+        manual = json.load(open(manual_path, encoding="utf-8")).get("links", {})
+        real = set()
+        for i in m["items"]:
+            for s in i["sources"]:
+                real.add(s["url"])
+                real.update(s["affiliate_urls"])
+        orphan = [u for u in manual if u not in real]
+        print("4b. manual verdicts: %d, pointing at no link in the master: %d"
+              % (len(manual), len(orphan)))
+        for u in orphan:
+            fails.append("manual verdict for a url not in the master: %s" % u)
+
     # 4. structural --------------------------------------------------------
     ids = [i["id"] for i in m["items"]]
     if len(ids) != len(set(ids)):

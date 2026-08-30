@@ -1,0 +1,321 @@
+[
+ {
+  "url": "https://www.arrow.com/en/products/raspberrypi3b/raspberry-pi-foundation",
+  "host": "arrow.com",
+  "kind": "unresolved",
+  "reason": "http 403",
+  "items": [
+   "RaspberryPi3 B+",
+   "RaspberryPi3 B+ (dont get a 4, they have issues)"
+  ],
+  "projects": [
+   "voron-1.6.2",
+   "voron-2.2"
+  ]
+ },
+ {
+  "url": "https://www.arrow.com/en/products/raspberrypi4-2gb/raspberry-pi-foundation",
+  "host": "arrow.com",
+  "kind": "unresolved",
+  "reason": "bot check or login wall",
+  "items": [
+   "Raspberry Pi 4 2GB"
+  ],
+  "projects": [
+   "voron-1.8",
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://www.arrow.com/en/products/raspberrypi4/raspberry-pi-foundation",
+  "host": "arrow.com",
+  "kind": "unresolved",
+  "reason": "http 403",
+  "items": [
+   "RaspberryPi4"
+  ],
+  "projects": [
+   "voron-2.4"
+  ]
+ },
+ {
+  "url": "https://cnckitchenus.store/products/heat-set-insert-m5-x-5-8-short-version-50-pieces",
+  "host": "cnckitchenus.store",
+  "kind": "unresolved",
+  "reason": "skipped - bot check cannot be cleared",
+  "items": [
+   "M5 Heat Set Inserts (M5xD7xL6)"
+  ],
+  "projects": [
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://cnckitchenus.store/products/made-for-voron-gewindeeinsatz-threaded-insert-m3x5x4-100-stk-pcs",
+  "host": "cnckitchenus.store",
+  "kind": "unresolved",
+  "reason": "skipped - bot check cannot be cleared",
+  "items": [
+   "M3 Heat Set Insert (M3x5x4)"
+  ],
+  "projects": [
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://www.harborfreight.com/6-in-digital-caliper-with-sae-and-metric-fractional-readings-63731.html",
+  "host": "harborfreight.com",
+  "kind": "unresolved",
+  "reason": "skipped - bot check cannot be cleared",
+  "items": [
+   "6in Digital Calipers"
+  ],
+  "projects": [
+   "tools"
+  ]
+ },
+ {
+  "url": "https://www.mouser.com/ProductDetail/MEAN-WELL/LRS-150-24?qs=%2Fha2pyFadujaj%2F6cO0Hh6kYnnLsf9IOqcNQ0fcoOAnOylsolKT1NZQ%3D%3D",
+  "host": "mouser.com",
+  "kind": "unresolved",
+  "reason": "http 403",
+  "items": [
+   "Meanwell LRS-150-24"
+  ],
+  "projects": [
+   "voron-0.1",
+   "voron-0.2"
+  ]
+ },
+ {
+  "url": "https://www.mouser.com/ProductDetail/Omron-Automation-and-Safety/TL-Q5MC2?qs=%2Fha2pyFadujGSyouhW07bDypqQHk8q5KtPum7PUL424%3D",
+  "host": "mouser.com",
+  "kind": "unresolved",
+  "reason": "bot check or login wall",
+  "items": [
+   "Omron TL-Q5MC2 - NPN, NC, 5mm Sense"
+  ],
+  "projects": [
+   "optional-parts",
+   "voron-switchwire"
+  ]
+ },
+ {
+  "url": "https://www.mouser.com/ProductDetail/TE-Connectivity-PB/10EGG1-1?qs=vcjNRp8H9z1CsIf%2F5OknUw%3D%3D",
+  "host": "mouser.com",
+  "kind": "unresolved",
+  "reason": "bot check or login wall",
+  "items": [
+   "TycoElectronics - 10EGG1-1 (Normal) or 10EHG1-1 (Medical): Filtered Power Inlet"
+  ],
+  "projects": [
+   "voron-2.4",
+   "voron-switchwire",
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://www.mouser.com/ProductDetail/TE-Connectivity-PB/10EGG1-2?qs=vcjNRp8H9z2nhEkRL4AXYw%3D%3D",
+  "host": "mouser.com",
+  "kind": "unresolved",
+  "reason": "bot check or login wall",
+  "items": [
+   "TycoElectronics - 10EGG1-2 (Normal) or 10EHG1-2 (Medical): Filtered Power Inlet"
+  ],
+  "projects": [
+   "voron-1.8",
+   "voron-2.4",
+   "voron-switchwire",
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://www.mouser.com/ProductDetail/ZF/WRG32F2BBRLN?qs=%2Fha2pyFadugTPgk3aI89ZNgIRYXUDJ2iew%252BR%252BPzJE%2FSagvnd6sid0w%3D%3D",
+  "host": "mouser.com",
+  "kind": "unresolved",
+  "reason": "bot check or login wall",
+  "items": [
+   "ZF - Rocker Switches DPST 16A ON-OFF"
+  ],
+  "projects": [
+   "voron-1.6.2",
+   "voron-1.8",
+   "voron-2.2",
+   "voron-2.4",
+   "voron-switchwire",
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://www.mouser.com/productdetail/mean-well/lrs-100-24?qs=vDxCgdWo2h8VcCv3wQzZdg%3D%3D",
+  "host": "mouser.com",
+  "kind": "unresolved",
+  "reason": "bot check or login wall",
+  "items": [
+   "Meanwell LRS-100-24"
+  ],
+  "projects": [
+   "voron-0"
+  ]
+ },
+ {
+  "url": "https://openbuildspartstore.com/black-angle-corner-connector",
+  "host": "openbuildspartstore.com",
+  "kind": "unresolved",
+  "reason": "browser error: WebDriverException",
+  "items": [
+   "OpenBuilds Angle Corner Connector"
+  ],
+  "projects": [
+   "voron-2.2",
+   "voron-2.4"
+  ]
+ },
+ {
+  "url": "https://www.amazon.com/dp/B012VWH6PQ",
+  "host": "amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "Micro USB Power Cable"
+  ],
+  "projects": [
+   "voron-1.6.2",
+   "voron-2.2"
+  ]
+ },
+ {
+  "url": "https://www.amazon.com/dp/B01J3LP1HS",
+  "host": "amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "16AWG Silicone Cable (10ft total)"
+  ],
+  "projects": [
+   "voron-switchwire"
+  ]
+ },
+ {
+  "url": "https://www.amazon.com/dp/B01M06HTVH",
+  "host": "amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "Nylon Cable Ties 4\""
+  ],
+  "projects": [
+   "voron-1.8",
+   "voron-2.2",
+   "voron-2.4",
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://www.amazon.com/dp/B07RWMLKFM",
+  "host": "amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "Battery Backup (110V US Only) (1500VA/900w)"
+  ],
+  "projects": [
+   "optional-parts"
+  ]
+ },
+ {
+  "url": "https://www.amazon.com/dp/B07W5S3KVF",
+  "host": "amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "TMC2209 Stepper Motor Driver",
+   "TMC2209 Stepsticks for SKR 1.3"
+  ],
+  "projects": [
+   "optional-parts",
+   "voron-2.4"
+  ]
+ },
+ {
+  "url": "https://www.amazon.com/dp/B07WWJF4LG",
+  "host": "amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "4010 Axial Fan",
+   "40x40x10 Axial Fan - Ball Bearing (24V)"
+  ],
+  "projects": [
+   "afterburner",
+   "stealthburner",
+   "voron-1.8",
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://www.amazon.com/dp/B08577444D",
+  "host": "amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "60x60x20 Axial Fan (24V)"
+  ],
+  "projects": [
+   "voron-1.8",
+   "voron-2.4",
+   "voron-switchwire",
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://smile.amazon.com/BIQU-Printer-Smoothieboard-Compatible-Ramps1-4/dp/B082HCFL34",
+  "host": "smile.amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "SKR 1.4"
+  ],
+  "projects": [
+   "voron-2.4"
+  ]
+ },
+ {
+  "url": "https://smile.amazon.com/Bowden-Extruder-Universal-Geared-Printer/dp/B08KP189KN",
+  "host": "smile.amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "BMG Extruder Kit (used for gears)"
+  ],
+  "projects": [
+   "voron-1.8",
+   "voron-trident"
+  ]
+ },
+ {
+  "url": "https://smile.amazon.com/Silverstone-Professional-Fine-Tuned-Performance-FW121/dp/B00NOTVCUQ",
+  "host": "smile.amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "120x120x15 Fan (12V) (Rear can use 120x120x25 Fan)"
+  ],
+  "projects": [
+   "voron-1.6.2",
+   "voron-2.2"
+  ]
+ },
+ {
+  "url": "https://smile.amazon.com/dp/B06XCZC89W",
+  "host": "smile.amazon.com",
+  "kind": "unavailable",
+  "reason": "product page - currently unavailable",
+  "items": [
+   "Ferrule Crimping Tool"
+  ],
+  "projects": [
+   "tools"
+  ]
+ }
+]

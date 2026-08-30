@@ -21,6 +21,8 @@ from normalize import (clean_text, clean_size, name_key, canonical_url,
 
 RAW = "data/raw_extract.json"
 ALIASES = "data/aliases.json"
+LINK_STATUS = "data/link_status.json"
+LINK_MANUAL = "data/link_status_manual.json"
 OUT_JSON = "data/voron_sourcing_master.json"
 OUT_ITEMS_CSV = "data/master_items.csv"
 OUT_LINKS_CSV = "data/master_links.csv"
@@ -180,9 +182,33 @@ def load_aliases():
     return merge, names, drop, split
 
 
+def load_link_status():
+    """Verdicts from tools/check_links.py, plus any hand-made ones.
+
+    A manual verdict always wins - it exists precisely for links the checker
+    cannot see - but it is tagged so it is never confused with a measured one.
+    """
+    status = {}
+    if os.path.exists(LINK_STATUS):
+        with open(LINK_STATUS, encoding="utf-8") as fh:
+            status = json.load(fh).get("links", {})
+    if os.path.exists(LINK_MANUAL):
+        with open(LINK_MANUAL, encoding="utf-8") as fh:
+            for url, entry in json.load(fh).get("links", {}).items():
+                status[url] = {
+                    "status": entry.get("status", "maybe"),
+                    "reason": entry.get("note", "checked by hand"),
+                    "http": None, "final_url": None,
+                    "checked_at": entry.get("at"),
+                    "verified": "manual", "verified_by": entry.get("by"),
+                }
+    return status
+
+
 def main():
     with open(RAW, encoding="utf-8") as fh:
         raw = json.load(fh)
+    link_status = load_link_status()
     rows = raw["rows"]
     aliases, pref_names, dropped, split = load_aliases()
     groups = choice_groups(rows)
@@ -334,6 +360,42 @@ def main():
         used_ids.add(iid)
 
         srcs = list(it["sources"].values())
+        for src in srcs:
+            st = link_status.get(src["url"])
+            src["link_ok"] = st["status"] if st else "unchecked"
+            src["link_checked"] = {
+                "reason": st["reason"], "http": st.get("http"),
+                "final_url": st.get("final_url"), "at": st.get("checked_at"),
+                "verified": st.get("verified", "automated"),
+                "verified_by": st.get("verified_by"),
+            } if st else None
+            aff = [link_status.get(a) for a in src["affiliate_urls"]]
+            src["affiliate_link_ok"] = [
+                (a["status"] if a else "unchecked") for a in aff]
+
+            # An affiliate code and the product it points at rot separately.
+            # Saying which one died decides the fix: regenerate a code, or
+            # re-source the part.
+            reason = (src["link_checked"] or {}).get("reason", "")
+            short = ("s.click.aliexpress" in src["url"]
+                     or "a.aliexpress" in src["url"])
+            dead_aff = any(x == "no" for x in src["affiliate_link_ok"])
+            note = None
+            if "obsolete" in reason:
+                note = ("distributor still lists the page but the part is "
+                        "obsolete or discontinued")
+            elif "currently unavailable" in reason:
+                note = ("listing is still up but has no buy button - "
+                        "currently unavailable")
+            elif dead_aff and not short and src["link_ok"] == "yes":
+                note = ("affiliate code is dead but the product link still "
+                        "works - drop or regenerate the code")
+            elif dead_aff and not short and src["link_ok"] == "no":
+                note = "affiliate code and product link are both dead"
+            elif short and src["link_ok"] == "no":
+                note = ("the only link is a dead affiliate code, so the "
+                        "product it pointed at cannot be recovered")
+            src["link_note"] = note
         srcs.sort(key=lambda s: (ROLE_ORDER.index(min(s["roles"],
                                 key=lambda r: ROLE_ORDER.index(r))),
                                  -len(s["projects"]), s["vendor_name"] or ""))
@@ -395,12 +457,15 @@ def main():
     with open(OUT_LINKS_CSV, "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.writer(fh)
         w.writerow(["item_id", "item_name", "category", "roles", "vendor",
-                    "label", "url", "affiliate", "affiliate_urls", "projects"])
+                    "label", "url", "link_ok", "link_reason", "affiliate",
+                    "affiliate_urls", "projects"])
         for i in out_items:
             for s in i["sources"]:
                 w.writerow([i["id"], i["name"], i["category"],
                             "/".join(s["roles"]), s["vendor_name"],
                             " | ".join(s["labels"]), s["url"],
+                            s["link_ok"],
+                            (s["link_checked"] or {}).get("reason", ""),
                             "yes" if s["affiliate"] else "",
                             " ".join(s["affiliate_urls"]),
                             " ".join(s["projects"])])
