@@ -26,7 +26,7 @@ from collections import Counter, defaultdict
 
 from unify import (PROJECTS, RAW, is_drop_row, load_aliases, norm_category,
                    pair_entries, role_of)
-from normalize import canonical_url, clean_text, name_key, url_key
+from normalize import clean_text, misumi_part, name_key, url_key
 
 OUT_CSV = "data/workload_by_component.csv"
 
@@ -48,6 +48,9 @@ def main():
         if not key or key in dropped:
             continue
         key = aliases.get(key, key)
+        mis = misumi_part(name)
+        if mis:
+            key = name_key(mis[0])
         rows_seen += 1
         proj = PROJECTS[r["sheet"]][0]
         cat = norm_category(r["category"])

@@ -16,7 +16,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from normalize import (clean_text, clean_size, name_key, canonical_url,
-                       url_key, is_affiliate, vendor_of, clean_qty, unwrap)
+                       url_key, is_affiliate, vendor_of, clean_qty, unwrap,
+                       misumi_part)
 
 RAW = "data/raw_extract.json"
 ALIASES = "data/aliases.json"
@@ -201,6 +202,14 @@ def main():
         if not key or key in dropped:
             continue
         key = aliases.get(key, key)
+        # An extrusion is identified by its Misumi part number, however the tab
+        # chose to write the row ("HFSB5-2020-340" vs "Misumi 2020 x 340mm -
+        # HFSB5-2020-340"). Machining codes stay part of the key -- a drilled
+        # length is a separate line item with its own quantity -- but the base
+        # product they share is recorded so they group for sourcing.
+        mis = misumi_part(comp)
+        if mis:
+            key = name_key(mis[0])
         base_key, scope = key, None
         cat = norm_category(r["category"])
         if (key in split["names"]
@@ -215,6 +224,8 @@ def main():
                 "key": key,
                 "base_key": base_key,
                 "scope": scope,
+                "base_product": mis[1] if mis else None,
+                "machining": mis[2] if mis else None,
                 "names": Counter(),
                 "categories": Counter(),
                 "standards": Counter(),
@@ -332,6 +343,8 @@ def main():
             ("name_key", key),
             ("base_key", it["base_key"]),
             ("scope", it["scope"]),
+            ("base_product", it["base_product"]),
+            ("machining", it["machining"]),
             ("aliases", [n for n, _ in it["names"].most_common() if n != name]),
             ("category", cat),
             ("categories", [c for c, _ in it["categories"].most_common()]),

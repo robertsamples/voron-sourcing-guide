@@ -138,6 +138,8 @@ hardware.m3x35-bhcs,M3x35 BHCS,Hardware,recommended,2,1,voron-0.1 voron-0.2,curr
 hardware.m3x35-bhcs,M3x35 BHCS,Hardware,recommended,2,2,voron-0,legacy,AliExpress,https://www.aliexpress.com/item/32932033872.html
 hardware.m3x40-bhcs,M3x40 BHCS,Hardware,recommended,2,1,voron-0.1 voron-0.2,current legacy,AliExpress | Bolt Depot,https://www.aliexpress.com/item/32932033872.html | https://www.boltdepot.com/Product-Details.aspx?product=15294
 hardware.m3x40-bhcs,M3x40 BHCS,Hardware,recommended,2,2,voron-0,legacy,AliExpress,https://www.aliexpress.com/item/32932033872.html
+hardware.makerbeam-xl-m3-t-nut,Makerbeam XL M3 t-nut,Hardware,recommended,2,1,voron-0.1 voron-0.2,current legacy,Amazon,https://amzn.to/2UKJlnQ
+hardware.makerbeam-xl-m3-t-nut,Makerbeam XL M3 t-nut,Hardware,recommended,2,2,voron-0,legacy,Amazon,https://amzn.to/2YdtWOV
 hardware.thumb-screw-assembly,Thumb Screw Assembly,Hardware,alternative,2,1,voron-0 voron-0.1 voron-0.2,current legacy,AliExpress | Bondtech | Filastruder,https://s.click.aliexpress.com/e/_dUxr46o | https://www.bondtech.se/en/product/thumbscrew-assembly | https://www.filastruder.com/collections/bondtech/products/bondtech-thumbscrew-assembly
 hardware.thumb-screw-assembly,Thumb Screw Assembly,Hardware,alternative,2,2,afterburner voron-m4,legacy,AliExpress | Bondtech | Filastruder,https://www.aliexpress.com/item/32947691813.html | https://www.bondtech.se/en/product/thumbscrew-assembly | https://www.filastruder.com/collections/bondtech/products/bondtech-thumbscrew-assembly
 misc.6mm-x-3mm-round-neodymium-magnets,6mm x 3mm Round Neodymium Magnets,Misc,recommended,4,1,voron-2.4 voron-trident,current,AliExpress,https://www.aliexpress.com/item/1005001418808468.html

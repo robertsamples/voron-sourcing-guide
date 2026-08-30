@@ -97,22 +97,18 @@ cables.jst-xh-female-pin,JST-XH Female Pin,Cables,alternative,Amazon,Amazon,http
 cables.jst-xh-female-pin,JST-XH Female Pin,Cables,alternative,AliExpress,[Affiliate Link],https://s.click.aliexpress.com/e/_dZtuHpY,yes,,voron-switchwire
 cables.jst-xh-female-pin,JST-XH Female Pin,Cables,alternative,Amazon,Amazon,https://www.amazon.com/dp/B01G0I0ZZK,,https://amzn.to/2l5ZXY8,voron-1.8
 cables.microfit-connector-plug-2-position-43640-0201,MicroFit Connector Plug 2 Position (43640-0201),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
-cables.microfit-connector-plug-3-position-43640-0301,MicroFit Connector Plug 3 Position (43640-0301),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
+cables.microfit-connector-plug-3-position-43640-0301,MicroFit Connector Plug 3 Position (43640-0301),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident stealthburner voron-1.8 voron-2.2
 cables.microfit-connector-plug-4-position-43640-0401,MicroFit Connector Plug 4 Position (43640-0401),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
 cables.microfit-connector-plug-8-position-43025-0800,MicroFit Connector Plug 8 Position (43025-0800),Cables,recommended,arrow.com,Arrow,https://www.arrow.com/en/products/43025-0800/molex,,,optional-parts
 cables.microfit-connector-receptacle-2-position-43645-0200,MicroFit Connector Receptacle 2 Position (43645-0200),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
-cables.microfit-connector-receptacle-3-position-43645-0300,MicroFit Connector Receptacle 3 Position (43645-0300),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
+cables.microfit-connector-receptacle-3-position-43645-0300,MicroFit Connector Receptacle 3 Position (43645-0300),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident stealthburner voron-1.8 voron-2.2
 cables.microfit-connector-receptacle-4-position-43645-0400,MicroFit Connector Receptacle 4 Position (43645-0400),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
 cables.microfit-connector-receptacle-8-position-43020-0801,MicroFit Connector Receptacle 8 Position (43020-0801),Cables,recommended,arrow.com,Arrow,https://www.arrow.com/en/products/43020-0801/molex,,,optional-parts
-cables.microfit3-connector-plug-3-position,MicroFit3 Connector Plug 3 Position,Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,stealthburner
-cables.microfit3-connector-receptical-3-position,MicroFit3 Connector Receptical 3 Position,Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,stealthburner
 cables.microfit3-dual-row-10circuits-male-female-plug,Microfit3 Dual Row (10circuits) Male & Female Plug,Cables,alternative,arrow.com,Arrow,https://www.arrow.com/en/products/76650-0159/molex,,,voron-0
-cables.microfit3-female-pin,MicroFit3 Female Pin,Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,stealthburner
-cables.microfit3-female-pin-43030-0007,MicroFit3 Female Pin (43030-0007),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
+cables.microfit3-female-pin-43030-0007,MicroFit3 Female Pin (43030-0007),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident stealthburner voron-1.8 voron-2.2
 cables.microfit3-male-female-plugs,Microfit3 Male & Female Plugs,Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/en/products/detail/molex/0766500159/2116044,,,voron-0.2 voron-0.1
 cables.microfit3-male-female-plugs,Microfit3 Male & Female Plugs,Cables,alternative,arrow.com,Arrow,https://www.arrow.com/en/products/76650-0159/molex,,,voron-0.2 voron-0.1
-cables.microfit3-male-pin,MicroFit3 Male Pin,Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,stealthburner
-cables.microfit3-male-pin-43031-0007,MicroFit3 Male Pin (43031-0007),Cables,recommended/alternative,Digi-Key,Digikey | DigiKey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-2.2
+cables.microfit3-male-pin-43031-0007,MicroFit3 Male Pin (43031-0007),Cables,recommended/alternative,Digi-Key,Digikey | DigiKey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-switchwire stealthburner voron-1.8 voron-2.2
 cables.mlx-female-pin-02-08-1002,MLX Female Pin (02-08-1002),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
 cables.mlx-male-pin-02-08-2004,MLX Male Pin (02-08-2004),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
 cables.mlx-power-plug-3-position-50-84-1030,MLX Power Plug 3 Position (50-84-1030),Cables,recommended,Digi-Key,Digikey,https://www.digikey.com/products/en,,,voron-2.4 voron-trident voron-1.8 voron-2.2
@@ -576,9 +572,8 @@ hardware.m5x25-bhcs,M5x25 BHCS,Hardware,alternative,McMaster-Carr,McMaster-Carr 
 hardware.m5x35mm-bhcs,M5x35mm BHCS,Hardware,recommended,Bolt Depot,Bolt Depot,https://www.boltdepot.com/Metric_socket_button_head_Class_12.9_alloy_steel_black_oxide_finish_5mm_x_0.8mm.aspx,,,voron-0
 hardware.m5x35mm-bhcs,M5x35mm BHCS,Hardware,budget,AliExpress,Aliexpress,https://s.click.aliexpress.com/e/_d9EGBZ4,yes,,voron-0
 hardware.makerbeam-xl-m3-t-nut,Makerbeam XL M3 t-nut,Hardware,recommended,Amazon,Amazon,https://amzn.to/2UKJlnQ,yes,,voron-0.2 voron-0.1
-hardware.makerbeam-xl-m3-t-nut,Makerbeam XL M3 t-nut,Hardware,alternative,AliExpress,Aliexpress,https://s.click.aliexpress.com/e/_dWBgQGQ,yes,,voron-0.2 voron-0.1
-hardware.makerbeam-xl-m3-t-nut-15-x-5-5-x-1-5mm,Makerbeam XL M3 t-nut (15 x 5.5 x 1.5mm),Hardware,recommended,Amazon,Amazon [Affiliate Link],https://amzn.to/2YdtWOV,yes,,voron-0
-hardware.makerbeam-xl-m3-t-nut-15-x-5-5-x-1-5mm,Makerbeam XL M3 t-nut (15 x 5.5 x 1.5mm),Hardware,budget,AliExpress,Aliexpress,https://s.click.aliexpress.com/e/_dWBgQGQ,yes,,voron-0
+hardware.makerbeam-xl-m3-t-nut,Makerbeam XL M3 t-nut,Hardware,recommended,Amazon,Amazon [Affiliate Link],https://amzn.to/2YdtWOV,yes,,voron-0
+hardware.makerbeam-xl-m3-t-nut,Makerbeam XL M3 t-nut,Hardware,alternative/budget,AliExpress,Aliexpress,https://s.click.aliexpress.com/e/_dWBgQGQ,yes,,voron-0.2 voron-0 voron-0.1
 hardware.shim-washer-6mm-od-3mm-id-0-5mm-thick-thickness-is-important,Shim Washer - 6mm OD - 3mm ID - 0.5mm Thick (thickness is important),Hardware,recommended,AliExpress,Aliexpress,https://s.click.aliexpress.com/e/_dUjNx0o,yes,,voron-0.2 voron-0.1
 hardware.shim-washer-6mm-od-3mm-id-0-5mm-thick-thickness-is-important,Shim Washer - 6mm OD - 3mm ID - 0.5mm Thick (thickness is important),Hardware,alternative,AliExpress,Aliexpress,https://s.click.aliexpress.com/e/_Bf9nOYLc,yes,,voron-0.2 voron-0.1
 hardware.thumb-screw-assembly,Thumb Screw Assembly,Hardware,recommended/alternative/non_affiliate,Bondtech,Bondtech,https://www.bondtech.se/en/product/thumbscrew-assembly,,,voron-0.2 afterburner voron-m4 voron-0 voron-0.1

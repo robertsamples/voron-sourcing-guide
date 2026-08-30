@@ -4,15 +4,15 @@
 | --- | ---: |
 | tabs read | 17 |
 | spreadsheet rows read | 1103 |
-| distinct components | 493 |
-| components used by more than one tab | 195 |
+| distinct components | 485 |
+| components used by more than one tab | 197 |
 | distinct product links | 606 |
-| component x link entries | 816 |
-| links that are affiliate links | 142 |
-| components whose tabs disagree on the link | 53 |
+| component x link entries | 811 |
+| links that are affiliate links | 141 |
+| components whose tabs disagree on the link | 54 |
 | ... counting only the currently-shipping tabs | 22 |
-| shortened links that cannot be compared without resolving | 142 |
-| near-duplicate name pairs still awaiting a human call | 1 |
+| shortened links that cannot be compared without resolving | 141 |
+| near-duplicate name pairs still awaiting a human call | 0 |
 
 ## Components per tab
 
@@ -40,9 +40,9 @@
 
 | vendor | links |
 | --- | ---: |
-| AliExpress | 361 |
-| Digi-Key | 82 |
+| AliExpress | 360 |
 | Amazon | 81 |
+| Digi-Key | 78 |
 | Bolt Depot | 46 |
 | McMaster-Carr | 44 |
 | Misumi | 33 |

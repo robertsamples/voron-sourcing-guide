@@ -51,7 +51,14 @@
     "40x40x20 Radial Fan (Blower)": "40x40x20 Centrifugal Blower Fan - Ball Bearing (24V)",
     "40x40x10 Axial Fan (24V)": "40x40x10 Axial Fan - Ball Bearing (24V)",
     "40x40x10 Axial Fan- Ball Bearing (24V)": "40x40x10 Axial Fan - Ball Bearing (24V)",
-    "40x40x10 Axial Fan": "40x40x10 Axial Fan - Ball Bearing (24V)"
+    "40x40x10 Axial Fan": "40x40x10 Axial Fan - Ball Bearing (24V)",
+    "MicroFit3 Connector Plug 3 Position": "MicroFit Connector Plug 3 Position (43640-0301)",
+    "MicroFit3 Connector Receptical 3 Position": "MicroFit Connector Receptacle 3 Position (43645-0300)",
+    "MicroFit3 Female Pin": "MicroFit3 Female Pin (43030-0007)",
+    "MicroFit3 Male Pin": "MicroFit3 Male Pin (43031-0007)",
+    "Makerbeam XL M3 t-nut (15 x 5.5 x 1.5mm)": "Makerbeam XL M3 t-nut",
+    "50x50x15 Centrifugal Fan (24V)": "50x50x15 Centrifugal Fan",
+    "USB Cable A-male B-male (Included with SKR)": "USB Cable A-male B-male"
   },
   "names": {
     "M3 Heat Set Insert (M3x5x4)": "M3 Heat Set Insert (M3x5x4)",
@@ -119,6 +126,10 @@
       [
         "Micro USB Power Cable",
         "USB C Power Cable"
+      ],
+      [
+        "3010 axial fan 24v",
+        "3010 blower fans 24V"
       ]
     ]
   }

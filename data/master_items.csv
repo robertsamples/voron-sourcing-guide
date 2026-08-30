@@ -64,21 +64,17 @@ cables.jst-xh-connector-plug-3-position,Cables,JST-XH Connector Plug 3 Position,
 cables.jst-xh-connector-plug-4-position,Cables,JST-XH Connector Plug 4 Position,,,,4,1,voron-2.4 voron-trident voron-switchwire voron-1.8,4,5,,4,,,,,,,,,,,5,,
 cables.jst-xh-female-pin,Cables,JST-XH Female Pin,,,,4,5,voron-2.4 voron-trident voron-switchwire voron-1.8,40,40,,40,,,,,,,,,,,40,,
 cables.microfit-connector-plug-2-position-43640-0201,Cables,MicroFit Connector Plug 2 Position (43640-0201),,,,5,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-2.2,6,,,6,,,,,,,,,,,,,6
-cables.microfit-connector-plug-3-position-43640-0301,Cables,MicroFit Connector Plug 3 Position (43640-0301),,,,5,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-2.2,1,,,1,,,,,,,,,,,,,1
+cables.microfit-connector-plug-3-position-43640-0301,Cables,MicroFit Connector Plug 3 Position (43640-0301),,,MicroFit3 Connector Plug 3 Position,6,1,voron-2.4 voron-trident voron-switchwire stealthburner voron-1.8 voron-2.2,1,,,1,,1,,,,,,,,,,,1
 cables.microfit-connector-plug-4-position-43640-0401,Cables,MicroFit Connector Plug 4 Position (43640-0401),,,,5,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-2.2,4,,,4,,,,,,,,,,,,,4
 cables.microfit-connector-plug-8-position-43025-0800,Cables,MicroFit Connector Plug 8 Position (43025-0800),,,,1,1,optional-parts,,,,,,,optional,,,,,,,,,,
 cables.microfit-connector-receptacle-2-position-43645-0200,Cables,MicroFit Connector Receptacle 2 Position (43645-0200),,,,5,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-2.2,6,,,6,,,,,,,,,,,,,6
-cables.microfit-connector-receptacle-3-position-43645-0300,Cables,MicroFit Connector Receptacle 3 Position (43645-0300),,,,5,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-2.2,1,,,1,,,,,,,,,,,,,1
+cables.microfit-connector-receptacle-3-position-43645-0300,Cables,MicroFit Connector Receptacle 3 Position (43645-0300),,,MicroFit3 Connector Receptical 3 Position,6,1,voron-2.4 voron-trident voron-switchwire stealthburner voron-1.8 voron-2.2,1,,,1,,1,,,,,,,,,,,1
 cables.microfit-connector-receptacle-4-position-43645-0400,Cables,MicroFit Connector Receptacle 4 Position (43645-0400),,,,5,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-2.2,4,,,4,,,,,,,,,,,,,4
 cables.microfit-connector-receptacle-8-position-43020-0801,Cables,MicroFit Connector Receptacle 8 Position (43020-0801),,,,1,1,optional-parts,,,,,,,optional,,,,,,,,,,
-cables.microfit3-connector-plug-3-position,Cables,MicroFit3 Connector Plug 3 Position,,,,1,1,stealthburner,,,,,,1,,,,,,,,,,,
-cables.microfit3-connector-receptical-3-position,Cables,MicroFit3 Connector Receptical 3 Position,,,,1,1,stealthburner,,,,,,1,,,,,,,,,,,
 cables.microfit3-dual-row-10circuits-male-female-plug,Cables,Microfit3 Dual Row (10circuits) Male & Female Plug,,,,1,1,voron-0,,,,,,,,,,,,,1,,,,
-cables.microfit3-female-pin,Cables,MicroFit3 Female Pin,,,,1,1,stealthburner,,,,,,3,,,,,,,,,,,
-cables.microfit3-female-pin-43030-0007,Cables,MicroFit3 Female Pin (43030-0007),,,,5,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-2.2,40,,,40,,,,,,,,,,,,,40
+cables.microfit3-female-pin-43030-0007,Cables,MicroFit3 Female Pin (43030-0007),,,MicroFit3 Female Pin,6,1,voron-2.4 voron-trident voron-switchwire stealthburner voron-1.8 voron-2.2,40,,,40,,3,,,,,,,,,,,40
 cables.microfit3-male-female-plugs,Cables,Microfit3 Male & Female Plugs,,,,2,2,voron-0.2 voron-0.1,,,1,,,,,,,,,,,1,,,
-cables.microfit3-male-pin,Cables,MicroFit3 Male Pin,,,,1,1,stealthburner,,,,,,3,,,,,,,,,,,
-cables.microfit3-male-pin-43031-0007,Cables,MicroFit3 Male Pin (43031-0007),,,,5,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-2.2,40,,,40,,,,,,,,,,,,,40
+cables.microfit3-male-pin-43031-0007,Cables,MicroFit3 Male Pin (43031-0007),,,MicroFit3 Male Pin,6,1,voron-2.4 voron-trident voron-switchwire stealthburner voron-1.8 voron-2.2,40,,,40,,3,,,,,,,,,,,40
 cables.mlx-female-pin-02-08-1002,Cables,MLX Female Pin (02-08-1002),,,,4,1,voron-2.4 voron-trident voron-1.8 voron-2.2,6,3,,,,,,,,,,,,,3,,6
 cables.mlx-male-pin-02-08-2004,Cables,MLX Male Pin (02-08-2004),,,,4,1,voron-2.4 voron-trident voron-1.8 voron-2.2,6,3,,,,,,,,,,,,,3,,6
 cables.mlx-power-plug-3-position-50-84-1030,Cables,MLX Power Plug 3 Position (50-84-1030),,,,4,1,voron-2.4 voron-trident voron-1.8 voron-2.2,1,1,,,,,,,,,,,,,1,,1
@@ -124,8 +120,7 @@ controller.tmc-2209-drivers,Controller,TMC 2209 Drivers,,,,2,1,voron-trident vor
 controller.tmc2209-stepper-motor-driver,Controller,TMC2209 Stepper Motor Driver,,,,1,2,voron-2.4,7,,,,,,,,,,,,,,,,
 controller.tmc2209-stepsticks-for-skr-1-3,Controller,TMC2209 Stepsticks for SKR 1.3,,,,1,2,optional-parts,,,,,,,7,,,,,,,,,,
 controller.usb-c-power-cable,Controller,USB C Power Cable,,,,2,1,voron-2.4 voron-switchwire,1,,,1,,,,,,,,,,,,,
-controller.usb-cable-a-male-b-male,Controller,USB Cable A-male B-male,,,,2,0,voron-1.6.2 voron-2.2,,,,,,,,,,,,,,,,2,2
-controller.usb-cable-a-male-b-male-included-with-skr,Controller,USB Cable A-male B-male (Included with SKR),,,,1,0,voron-2.4,2,,,,,,,,,,,,,,,,
+controller.usb-cable-a-male-b-male,Controller,USB Cable A-male B-male,,,USB Cable A-male B-male (Included with SKR),3,0,voron-2.4 voron-1.6.2 voron-2.2,2,,,,,,,,,,,,,,,2,2
 electronics.120x120x15-fan-12v-rear-can-use-120x120x25-fan,Electronics,120x120x15 Fan (12V) (Rear can use 120x120x25 Fan),,,,2,1,voron-1.6.2 voron-2.2,,,,,,,,,,,,,,,,1,2
 electronics.24v-heater-cartridge-slim-wires,Electronics,24V Heater Cartridge (slim wires),,,,3,1,voron-0.2 voron-0 voron-0.1,,,1,,,,,,,,,,1,1,,,
 electronics.3007-axial-fan-5v-min-3-5cfm,Electronics,3007 axial fan 5V (min 3.5CFM),,,,1,2,voron-0.1,,,,,,,,,,,,,,1,,,
@@ -139,8 +134,7 @@ electronics.40x40x10-centrifugal-blower-fan-12v,Electronics,40x40x10 Centrifugal
 electronics.40x40x20-axial-fan-12v,Electronics,40x40x20 Axial Fan (12V),,,,2,3,voron-1.6.2 voron-2.2,,,,,,,,,,,,,,,,1,1
 electronics.40x40x20-centrifugal-blower-fan-ball-bearing-24v,Electronics,40x40x20 Centrifugal Blower Fan - Ball Bearing (24V),,,40x40x20 Radial Fan (Blower) | 40x40x20 Centrifugal Blower Fan (24V),4,5,voron-2.4 voron-switchwire afterburner voron-1.8,1,,,1,,,,,1,,,,,,1,,
 electronics.50w-heater-cartridge,Electronics,50w Heater Cartridge,,,,1,2,optional-parts,,,,,,,Spare,,,,,,,,,,
-electronics.50x50x15-centrifugal-fan,Electronics,50x50x15 Centrifugal Fan,,,,1,0,stealthburner,,,,,,1,,,,,,,,,,,
-electronics.50x50x15-centrifugal-fan-24v,Electronics,50x50x15 Centrifugal Fan (24V),,,,1,0,voron-trident,,1,,,,,,,,,,,,,,,
+electronics.50x50x15-centrifugal-fan-24v,Electronics,50x50x15 Centrifugal Fan (24V),,,50x50x15 Centrifugal Fan,2,0,voron-trident stealthburner,,1,,,,1,,,,,,,,,,,
 electronics.60x60x20-axial-fan-24v,Electronics,60x60x20 Axial Fan (24V),,,,4,3,voron-2.4 voron-trident voron-switchwire voron-1.8,3,2,,1,,,,,,,,,,,3,,
 electronics.ac-inlet,Electronics,AC Inlet,,,,1,1,voron-0.1,,,,,,,,,,,,,,1,,,
 electronics.bat85-diode,Electronics,BAT85 Diode,,,,6,1,voron-2.4 voron-trident voron-switchwire voron-1.8 voron-1.6.2 voron-2.2,1,1,,1,,,,,,,,,,,1,1,1
@@ -277,7 +271,7 @@ frame.hfsb5-2020-290,Frame,HFSB5-2020-290,,D,,2,1,voron-trident voron-1.8,,1@300
 frame.hfsb5-2020-330,Frame,HFSB5-2020-330,,E,,2,2,voron-trident voron-1.8,,1@250x250x250,,,,,,,,,,,,,1@250x250x230,,
 frame.hfsb5-2020-330-ltp,Frame,HFSB5-2020-330-LTP,,H,,1,1,voron-trident,,1@250x250x250; 1@300x300x250; 1@350x350x250,,,,,,,,,,,,,,,
 frame.hfsb5-2020-332-ltp,Frame,HFSB5-2020-332-LTP,,G,,1,1,voron-trident,,1@350x350x250,,,,,,,,,,,,,,,
-frame.hfsb5-2020-340,Frame,HFSB5-2020-340,,D,,1,1,voron-trident,,1@350x350x250,,,,,,,,,,,,,,,
+frame.hfsb5-2020-340,Frame,HFSB5-2020-340,,D,Misumi 2020 x 340mm - HFSB5-2020-340,2,1,voron-trident voron-switchwire,,1@350x350x250,,1,,,,,,,,,,,,,
 frame.hfsb5-2020-370,Frame,HFSB5-2020-370,,,,1,1,voron-1.8,,,,,,,,,,,,,,,1@250x250x230,,
 frame.hfsb5-2020-370-ah185,Frame,HFSB5-2020-370-AH185,,F,,1,1,voron-trident,,1@250x250x250,,,,,,,,,,,,,,,
 frame.hfsb5-2020-370-ah185-tpw,Frame,HFSB5-2020-370-AH185-TPW,,C,,1,1,voron-trident,,1@250x250x250,,,,,,,,,,,,,,,
@@ -298,7 +292,6 @@ frame.hfsb5-2020-500-ltp-rcp-av380-ap40,Frame,HFSB5-2020-500-LTP-RCP-AV380-AP40,
 frame.makerbeam-xl-15x15-100mm,Frame,Makerbeam XL 15x15 100mm,,,,3,0,voron-0.2 voron-0 voron-0.1,,,3,,,,,,,,,,3,3,,,
 frame.makerbeam-xl-15x15-200mm,Frame,Makerbeam XL 15x15 200mm,,,,3,4,voron-0.2 voron-0 voron-0.1,,,16; 4,,,,,,,,,,16,16,,,
 frame.makerbeam-xl-15x15-80-100mm,Frame,Makerbeam XL 15x15 80-100mm,,,,1,0,voron-0.2,,,4,,,,,,,,,,,,,,
-frame.misumi-2020-x-340mm-hfsb5-2020-340,Frame,Misumi 2020 x 340mm - HFSB5-2020-340,,,,1,0,voron-switchwire,,,,1,,,,,,,,,,,,,
 frame.misumi-2020-x-340mm-hfsb5-2020-340-ah15-bh325,Frame,Misumi 2020 x 340mm - HFSB5-2020-340-AH15-BH325,,,,1,0,voron-switchwire,,,,1,,,,,,,,,,,,,
 frame.misumi-3030-x-300mm-hfsb6-3030-300-tpw,Frame,Misumi 3030 x 300mm - HFSB6-3030-300-TPW,,,,1,0,voron-switchwire,,,,2,,,,,,,,,,,,,
 frame.misumi-3030-x-360mm-hfsb6-3030-360-lch-rch,Frame,Misumi 3030 x 360mm - HFSB6-3030-360-LCH-RCH,,,,1,0,voron-switchwire,,,,1,,,,,,,,,,,,,
@@ -340,8 +333,7 @@ hardware.m3x8-bhcs,Hardware,M3x8 BHCS,,ISO 7380-1,,3,2,voron-0.2 voron-0 voron-0
 hardware.m3x8-fhcs,Hardware,M3x8 FHCS,,ISO 10642,,2,0,voron-0.2 voron-0.1,,,5,,,,,,,,,,,5,,,
 hardware.m5x25-bhcs,Hardware,M5x25 BHCS,,,,1,2,jetpack,,,,,,,,,,,,2,,,,,
 hardware.m5x35mm-bhcs,Hardware,M5x35mm BHCS,,ISO 7380-1,,1,2,voron-0,,,,,,,,,,,,,2,,,,
-hardware.makerbeam-xl-m3-t-nut,Hardware,Makerbeam XL M3 t-nut,,,,2,2,voron-0.2 voron-0.1,,,2,,,,,,,,,,,2,,,
-hardware.makerbeam-xl-m3-t-nut-15-x-5-5-x-1-5mm,Hardware,Makerbeam XL M3 t-nut (15 x 5.5 x 1.5mm),,,,1,2,voron-0,,,,,,,,,,,,,2,,,,
+hardware.makerbeam-xl-m3-t-nut,Hardware,Makerbeam XL M3 t-nut,,,Makerbeam XL M3 t-nut (15 x 5.5 x 1.5mm),3,3,voron-0.2 voron-0 voron-0.1,,,2,,,,,,,,,,2,2,,,
 hardware.shim-washer-6mm-od-3mm-id-0-5mm-thick-thickness-is-important,Hardware,Shim Washer - 6mm OD - 3mm ID - 0.5mm Thick (thickness is important),,DIN988,,2,2,voron-0.2 voron-0.1,,,50,,,,,,,,,,,35,,,
 hardware.thumb-screw-assembly,Hardware,Thumb Screw Assembly,,,,5,4,voron-0.2 afterburner voron-m4 voron-0 voron-0.1,,,1,,,,,,1,1,,,1,1,,,
 hotend.2-into-1-y-splitter,Hotend,2 into 1 Y Splitter,,,,1,1,optional-parts,,,,,,,Spare,,,,,,,,,,

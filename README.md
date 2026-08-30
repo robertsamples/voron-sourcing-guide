@@ -8,7 +8,7 @@ different names with different links. This flattens all of that into one entry
 per component, keeping a pointer back to every cell it came from.
 
 Nothing here changes what the guide recommends. It's just extraction and dedup,
-so that reviewing the guide is one pass over 493 components instead of seventeen
+so that reviewing the guide is one pass over 485 components instead of seventeen
 passes over 1051 rows.
 
 ## Running it
@@ -40,8 +40,14 @@ data/voron_sourcing_master.json  the unified dataset
 data/master_items.csv            one line per component, qty per tab
 data/master_links.csv            one line per component x link
 data/aliases.json                hand-curated name merges
-data/review_*.csv                things a human should look at
 data/report.md                   headline numbers
+
+data/review_name_clusters.csv    names that look alike but are separate items
+data/review_shared_links.csv     separate items pointing at the same product
+data/review_conflicts.csv        tabs that point at different products for the
+                                 same part and the same role
+data/review_unlinked.csv         one row per (component, tab) where that tab
+                                 lists the part with no link at all
 ```
 
 ## Data format
@@ -96,6 +102,13 @@ How it's built:
   become `size`. Ranges the sheet mangled into dates (`2022-02-04` for `2-4`)
   are restored.
 - `choice_group` marks rows the guide joined with an `OR` separator.
+- Extrusions key on their Misumi part number, so `HFSB5-2020-340` and
+  `Misumi 2020 x 340mm - HFSB5-2020-340` are one item. Machining suffixes
+  (`-AH45-BH375`, `-TPW`, `-LTP`) stay part of the key, because a drilled
+  length is its own line item with its own quantity, but the undrilled product
+  they all come from is recorded in `base_product` with the codes in
+  `machining`. 33 extrusion items, 20 base products, 6 of which have more than
+  one machining variant.
 - Everything keeps sheet/row/column, so any merge can be checked or reverted.
 
 ## Name merging
@@ -107,8 +120,14 @@ into `data/aliases.json` and apply on the next run.
 
 Pairs differing only by a number, head type, gender or axis are filtered out of
 the candidate list, so SHCS/BHCS/FHCS, 2- vs 3-position and 4A vs 8A stay
-separate. Pairs a human has looked at and rejected go in `keep_separate` so
-they stop coming back. One pair is currently unresolved (see below).
+separate. Pairs rejected on manual review go in `keep_separate` so they stop
+coming back.
+
+Names only catch so much. `review_shared_links.csv` is the second pass: two
+separate items pointing at the same product link are usually one part named two
+ways (`F695 2RS` / `F695 2RS Bearing` / `F695 Bearing`). It is sorted by name
+similarity, because a low-similarity match usually means the shared link is a
+catalogue page covering both parts rather than a duplicate.
 
 Some parts are machine-specific even when two tabs give them the same name.
 Those are listed under `split_by_project` in `aliases.json` and never merge
@@ -122,21 +141,21 @@ plates, giving 34 scoped items.
 | --- | ---: |
 | tabs | 17 |
 | rows read | 1051 |
-| components | 493 |
-| components on more than one tab | 195 |
-| distinct product links | 613 (+185 affiliate variants) |
-| components where tabs point at different products | 53 (22 on current tabs) |
+| components | 485 |
+| components on more than one tab | 197 |
+| distinct product links | 606 (+185 affiliate variants) |
+| components where tabs point at different products | 54 (22 on current tabs) |
 
 Review effort, counting perfect duplicates once (`tools/workload.py`):
 
 | | before | after |
 | --- | ---: | ---: |
-| distinct name + link-set variants | 709 | 493 |
-| ...on the 195 shared parts | 411 | 195 |
-| urls to check | 775 | 613 |
+| distinct name + link-set variants | 709 | 485 |
+| ...on the 197 shared parts | 421 | 197 |
+| urls to check | 775 | 606 |
 
-365 of 493 components (74%) are already consistent across every tab that lists
-them. The work is in the other 128: 122 disagree on links, 6 only on the name.
+353 of 485 components (73%) are already consistent across every tab that lists
+them. The work is in the other 132: 124 disagree on links, 8 only on the name.
 
 Worst cases:
 
@@ -167,11 +186,14 @@ vanished in the merge:
   products. Resolving them would collapse more dupes; skipped to keep this
   offline and deterministic.
 - No link has been checked for being alive yet.
-- `3010 axial fan 24v` vs `3010 blower fans 24V` is still open. They were
-  reported as the same part, but V0/V0.2 list both on adjacent rows with
-  separate quantities and they link to different products (Mechatronics
-  MR3010H05B1 axial vs Delta BFB0305HHA blower), so they are left separate
-  pending a second look.
+- `review_shared_links.csv` has not been worked through yet. It is the main
+  source of remaining merges.
+- The 2.4 / Trident / Switchwire / 1.8 tabs list `JST-XH Connector Plug N
+  Position` and `JST-XH Female Pin` but link to Amphenol DuPont-style parts
+  (65039-035ELF, 47649-000LF) - the same links the 2.2 tab uses for the rows it
+  calls `DuPont`. The Optional Parts tab has the real JST XH parts under
+  `JST XHP-n Housing` and `JST Crimp Pin`. Left as-is; the names and the links
+  disagree and that needs a decision, not a merge.
 - Categories are the guide's own, only lightly normalized. They're inconsistent
   between tabs and could use a real taxonomy.
 - The Cascade tab is empty in the workbook.

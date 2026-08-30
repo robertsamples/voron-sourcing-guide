@@ -39,6 +39,32 @@ def name_key(s):
     return s or None
 
 
+# Misumi extrusion part numbers: HFSB5-2020-370-AH45-BH325
+#   HFSB5      series          -> profile family
+#   2020       profile         -> HFSB5-2020
+#   370        length in mm    -> HFSB5-2020-370, the product you order
+#   AH45-BH325 machining codes -> tapped/blind holes cut into that same product
+_MISUMI = re.compile(
+    r"(HFSB\d)-(\d{4})-(\d+)((?:-[A-Z]{2,3}\d*)*)", re.I)
+
+
+def misumi_part(name):
+    """-> (full part no, base product, machining) or None.
+
+    Machining suffixes describe holes drilled into an otherwise identical
+    extrusion, so `base` is what actually gets sourced.
+    """
+    if not name:
+        return None
+    m = _MISUMI.search(name)
+    if not m:
+        return None
+    series, profile, length, mach = m.groups()
+    base = "%s-%s-%s" % (series.upper(), profile, length)
+    mach = (mach or "").strip("-").upper()
+    return (base + ("-" + mach if mach else ""), base, mach or None)
+
+
 def clean_size(v):
     """Normalise the build-size column: `250³` -> `250`, True/False -> All/None."""
     if v is None:

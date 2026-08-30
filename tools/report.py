@@ -152,6 +152,50 @@ def main():
                             " | ".join(sorted({s["vendor_name"] or "?" for s in srcs})),
                             " | ".join(sorted(sig))])
 
+    # ---- different components pointing at the same product ---------------
+    # The strongest remaining duplicate signal: if two items share a product
+    # link they are probably the same part named two ways. Links used by lots
+    # of items are catalogue/search pages, not products, so they are skipped.
+    reviewed = keep_separate_pairs()
+    by_url = defaultdict(list)
+    for i in items:
+        for src in i["sources"]:
+            by_url[src["url"]].append(i)
+    pairs = {}
+    for url, its in by_url.items():
+        uniq = {i["id"]: i for i in its}
+        if len(uniq) < 2 or len(uniq) > 4:
+            continue          # >4 items on one link means it is a search page
+        vals = list(uniq.values())
+        for a in range(len(vals)):
+            for b in range(a + 1, len(vals)):
+                x, y = vals[a], vals[b]
+                if x["base_key"] == y["base_key"]:
+                    continue  # split per project on purpose
+                if frozenset((x["base_key"], y["base_key"])) in reviewed:
+                    continue
+                pk = tuple(sorted((x["base_key"], y["base_key"])))
+                pairs.setdefault(pk, [x, y, set()])[2].add(url)
+    with open("data/review_shared_links.csv", "w", newline="",
+              encoding="utf-8-sig") as fh:
+        w = csv.writer(fh)
+        w.writerow(["name_similarity", "shared_links", "id_a", "name_a",
+                    "projects_a", "id_b", "name_b", "projects_b", "urls"])
+        rows = []
+        for (x, y, urls) in pairs.values():
+            # a high name similarity means these really are one part named
+            # twice; a low one usually means the link is a catalogue page that
+            # happens to cover both
+            sim = SequenceMatcher(None, x["name_key"], y["name_key"]).ratio()
+            rows.append((sim, x, y, sorted(urls)))
+        for sim, x, y, urls in sorted(rows, key=lambda r: (-r[0], -len(r[3]))):
+            w.writerow(["%.2f" % sim, len(urls), x["id"], x["name"],
+                        " ".join(u["project"] for u in x["used_by"]),
+                        y["id"], y["name"],
+                        " ".join(u["project"] for u in y["used_by"]),
+                        " | ".join(urls)])
+    n_shared = len(pairs)
+
     # ---- item/tab combinations with nothing to buy ------------------------
     with open("data/review_unlinked.csv", "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.writer(fh)
@@ -218,8 +262,9 @@ def main():
 
     print("conflicting item/role combinations: %d (items: %d, current-tab items: %d)"
           % (len(conflicts), len(conflict_items), len(conflict_current)))
+    print("different components sharing a product link: %d pairs" % n_shared)
     print("wrote data/review_name_clusters.csv, review_conflicts.csv, "
-          "review_unlinked.csv, report.md")
+          "review_shared_links.csv, review_unlinked.csv, report.md")
 
 
 if __name__ == "__main__":
