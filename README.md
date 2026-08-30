@@ -9,21 +9,21 @@ The sourcing guide has been maintained by hand across 17 tabs for years, and
 it's drifted. Three things convinced me it was worth doing something about.
 
 **Mixed tooth profiles.** The guide recommends Gates belts next to POWGE
-pulleys in several places. That mismatch chews belts — the pulleys I posted have
-belt dust packed into the tooth valleys, and that's the mild version. It isn't
+pulleys in several places. That mismatch chews belts, and Gates pulleys are
+no longer hard to source like they were with guides were written. It isn't
 really a POWGE problem. It's that a recommendation made in one tab years ago
-never got revisited in the other sixteen, so the advice is internally
-inconsistent. Vendors read the guide too, which is how you end up buying a
-Gates/POWGE motion kit off the shelf.
+never got revisited in the other sixteen, so the advice is internally inconsistent.
+Vendors read the guide too, which is how you end up buying a Gates/POWGE motion kit
+off the shelf even though Gates are really not that much more expensive.
 
-**Dead links.** I checked every link in the guide. 185 of 776 are dead — 24%.
+**Dead links.** I checked every link in the guide. 185 of 776 are dead, so 24%.
 89 components can't be sourced from the guide at all today, 59 of them on
 printers people are actively building: the thermal fuse on 2.4 and Trident,
 RaspberryPi4, SKR Mini E3 V2, six different wire gauges, both SDP-SI Gates belt
 links.
 
-**Ten names for one part.** The M3x5x4 heat-set insert appears on ten tabs
-under ten different names — *M3 Threaded Insert*, *M3 Brass Heatstake Inserts*,
+**Multiple names for the same item.** The M3x5x4 heat-set insert appears on 11 tabs
+under 10 different names — *M3 Threaded Insert*, *M3 Brass Heatstake Inserts*,
 *M3 Heat Set Inserts (M3x5x4)*, and so on — with four different "recommended"
 links between them. Somebody cross-referencing two tabs has no way to know
 those are the same bag of inserts.
@@ -32,14 +32,14 @@ None of this is anyone's fault. Keeping 17 hand-maintained tabs in sync is a
 chore nobody volunteered for, and it gets worse whether or not anyone touches
 it. But it's fixable, and it doesn't have to stay a staff problem.
 
-## The proposal
+## My proposal
 
 Make a canonical component list the source of truth, and generate each tab from
-it.
+it programattically.
 
 One entry per physical part, with its links, quantities, and which machines use
 it. Every tab becomes a view of that list rather than a separate document. Fix
-the 20T pulley once and it's fixed on VS, V2, V0 and Trident at the same time —
+the 20T pulley once and it's fixed on VS, V2, V0 and Trident at the same time,
 the tabs can't disagree again, because there's only one of it.
 
 Put that list in a repo as CSV and it stops being a bottleneck: a builder who
@@ -47,19 +47,17 @@ finds a dead link opens a PR, and it's a one-line diff someone can eyeball in a
 minute. Vendors get an unambiguous answer about what belongs in a kit. Builders
 can see which parts carry across printers.
 
-Longer term the same treatment belongs on the BOM — canonicalise it, and use
-that as the input future revisions and sourcing updates are generated from,
-instead of maintaining the two in parallel by hand.
 
 This repo is a working demonstration of the mechanism, not a finished proposal.
 Everything in `data/` is generated; the only hand-maintained input is
 `data/aliases.json`.
 
-## What's here
+## Repository Contents
 
 `canonical.csv` — the component list. 458 components, one row each, with live
-links, per-tab quantities, and which printers use them. This is the file the
-proposal is about.
+links, per-tab quantities, and which printers use them. This is what I propose as the 
+backend anchor for the sourcing guide (really the json, this is just a representation 
+of it).
 
 `Voron Sourcing Guide (revised).xlsx` — the guide rebuilt from that list, in the
 original's layout and colours. Dead links removed, names harmonised, and a
@@ -69,8 +67,9 @@ original's layout and colours. Dead links removed, names harmonised, and a
 published guide. Removals struck through in red, additions in blue, word by word
 inside each cell.
 
-`data/` — the master JSON, link-check results, and CSVs for the parts that need
-a human decision.
+`data/` — the master JSON, link-check results, and CSVs for the parts that needed 
+manual review. I have gone through any links my parser could not determine were 
+alive/dead to confirm this manually.
 
 ## Running it
 
@@ -110,7 +109,7 @@ python tools/check_links.py --browser --only aliexpress   # solve checks in the 
 python tools/check_links.py --status maybe                # retry the unresolved
 ```
 
-## What the check found
+## Link rot stats
 
 | | |
 | --- | ---: |
@@ -130,7 +129,7 @@ detail is in `data/coverage_*.csv`.
 
 Two rows are the same component when their normalised names match — lowercase,
 punctuation collapsed, `M3 x 8` → `m3x8`. Anything close but not equal is left
-alone and written to `data/review_name_clusters.csv` for a human call; confirmed
+alone and written to `data/review_name_clusters.csv` for a manual editing; confirmed
 merges go in `data/aliases.json`.
 
 Two rows sharing a product link are usually the same part named twice, so
@@ -151,7 +150,7 @@ vanished: 775/775 urls, 1003/1003 component-tab pairs, 204/204 notes.
 - 16 name pairs are still unresolved in `data/review_name_clusters.csv`, and
   `data/review_shared_links.csv` hasn't been worked through.
 - Categories are the guide's own, only lightly normalised. They're inconsistent
-  between tabs and deserve a real taxonomy.
+  between tabs.
 - VORON 1.8 has a frame calculator below its main table with a different layout.
   It isn't represented here.
 - The Cascade tab is empty in the published workbook.
