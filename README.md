@@ -22,11 +22,16 @@ printers people are actively building: the thermal fuse on 2.4 and Trident,
 RaspberryPi4, SKR Mini E3 V2, six different wire gauges, both SDP-SI Gates belt
 links.
 
+<img width="1050" height="472" alt="image" src="https://github.com/user-attachments/assets/0d5ea90c-5f32-4034-ac8b-36eb4b8c0dc1" />
+_Gates idlers  on the middle and left, POWGE on the right, showing debris resulting from belt damage by using mixed tooth profile_
+
 **Multiple names for the same item.** The M3x5x4 heat-set insert appears on 11 tabs
 under 10 different names — *M3 Threaded Insert*, *M3 Brass Heatstake Inserts*,
 *M3 Heat Set Inserts (M3x5x4)*, and so on — with four different "recommended"
 links between them. Somebody cross-referencing two tabs has no way to know
 those are the same bag of inserts.
+
+<img width="645" height="303" alt="image" src="https://github.com/user-attachments/assets/c25c83e1-9bc0-45dd-b716-82de717017bf" />
 
 None of this is anyone's fault. Keeping 17 hand-maintained tabs in sync is a
 chore nobody volunteered for, and it gets worse whether or not anyone touches
