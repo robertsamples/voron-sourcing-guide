@@ -1,0 +1,17 @@
+﻿score,id_a,name_a,projects_a,id_b,name_b,projects_b,same_category
+0.897,electronics.dragon-hotend,Dragon Hotend,voron-0 voron-0.1,hotend.trianglelab-dragon-hotend,TriangleLab Dragon HotEnd,optional-parts afterburner,
+0.844,cables.dupont-connector-plug-2-position,DuPont Connector Plug 2 Position,voron-2.2,cables.jst-xh-connector-plug-2-position,JST-XH Connector Plug 2 Position,voron-2.4 voron-trident voron-switchwire voron-1.8,yes
+0.844,cables.dupont-connector-plug-3-position,DuPont Connector Plug 3 Position,voron-2.2,cables.jst-xh-connector-plug-3-position,JST-XH Connector Plug 3 Position,voron-2.4 voron-trident voron-switchwire voron-1.8,yes
+0.844,cables.dupont-connector-plug-4-position,DuPont Connector Plug 4 Position,voron-2.2,cables.jst-xh-connector-plug-4-position,JST-XH Connector Plug 4 Position,voron-2.4 voron-trident voron-switchwire voron-1.8,yes
+0.843,electronics.40x40x20-centrifugal-blower-fan-24v,40x40x20 Centrifugal Blower Fan (24V),voron-1.8,electronics.40x40x20-centrifugal-blower-fan-ball-bearing-24v,40x40x20 Centrifugal Blower Fan - Ball Bearing (24V),voron-2.4 voron-switchwire,yes
+0.821,kits.voron-v0-1-kit-ldo,Voron V0.1 Kit - LDO,voron-0.2 voron-0.1,kits.voron-v0-1-kit-siboor,Voron V0.1 Kit - SIBOOR,voron-0.2,yes
+0.800,kits.voron-v0-1-kit-formbot,Voron V0.1 Kit - FORMBOT,voron-0.2 voron-0.1,kits.voron-v0-1-kit-ldo,Voron V0.1 Kit - LDO,voron-0.2 voron-0.1,yes
+0.791,kits.voron-v0-1-kit-formbot,Voron V0.1 Kit - FORMBOT,voron-0.2 voron-0.1,kits.voron-v0-1-kit-fystech,Voron V0.1 Kit - FYSTECH,voron-0.2 voron-0.1,yes
+0.791,kits.voron-v0-1-kit-formbot,Voron V0.1 Kit - FORMBOT,voron-0.2 voron-0.1,kits.voron-v0-1-kit-siboor,Voron V0.1 Kit - SIBOOR,voron-0.2,yes
+0.789,controller.micro-usb-power-cable,Micro USB Power Cable,voron-1.6.2 voron-2.2,controller.usb-c-power-cable,USB C Power Cable,voron-2.4 voron-switchwire,yes
+0.772,electronics.40x40x10-axial-fan-24v,40x40x10 Axial Fan (24V),voron-trident voron-1.8,electronics.40x40x10-axial-fan-ball-bearing-24v,40x40x10 Axial Fan- Ball Bearing (24V),voron-2.4 voron-switchwire,yes
+0.769,kits.voron-v0-1-kit-fystech,Voron V0.1 Kit - FYSTECH,voron-0.2 voron-0.1,kits.voron-v0-1-kit-ldo,Voron V0.1 Kit - LDO,voron-0.2 voron-0.1,yes
+0.765,electronics.dragon-fly-bmo-hotend,Dragon Fly BMO Hotend,voron-0.2 voron-0.1,electronics.dragon-hotend,Dragon Hotend,voron-0 voron-0.1,yes
+0.762,kits.voron-v0-1-kit-fystech,Voron V0.1 Kit - FYSTECH,voron-0.2 voron-0.1,kits.voron-v0-1-kit-siboor,Voron V0.1 Kit - SIBOOR,voron-0.2,yes
+0.750,panels.side-front-top-acrylic-panels,Side/Front/Top Acrylic Panels,voron-2.4 voron-switchwire,panels.side-front-top-polycarbonate-panels,Side/Front/Top Polycarbonate Panels,voron-trident voron-1.8 voron-2.2,yes
+0.737,electronics.3010-axial-fan-24v,3010 axial fan 24v,voron-0.2 voron-0,electronics.3010-blower-fans-24v,3010 blower fans 24V,voron-0.2 voron-0 voron-0.1,yes

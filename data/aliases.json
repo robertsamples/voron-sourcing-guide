@@ -1,0 +1,80 @@
+{
+  "_comment": [
+    "Curated overrides applied by tools/unify.py.",
+    "",
+    "  merge : spreadsheet component name -> canonical component name.",
+    "          Both sides are run through normalize.name_key(), so casing,",
+    "          punctuation and spacing do not matter.",
+    "  names : canonical name -> the display name the master should use.",
+    "  drop  : component names that are not components (section notes,",
+    "          footers, separators).",
+    "",
+    "Candidates for new entries are generated in data/review_name_clusters.csv.",
+    "Only merge names you are confident describe the same physical part -- the",
+    "review file deliberately lists look-alikes (SHCS vs BHCS, 2- vs 3-position)",
+    "that must stay separate."
+  ],
+
+  "merge": {
+    "M3 Threaded Insert": "M3 Heat Set Insert (M3x5x4)",
+    "M3 Threaded Insert (M3x5mmx4mm)": "M3 Heat Set Insert (M3x5x4)",
+    "M3 Threaded Inserts - short": "M3 Heat Set Insert (M3x5x4)",
+    "M3 Heat Set Inserts (M3x5x4)": "M3 Heat Set Insert (M3x5x4)",
+    "M3 Brass Heat Set Inserts - Short": "M3 Heat Set Insert (M3x5x4)",
+    "M3 Brass Heatset Inserts - Short M3x5x4": "M3 Heat Set Insert (M3x5x4)",
+    "M3 Brass heatstake inserts - short M3x5x4": "M3 Heat Set Insert (M3x5x4)",
+    "M3 Brass Heatstake Inserts": "M3 Heat Set Insert (M3x5x4)",
+
+    "GT2 20T Pulley (6mm wide, 5mm bore)": "GT2 20T (6mm wide) Pulley (5mm bore)",
+    "GT2 20T (6mm wide) (5mm bore)": "GT2 20T (6mm wide) Pulley (5mm bore)",
+
+    "Meanwell RS-25-5 PSU": "Mean Well RS-25-5 PSU",
+
+    "M2x10 Self Tapping Screws for Plastic": "M2x10 Self Tapping Screw for Plastics",
+    "M2x10 Self Tapping Screws for Plastic (Pan Head)": "M2x10 Self Tapping Screw for Plastics",
+    "M2x10 self tapping screw": "M2x10 Self Tapping Screw for Plastics",
+
+    "MR85 Bearing": "MR85 Bearings",
+    "Bowden Clips": "Bowden Clip",
+
+    "M3 Lock Nut": "M3 Locknut",
+    "M3 Hex Locknut": "M3 Locknut",
+    "M3 Nut": "M3 Hexnut",
+    "M5 Nut": "M5 Hexnut",
+
+    "M3 Hammerhead T-Nut": "M3 Hammer Head T-Nuts",
+
+    "Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft])": "Silicone Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft])",
+
+    "Voron V0.1 Kit - FYSTECH": "Voron V0.1 Kit - FYSETC",
+
+    "TriangleLab Dragon HotEnd": "TL Dragon Hotend",
+
+    "BMG Extruder Hardware Kit (if configured with direct feed)": "BMG Extruder Components Kit (if configured with direct feed)",
+    "Bondtech Motor Gear (bowden only)": "Bondtech Motor Gear",
+
+    "(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick (drawings and dxf on github)": "(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick",
+    "TopHat Panels (OPTIONAL)": "TopHat Panels",
+    "Raspberry Pi 3 (or better)": "Raspberry Pi 3",
+
+    "Primary Color": "Primary Color (Black)",
+    "Secondary Color": "Secondary Color (Red)"
+  },
+
+  "names": {
+    "M3 Heat Set Insert (M3x5x4)": "M3 Heat Set Insert (M3x5x4)",
+    "M3 Hexnut": "M3 Hexnut",
+    "M5 Hexnut": "M5 Hexnut",
+    "M3 Locknut": "M3 Locknut",
+    "MR85 Bearings": "MR85 Bearing",
+    "GT2 20T (6mm wide) Pulley (5mm bore)": "GT2 20T (6mm wide) Pulley (5mm bore)"
+  },
+
+  "drop": [
+    "OR",
+    "Full kits are availible from a number of suppliers listed below",
+    "Full Printer kits are availible from a number of trusted suppliers listed below",
+    "As an Amazon Associate we earn from qualifying purchases.",
+    "As an Aliexpress Affiliate we earn from qualifying purchases."
+  ]
+}
