@@ -1,0 +1,481 @@
+﻿name,tabs,variants_full,variants_link,variants_name,names_as_written,projects
+M3 Threaded Insert,10,10,8,8,M3 Brass Heat Set Inserts - Short | M3 Brass Heatset Inserts - Short M3x5x4 | M3 Brass Heatstake Inserts | M3 Brass Heatstake Inserts - Short (M3x5x4) | M3 Brass heatstake inserts - short M3x5x4 | M3 Heat Set Inserts (M3x5x4) | M3 Threaded Insert | M3 Threaded Insert (M3x5mmx4mm),afterburner stealthburner voron-0 voron-0.1 voron-0.2 voron-1.8 voron-2.4 voron-m4 voron-switchwire voron-trident
+GT2 20T (6mm wide) (5mm bore),10,7,6,3,"GT2 20T (6mm wide) (5mm bore) | GT2 20T (6mm wide) Pulley (5mm bore) | GT2 20T Pulley (6mm wide, 5mm bore)",mobius-3.1 voron-0 voron-0.1 voron-0.2 voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
+M3x6 BHCS,12,6,6,1,M3x6 BHCS,afterburner mobius-3.1 stealthburner voron-0 voron-0.1 voron-0.2 voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
+PEI + 3M 468P (200MP),8,6,6,1,PEI + 3M 468P (200MP),voron-0 voron-0.1 voron-0.2 voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-trident
+M2x10 self tapping screw,7,6,6,4,M2x10 Self Tapping Screw for Plastics | M2x10 Self Tapping Screws for Plastic | M2x10 Self Tapping Screws for Plastic (Pan Head) | M2x10 self tapping screw,stealthburner voron-0 voron-0.1 voron-0.2 voron-2.4 voron-switchwire voron-trident
+Printed Parts,11,5,5,1,Printed Parts,mobius-3.1 voron-0 voron-0.1 voron-0.2 voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
+M3 Nut,10,5,5,2,M3 Hexnut | M3 Nut,afterburner jetpack mobius-3.1 voron-0 voron-0.1 voron-0.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire
+Omron Mouse Button - Micro Switch,9,5,5,1,Omron Mouse Button - Micro Switch,voron-0 voron-0.1 voron-0.2 voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+M3x8 SHCS,9,4,4,1,M3x8 SHCS,afterburner jetpack mobius-3.1 stealthburner voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+MicroSD Card,9,4,4,1,MicroSD Card,voron-0 voron-0.1 voron-0.2 voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+Insulated Crimp Receptical,8,4,4,1,Insulated Crimp Receptical,voron-0 voron-0.1 voron-0.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+Secondary Color,8,4,4,2,Secondary Color | Secondary Color (Red),mobius-3.1 voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
+6mm x 3mm Round Neodymium Magnets,6,4,4,1,6mm x 3mm Round Neodymium Magnets,voron-0 voron-0.1 voron-0.2 voron-2.4 voron-switchwire voron-trident
+M3 Locknut,5,4,3,3,M3 Hex Locknut | M3 Lock Nut | M3 Locknut,jetpack mobius-3.1 voron-0.1 voron-2.2 voron-trident
+NEMA17 Motor 17HS19-2004S,5,4,4,1,NEMA17 Motor 17HS19-2004S,mobius-3.1 voron-1.6.2 voron-1.8 voron-2.2 voron-2.4
+M3x6 FHCS,4,4,4,1,M3x6 FHCS,stealthburner voron-2.4 voron-switchwire voron-trident
+NEMA17 Motor 17HS08-1004S,4,4,4,1,NEMA17 Motor 17HS08-1004S,afterburner jetpack voron-1.8 voron-trident
+M3x12 SHCS,10,3,3,1,M3x12 SHCS,afterburner jetpack mobius-3.1 stealthburner voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
+M3x30 SHCS,10,3,3,1,M3x30 SHCS,afterburner jetpack mobius-3.1 stealthburner voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
+M3x20 SHCS,9,3,3,1,M3x20 SHCS,afterburner jetpack mobius-3.1 stealthburner voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+M3x16 SHCS,8,3,3,1,M3x16 SHCS,afterburner stealthburner voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
+Primary Color,8,3,3,2,Primary Color | Primary Color (Black),mobius-3.1 voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-switchwire voron-trident
+Bowden Fitting,6,3,3,1,Bowden Fitting,jetpack mobius-3.1 voron-0 voron-0.1 voron-0.2 voron-m4
+C13 Power Cord,6,3,3,1,C13 Power Cord,voron-0.1 voron-0.2 voron-1.6.2 voron-1.8 voron-2.2 voron-trident
+M3x40 SHCS,6,3,3,1,M3x40 SHCS,afterburner voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+Meanwell RS-25-5 PSU,6,3,2,2,Mean Well RS-25-5 PSU | Meanwell RS-25-5 PSU,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+TycoElectronics - 10EGG1-2 (Normal) or 10EHG1-2 (Medical): Filtered Power Inlet,6,3,3,1,TycoElectronics - 10EGG1-2 (Normal) or 10EHG1-2 (Medical): Filtered Power Inlet,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+Complete BMG Extruder Clone,5,3,3,1,Complete BMG Extruder Clone,afterburner stealthburner voron-0 voron-0.1 voron-0.2
+M5x10 BHCS,5,3,3,1,M5x10 BHCS,voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+M5x16 BHCS,5,3,3,1,M5x16 BHCS,voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+M5x30 BHCS,5,3,3,1,M5x30 BHCS,voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+Thumb Screw Assembly,5,3,3,1,Thumb Screw Assembly,afterburner voron-0 voron-0.1 voron-0.2 voron-m4
+Bondtech Motor Gear,4,3,3,2,Bondtech Motor Gear | Bondtech Motor Gear (bowden only),afterburner voron-0 voron-0.1 voron-0.2
+JST-XH Connector Plug 2 Position,4,3,3,1,JST-XH Connector Plug 2 Position,voron-1.8 voron-2.4 voron-switchwire voron-trident
+JST-XH Connector Plug 3 Position,4,3,3,1,JST-XH Connector Plug 3 Position,voron-1.8 voron-2.4 voron-switchwire voron-trident
+JST-XH Connector Plug 4 Position,4,3,3,1,JST-XH Connector Plug 4 Position,voron-1.8 voron-2.4 voron-switchwire voron-trident
+JST-XH Female Pin,4,3,3,1,JST-XH Female Pin,voron-1.8 voron-2.4 voron-switchwire voron-trident
+M3x25 SHCS,4,3,3,1,M3x25 SHCS,jetpack stealthburner voron-2.2 voron-switchwire
+M5 Nut,4,3,3,2,M5 Hexnut | M5 Nut,voron-0 voron-1.8 voron-2.2 voron-2.4
+MR85 Bearing,4,3,3,2,MR85 Bearing | MR85 Bearings,afterburner voron-0 voron-0.1 voron-0.2
+Rubber Compressor Foot,4,3,3,1,Rubber Compressor Foot,voron-1.8 voron-2.2 voron-2.4 voron-switchwire
+Shaft/Idler Assembly,4,3,3,1,Shaft/Idler Assembly,afterburner voron-0 voron-0.1 voron-0.2
+yellow die springs 8x4x20mm,4,3,3,1,yellow die springs 8x4x20mm,voron-0 voron-0.1 voron-0.2 voron-1.8
+3010 blower fans 24V,3,3,3,1,3010 blower fans 24V,voron-0 voron-0.1 voron-0.2
+Bondtech Drive Gear Set,3,3,3,1,Bondtech Drive Gear Set,jetpack mobius-3.1 voron-m4
+Bowden Tubing 4mmOD 2mmID (1 meter),3,3,3,1,Bowden Tubing 4mmOD 2mmID (1 meter),voron-0 voron-0.1 voron-0.2
+M2x8 SHCS,3,3,3,1,M2x8 SHCS,voron-0 voron-0.1 voron-0.2
+"Omron TL-Q5MC2 - NPN, NC, 5mm Sense",3,3,3,1,"Omron TL-Q5MC2 - NPN, NC, 5mm Sense",optional-parts voron-switchwire voron-trident
+BAT85 Diode,6,2,2,1,BAT85 Diode,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+Fuse Medium Time Delay Acting 8A 250V Holder Cartridge 5 X 20mm Glass,6,2,2,1,Fuse Medium Time Delay Acting 8A 250V Holder Cartridge 5 X 20mm Glass,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+M3 washer,6,2,1,2,M3 Washer | M3 washer,stealthburner voron-1.8 voron-2.2 voron-2.4 voron-m4 voron-trident
+ZF - Rocker Switches DPST 16A ON-OFF,6,2,2,1,ZF - Rocker Switches DPST 16A ON-OFF,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),5,2,2,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) (5/16in or 8mm depending on whats available in your country),voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-trident
+Fork Spade Terminal,5,2,2,1,Fork Spade Terminal,voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+MicroFit Connector Plug 2 Position (43640-0201),5,2,2,1,MicroFit Connector Plug 2 Position (43640-0201),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+MicroFit Connector Plug 3 Position (43640-0301),5,2,2,1,MicroFit Connector Plug 3 Position (43640-0301),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+MicroFit Connector Plug 4 Position (43640-0401),5,2,2,1,MicroFit Connector Plug 4 Position (43640-0401),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+MicroFit Connector Receptacle 2 Position (43645-0200),5,2,2,1,MicroFit Connector Receptacle 2 Position (43645-0200),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+MicroFit Connector Receptacle 3 Position (43645-0300),5,2,2,1,MicroFit Connector Receptacle 3 Position (43645-0300),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+MicroFit Connector Receptacle 4 Position (43645-0400),5,2,2,1,MicroFit Connector Receptacle 4 Position (43645-0400),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+MicroFit3 Female Pin (43030-0007),5,2,2,1,MicroFit3 Female Pin (43030-0007),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+MicroFit3 Male Pin (43031-0007),5,2,2,1,MicroFit3 Male Pin (43031-0007),voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+"Nylon Cable Ties 4""",5,2,2,1,"Nylon Cable Ties 4""",voron-1.8 voron-2.2 voron-2.4 voron-switchwire voron-trident
+5x30mm Shaft,4,2,2,1,5x30mm Shaft,voron-1.8 voron-2.2 voron-2.4 voron-trident
+60x60x20 Axial Fan (24V),4,2,2,1,60x60x20 Axial Fan (24V),voron-1.8 voron-2.4 voron-switchwire voron-trident
+Bowden Tube,4,2,2,1,Bowden Tube,mobius-3.1 voron-1.8 voron-2.2 voron-trident
+GT2 Belt Loop (6mm wide) - 188mm,4,2,2,1,GT2 Belt Loop (6mm wide) - 188mm,mobius-3.1 voron-2.2 voron-2.4 voron-m4
+M5x40 SHCS,4,2,2,1,M5x40 SHCS,voron-1.8 voron-2.2 voron-2.4 voron-switchwire
+Misumi HFSB5-2020 (Size depends - use configurator),4,2,2,1,Misumi HFSB5-2020 (Size depends - use configurator),voron-1.8 voron-2.2 voron-2.4 voron-trident
+Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR,4,2,2,1,Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR,voron-1.6.2 voron-1.8 voron-2.2 voron-trident
+5x10x1 Shim Ring,3,2,2,1,5x10x1 Shim Ring,voron-2.2 voron-2.4 voron-switchwire
+7mm x 7mm cable chain (less than 1/2 meter needed),3,2,2,1,7mm x 7mm cable chain (less than 1/2 meter needed),voron-0 voron-0.1 voron-0.2
+Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),3,2,2,1,Aluminum Build Plate (MIC6/ATP-5/Jig Plate/etc) 120x120mm (4.75inx4.75in) (1/4in or 6mm depending on whats available in your country),voron-0 voron-0.1 voron-0.2
+BMG Extruder Insides,3,2,2,1,BMG Extruder Insides,afterburner stealthburner voron-0
+DC/DC PSU/buck converter - 24V to 5V,3,2,2,1,DC/DC PSU/buck converter - 24V to 5V,voron-0 voron-0.1 voron-0.2
+Dupont Female Pin,3,2,2,2,DuPont Female Pin | Dupont Female Pin,voron-1.8 voron-2.2 voron-trident
+F623-RS Bearing,3,2,2,1,F623-RS Bearing,voron-0 voron-0.1 voron-0.2
+F695 2RS Bearing,3,2,2,1,F695 2RS Bearing,voron-2.2 voron-2.4 voron-switchwire
+Fuse Medium Time Delay Acting 4A 250V Holder Cartridge 5 X 20mm Glass,3,2,2,1,Fuse Medium Time Delay Acting 4A 250V Holder Cartridge 5 X 20mm Glass,voron-2.4 voron-switchwire voron-trident
+GT2 20T (6mm wide) Toothed Idler (5mm bore),3,2,2,1,GT2 20T (6mm wide) Toothed Idler (5mm bore),voron-1.8 voron-2.4 voron-trident
+Linear Rail MGN9H ** See Configurator for length **,3,2,2,1,Linear Rail MGN9H ** See Configurator for length **,voron-1.8 voron-2.2 voron-2.4
+Little Rubber Feet (14x11x9mm),3,2,2,1,Little Rubber Feet (14x11x9mm),voron-0 voron-0.1 voron-0.2
+M2 Nut,3,2,2,1,M2 Nut,voron-0 voron-0.1 voron-0.2
+M3x10 BHCS,3,2,2,1,M3x10 BHCS,voron-0 voron-0.1 voron-0.2
+M3x12 BHCS,3,2,2,1,M3x12 BHCS,voron-0 voron-0.1 voron-0.2
+M3x25 BHCS,3,2,2,1,M3x25 BHCS,voron-0 voron-0.1 voron-0.2
+M3x30 BHCS,3,2,2,1,M3x30 BHCS,voron-0 voron-0.1 voron-0.2
+M3x35 BHCS,3,2,2,1,M3x35 BHCS,voron-0 voron-0.1 voron-0.2
+M3x40 BHCS,3,2,2,1,M3x40 BHCS,voron-0 voron-0.1 voron-0.2
+M3x8 BHCS,3,2,2,1,M3x8 BHCS,voron-0 voron-0.1 voron-0.2
+MGN7H Linear Rail with Carriage (150mm),3,2,2,1,MGN7H Linear Rail with Carriage (150mm),voron-0 voron-0.1 voron-0.2
+Makerbeam XL 15x15 200mm,3,2,2,1,Makerbeam XL 15x15 200mm,voron-0 voron-0.1 voron-0.2
+Raspberry Pi 3,3,2,1,2,Raspberry Pi 3 | Raspberry Pi 3 (or better),voron-0 voron-0.1 voron-0.2
+Side/Front/Top Polycarbonate Panels,3,2,2,1,Side/Front/Top Polycarbonate Panels,voron-1.8 voron-2.2 voron-trident
+T8 flange Nut 8mm Lead --anti-backlash prefered-- (SEE NOTE SECTION),3,2,2,1,T8 flange Nut 8mm Lead --anti-backlash prefered-- (SEE NOTE SECTION),voron-0 voron-0.1 voron-0.2
+TopHat Panels,3,2,2,2,TopHat Panels | TopHat Panels (OPTIONAL),voron-0 voron-0.1 voron-0.2
+TycoElectronics - 10EGG1-1 (Normal) or 10EHG1-1 (Medical): Filtered Power Inlet,3,2,2,1,TycoElectronics - 10EGG1-1 (Normal) or 10EHG1-1 (Medical): Filtered Power Inlet,voron-2.4 voron-switchwire voron-trident
+"(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick",2,2,1,2,"(Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick | (Deck Panel, Mid panel, Motor Panel, Rear Panel) 3mm thick (drawings and dxf on github)",voron-0.1 voron-0.2
+3010 axial fan 24v,2,2,2,2,3010 axial fan 24V | 3010 axial fan 24v,voron-0 voron-0.2
+40x40x10 Axial Fan- Ball Bearing (24V),2,2,2,1,40x40x10 Axial Fan- Ball Bearing (24V),voron-2.4 voron-switchwire
+40x40x20 Axial Fan (12V),2,2,2,1,40x40x20 Axial Fan (12V),voron-1.6.2 voron-2.2
+40x40x20 Centrifugal Blower Fan - Ball Bearing (24V),2,2,2,1,40x40x20 Centrifugal Blower Fan - Ball Bearing (24V),voron-2.4 voron-switchwire
+A4988 Stepper Motor Driver,2,2,2,1,A4988 Stepper Motor Driver,voron-1.6.2 voron-2.2
+Arduino Mega 2560,2,2,2,1,Arduino Mega 2560,voron-1.6.2 voron-2.2
+BMG Extruder Hardware Kit (if configured with direct feed),2,2,2,2,BMG Extruder Components Kit (if configured with direct feed) | BMG Extruder Hardware Kit (if configured with direct feed),voron-2.4 voron-switchwire
+BMG Extruder Kit (used for gears),2,2,2,1,BMG Extruder Kit (used for gears),voron-1.8 voron-trident
+Bondtech Drive Gear Kit,2,2,2,1,Bondtech Drive Gear Kit,afterburner voron-0
+Bowden Clip,2,2,1,2,Bowden Clip | Bowden Clips,mobius-3.1 voron-m4
+Bowden Tube 4mm OD/2mm ID,2,2,2,2,"Bowden Tube (4mm OD, 2mm ID) | Bowden Tube 4mm OD/2mm ID",jetpack voron-switchwire
+E3D V6 Bowden Hotend Kit (24V),2,2,2,1,E3D V6 Bowden Hotend Kit (24V),voron-1.8 voron-trident
+Front Door 212mm x 239mm x 2.5mm (PC or Acrylic),2,2,2,1,Front Door 212mm x 239mm x 2.5mm (PC or Acrylic),voron-0 voron-0.1
+GT2 Open Belt LL-2GT-6 (6mm wide) - Length Dependant on Config,2,2,2,1,GT2 Open Belt LL-2GT-6 (6mm wide) - Length Dependant on Config,voron-2.2 voron-2.4
+HFSB5-2020-290,2,2,2,1,HFSB5-2020-290,voron-1.8 voron-trident
+HFSB5-2020-330,2,2,2,1,HFSB5-2020-330,voron-1.8 voron-trident
+HFSB5-2020-380,2,2,2,1,HFSB5-2020-380,voron-1.8 voron-trident
+HFSB5-2020-420-TPW,2,2,2,1,HFSB5-2020-420-TPW,voron-1.8 voron-trident
+IEC320 C14 Inlet - Push-fit - w/ Rocker Switch & Fuse,2,2,2,1,IEC320 C14 Inlet - Push-fit - w/ Rocker Switch & Fuse,voron-2.4 voron-switchwire
+M3 Hammerhead T-Nut,2,2,1,2,M3 Hammer Head T-Nuts | M3 Hammerhead T-Nut,voron-2.4 voron-trident
+M3 Roll-in T-Nut,2,2,2,1,M3 Roll-in T-Nut,voron-1.8 voron-trident
+Micro USB Power Cable,2,2,2,1,Micro USB Power Cable,voron-1.6.2 voron-2.2
+Mini 12864 Display (Type B),2,2,2,1,Mini 12864 Display (Type B),voron-2.4 voron-switchwire
+NEMA17 Motor 17HS15-1504S1,2,2,2,1,NEMA17 Motor 17HS15-1504S1,voron-m4 voron-switchwire
+RAMPs 1.4,2,2,2,1,RAMPs 1.4,voron-1.6.2 voron-2.2
+RaspberryPi4,2,2,2,1,RaspberryPi4,voron-2.4 voron-switchwire
+RepRap Full Graphics Display,2,2,2,1,RepRap Full Graphics Display,voron-1.6.2 voron-2.2
+SKR 1.4,2,2,2,1,SKR 1.4,voron-1.8 voron-2.4
+Side Panel 212mm x 230mm x 2.5mm (PC or Acrylic),2,2,2,1,Side Panel 212mm x 230mm x 2.5mm (PC or Acrylic),voron-0 voron-0.1
+Side/Front/Top Acrylic Panels,2,2,2,1,Side/Front/Top Acrylic Panels,voron-2.4 voron-switchwire
+TL Dragon Hotend,2,2,2,2,TL Dragon Hotend | TriangleLab Dragon HotEnd,afterburner optional-parts
+TMC 2209 Drivers,2,2,2,1,TMC 2209 Drivers,voron-1.8 voron-trident
+Thermal Fuse 125C,2,2,2,1,Thermal Fuse 125C,voron-0 voron-0.1
+Threaded v6 Hotend kit 24V (All Metal),2,2,2,1,Threaded v6 Hotend kit 24V (All Metal),voron-0 voron-0.1
+USB C Power Cable,2,2,2,1,USB C Power Cable,voron-2.4 voron-switchwire
+VHB tape (20mm or so is good),2,2,2,1,VHB tape (20mm or so is good),voron-0 voron-0.1
+Voron V0.1 Kit - FYSETC,2,2,1,2,Voron V0.1 Kit - FYSETC | Voron V0.1 Kit - FYSTECH,voron-0.1 voron-0.2
+Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft]),2,2,1,2,Silicone Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft]) | Wire 18gauge 10ft (individual strand length total [example: 25ft of 4p wire=100ft]),voron-0.1 voron-0.2
+Silicone AC Heater 200x200mm,5,1,1,1,Silicone AC Heater 200x200mm,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-trident
+Thermal Fuse,5,1,1,1,Thermal Fuse,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4 voron-trident
+Bottom/Back/Electronics Bay Panels,4,1,1,1,Bottom/Back/Electronics Bay Panels,voron-1.6.2 voron-1.8 voron-2.2 voron-2.4
+M4x6 BHCS,4,1,1,1,M4x6 BHCS,voron-1.8 voron-2.2 voron-2.4 voron-trident
+MLX Female Pin (02-08-1002),4,1,1,1,MLX Female Pin (02-08-1002),voron-1.8 voron-2.2 voron-2.4 voron-trident
+MLX Male Pin (02-08-2004),4,1,1,1,MLX Male Pin (02-08-2004),voron-1.8 voron-2.2 voron-2.4 voron-trident
+MLX Power Plug 3 Position (50-84-1030),4,1,1,1,MLX Power Plug 3 Position (50-84-1030),voron-1.8 voron-2.2 voron-2.4 voron-trident
+MLX Power Receptacle 3 Position (50-84-2030),4,1,1,1,MLX Power Receptacle 3 Position (50-84-2030),voron-1.8 voron-2.2 voron-2.4 voron-trident
+24V Heater Cartridge (slim wires),3,1,1,1,24V Heater Cartridge (slim wires),voron-0 voron-0.1 voron-0.2
+GT2 16T (6mm wide) Pulley (5mm bore),3,1,1,1,GT2 16T (6mm wide) Pulley (5mm bore),jetpack voron-2.2 voron-2.4
+Makerbeam XL 15x15 100mm,3,1,1,1,Makerbeam XL 15x15 100mm,voron-0 voron-0.1 voron-0.2
+Mean Well LRS-200-24 PSU,3,1,1,1,Mean Well LRS-200-24 PSU,voron-1.8 voron-2.4 voron-trident
+PL-08N Inductive Probe,3,1,1,1,PL-08N Inductive Probe,voron-1.6.2 voron-1.8 voron-2.2
+Silicone AC Heater 240x240mm,3,1,1,1,Silicone AC Heater 240x240mm,voron-1.8 voron-2.2 voron-trident
+Silicone AC Heater 300x300mm,3,1,1,1,Silicone AC Heater 300x300mm,voron-2.2 voron-2.4 voron-trident
+Spring Steel Flex Buildplate 120x120mm (OPTIONAL),3,1,1,1,Spring Steel Flex Buildplate 120x120mm (OPTIONAL),voron-0 voron-0.1 voron-0.2
+Thermistor for your hotend of choice,3,1,1,1,Thermistor for your hotend of choice,voron-0 voron-0.1 voron-0.2
+120x120x15 Fan (12V) (Rear can use 120x120x25 Fan),2,1,1,1,120x120x15 Fan (12V) (Rear can use 120x120x25 Fan),voron-1.6.2 voron-2.2
+2mmx100mm zip ties,2,1,1,1,2mmx100mm zip ties,voron-0.1 voron-0.2
+3m 5952 VHB,2,1,1,1,3m 5952 VHB,voron-0.1 voron-0.2
+40x40x10 Axial Fan (24V),2,1,1,1,40x40x10 Axial Fan (24V),voron-1.8 voron-trident
+40x40x10 Centrifugal Blower Fan (12V),2,1,1,1,40x40x10 Centrifugal Blower Fan (12V),voron-1.6.2 voron-2.2
+5mm x 50mm Shaft,2,1,1,1,5mm x 50mm Shaft,mobius-3.1 voron-m4
+5x60mm Shaft - Grind Flat,2,1,1,1,5x60mm Shaft - Grind Flat,voron-2.2 voron-2.4
+625 2RS Bearing,2,1,1,1,625 2RS Bearing,voron-2.2 voron-2.4
+Astrosyn Dampener,2,1,1,1,Astrosyn Dampener,mobius-3.1 voron-2.2
+BMG Extruder Insides 5mmID,2,1,1,1,BMG Extruder Insides 5mmID,voron-0.1 voron-0.2
+Bondtech Drive Gear Kit 5mmID,2,1,1,1,Bondtech Drive Gear Kit 5mmID,voron-0.1 voron-0.2
+"DIN Rail - Electronics Enclosure - Steel - 35mm wide, 7.5mm tall, Steel",2,1,1,1,"DIN Rail - Electronics Enclosure - Steel - 35mm wide, 7.5mm tall, Steel",voron-1.8 voron-trident
+Dragon Fly BMO Hotend,2,1,1,1,Dragon Fly BMO Hotend,voron-0.1 voron-0.2
+Dragon Hotend,2,1,1,1,Dragon Hotend,voron-0 voron-0.1
+Dupont 2 Pin Connector,2,1,1,1,Dupont 2 Pin Connector,voron-1.8 voron-trident
+E3D V6 Bowden Hotend Kit (12V),2,1,1,1,E3D V6 Bowden Hotend Kit (12V),voron-1.6.2 voron-2.2
+F695 2RS,2,1,1,1,F695 2RS,mobius-3.1 voron-m4
+FYSETC mini12864 Display (Type B),2,1,1,1,FYSETC mini12864 Display (Type B),voron-1.8 voron-trident
+Foam Panel Tape (5mm wide/3mm thick),2,1,1,1,Foam Panel Tape (5mm wide/3mm thick),voron-2.4 voron-trident
+Fuse 2.5A 250V Holder Cartridge 5 X 20mm Glass,2,1,1,1,Fuse 2.5A 250V Holder Cartridge 5 X 20mm Glass,voron-0.1 voron-0.2
+GT2 20T (9mm wide) Pulley (5mm bore),2,1,1,1,GT2 20T (9mm wide) Pulley (5mm bore),voron-2.2 voron-2.4
+GT2 Open Belt LL-2GT-6 (6mm wide),2,1,1,1,GT2 Open Belt LL-2GT-6 (6mm wide),voron-1.8 voron-trident
+HFSB5-2020-240,2,1,1,1,HFSB5-2020-240,voron-1.8 voron-trident
+HFSB5-2020-370-TPW,2,1,1,1,HFSB5-2020-370-TPW,voron-1.8 voron-trident
+"Integrated Lead Screw/Stepper Motors - 300mm, 2/4/8mm pitch",2,1,1,1,"Integrated Lead Screw/Stepper Motors - 300mm, 2/4/8mm pitch",voron-1.8 voron-trident
+"JST connectors (2pin,3pin,4pin,5pin)",2,1,1,1,"JST connectors (2pin,3pin,4pin,5pin)",voron-0.1 voron-0.2
+M2x12 Self Tapping Screw for Plastics,2,1,1,1,M2x12 Self Tapping Screw for Plastics,voron-1.8 voron-2.2
+M2x6 FHCS,2,1,1,1,M2x6 FHCS,voron-0.1 voron-0.2
+M3 T-nut HNTAJ5-3,2,1,1,1,M3 T-nut HNTAJ5-3,voron-2.2 voron-2.4
+M3x16 BHCS,2,1,1,1,M3x16 BHCS,voron-0.1 voron-0.2
+M3x8 FHCS,2,1,1,1,M3x8 FHCS,voron-0.1 voron-0.2
+M5 1.0mm Thick Shim/Washer,2,1,1,1,M5 1.0mm Thick Shim/Washer,voron-1.8 voron-trident
+M5 T-Nut,2,1,1,1,M5 T-Nut,voron-1.8 voron-trident
+M5 T-nut HNTAJ5-5,2,1,1,1,M5 T-nut HNTAJ5-5,voron-2.2 voron-2.4
+Magnetic sheet for spring steel plate 120x120 (OPTIONAL),2,1,1,1,Magnetic sheet for spring steel plate 120x120 (OPTIONAL),voron-0.1 voron-0.2
+Makerbeam XL M3 t-nut,2,1,1,1,Makerbeam XL M3 t-nut,voron-0.1 voron-0.2
+Mean Well LRS-200-12 PSU,2,1,1,1,Mean Well LRS-200-12 PSU,voron-1.6.2 voron-2.2
+Meanwell LRS-150-24,2,1,1,1,Meanwell LRS-150-24,voron-0.1 voron-0.2
+Microfit3 Male & Female Plugs,2,1,1,1,Microfit3 Male & Female Plugs,voron-0.1 voron-0.2
+NEMA14 36mm round pancake Stepper Motor with 10 tooth spur gear (LDO 36STH20-1004AHG),2,1,1,1,NEMA14 36mm round pancake Stepper Motor with 10 tooth spur gear (LDO 36STH20-1004AHG),voron-0.1 voron-0.2
+NEMA14 36mm round pancake Stepper Motor with 10 tooth spur gear (OMC 14HR07-1004VRN),2,1,1,1,NEMA14 36mm round pancake Stepper Motor with 10 tooth spur gear (OMC 14HR07-1004VRN),voron-0.1 voron-0.2
+NEMA14 Stepper Motor 40Ncm,2,1,1,1,NEMA14 Stepper Motor 40Ncm,voron-0.1 voron-0.2
+OpenBuilds Angle Corner Connector,2,1,1,1,OpenBuilds Angle Corner Connector,voron-2.2 voron-2.4
+PTFE Wire 20gauge 10ft,2,1,1,1,PTFE Wire 20gauge 10ft,voron-0.1 voron-0.2
+"PTFE Wire 22gauge 100ft (get 5m of 6 colors for 30m total, tin plated)",2,1,1,1,"PTFE Wire 22gauge 100ft (get 5m of 6 colors for 30m total, tin plated)",voron-0.1 voron-0.2
+Raspberry Pi 4 2GB,2,1,1,1,Raspberry Pi 4 2GB,voron-1.8 voron-trident
+Rear Panel 212mm x 248mm (whatever material you want),2,1,1,1,Rear Panel 212mm x 248mm (whatever material you want),voron-0.1 voron-0.2
+SSR DIN Mount,2,1,1,1,SSR DIN Mount,voron-1.8 voron-trident
+Shim Washer - 6mm OD - 3mm ID - 0.5mm Thick (thickness is important),2,1,1,1,Shim Washer - 6mm OD - 3mm ID - 0.5mm Thick (thickness is important),voron-0.1 voron-0.2
+Silicone DC 24V Heater 100x100mm 60W,2,1,1,1,Silicone DC 24V Heater 100x100mm 60W,voron-0.1 voron-0.2
+"TBC-09 Terminal Cover (optional, for LRS-200-24)",2,1,1,1,"TBC-09 Terminal Cover (optional, for LRS-200-24)",voron-1.8 voron-trident
+USB Cable A-male B-male,2,1,1,1,USB Cable A-male B-male,voron-1.6.2 voron-2.2
+Voron V0.1 Kit - FORMBOT,2,1,1,1,Voron V0.1 Kit - FORMBOT,voron-0.1 voron-0.2
+Voron V0.1 Kit - LDO,2,1,1,1,Voron V0.1 Kit - LDO,voron-0.1 voron-0.2
+#4 x 3/8 Flat Head Self Tapping Screw,1,1,1,1,#4 x 3/8 Flat Head Self Tapping Screw,voron-2.2
+"(Deck front,Deck back, Mid panel) 3mm thick",1,1,1,1,"(Deck front,Deck back, Mid panel) 3mm thick",voron-0
+10x11 Cable Chain - Openable (1m),1,1,1,1,10x11 Cable Chain - Openable (1m),voron-switchwire
+"10x11mm - 1 meter with 2 end sets (2 fixed end, 2 free end), R18 (18mm radius)",1,1,1,1,"10x11mm - 1 meter with 2 end sets (2 fixed end, 2 free end), R18 (18mm radius)",voron-1.8
+"10x11mm - 1 meter with 3 end sets (3 fixed end, 3 free end), R18 (18mm radius)",1,1,1,1,"10x11mm - 1 meter with 3 end sets (3 fixed end, 3 free end), R18 (18mm radius)",voron-trident
+10x16x0.2 Shim Ring,1,1,1,1,10x16x0.2 Shim Ring,voron-2.2
+110 gt2 belt loop,1,1,1,1,110 gt2 belt loop,voron-0
+16AWG Silicone Cable (10ft total),1,1,1,1,16AWG Silicone Cable (10ft total),voron-switchwire
+18AWG PTFE wire wire (10ft total),1,1,1,1,18AWG PTFE wire wire (10ft total),voron-trident
+18AWG Silicone Cable (10ft total),1,1,1,1,18AWG Silicone Cable (10ft total),voron-2.4
+2 Pin KK Connector Housing,1,1,1,1,2 Pin KK Connector Housing,optional-parts
+2 into 1 Y Splitter,1,1,1,1,2 into 1 Y Splitter,optional-parts
+20AWG PTFE wire (10ft total),1,1,1,1,20AWG PTFE wire (10ft total),voron-trident
+20AWG Silicone Cable (10ft total),1,1,1,1,20AWG Silicone Cable (10ft total),voron-switchwire
+20AWG Silicone Cable (25ft total),1,1,1,1,20AWG Silicone Cable (25ft total),voron-1.8
+20AWG Silicone Cable (50ft total),1,1,1,1,20AWG Silicone Cable (50ft total),voron-2.2
+22AWG PTFE wire (100ft total),1,1,1,1,22AWG PTFE wire (100ft total),voron-trident
+22AWG PTFE wire (250ft total),1,1,1,1,22AWG PTFE wire (250ft total),voron-2.4
+24AWG PTFE Cable (30ft total),1,1,1,1,24AWG PTFE Cable (30ft total),stealthburner
+24AWG Silicone Cable (100ft total),1,1,1,1,24AWG Silicone Cable (100ft total),voron-switchwire
+24AWG Silicone Cable (120ft total),1,1,1,1,24AWG Silicone Cable (120ft total),voron-2.2
+24AWG Silicone Cable (50ft total),1,1,1,1,24AWG Silicone Cable (50ft total),voron-1.8
+3 Pin KK Connector Housing,1,1,1,1,3 Pin KK Connector Housing,optional-parts
+3007 axial fan 5V (min 3.5CFM),1,1,1,1,3007 axial fan 5V (min 3.5CFM),voron-0.1
+30AWG PTFE Cable (3ft total),1,1,1,1,30AWG PTFE Cable (3ft total),stealthburner
+3M 5952 VHB tape (20mm or so is good),1,1,1,1,3M 5952 VHB tape (20mm or so is good),voron-0.2
+3M VHB Tape,1,1,1,1,3M VHB Tape,optional-parts
+"3x5x0.5 Shim Ring (3mm ID, 5mm OD)",1,1,1,1,"3x5x0.5 Shim Ring (3mm ID, 5mm OD)",voron-0
+"3x7x0.5 Shim Ring (3mm ID, 7 mm OD)",1,1,1,1,"3x7x0.5 Shim Ring (3mm ID, 7 mm OD)",voron-0
+4 Pin KK Connector Housing,1,1,1,1,4 Pin KK Connector Housing,optional-parts
+4010 Axial Fan,1,1,1,1,4010 Axial Fan,stealthburner
+40w Heater Cartridge,1,1,1,1,40w Heater Cartridge,optional-parts
+40x40x10 Axial Fan,1,1,1,1,40x40x10 Axial Fan,afterburner
+40x40x20 Centrifugal Blower Fan (24V),1,1,1,1,40x40x20 Centrifugal Blower Fan (24V),voron-1.8
+40x40x20 Radial Fan (Blower),1,1,1,1,40x40x20 Radial Fan (Blower),afterburner
+5 Pin KK Connector Housing,1,1,1,1,5 Pin KK Connector Housing,optional-parts
+50w Heater Cartridge,1,1,1,1,50w Heater Cartridge,optional-parts
+50x50x15 Centrifugal Fan,1,1,1,1,50x50x15 Centrifugal Fan,stealthburner
+50x50x15 Centrifugal Fan (24V),1,1,1,1,50x50x15 Centrifugal Fan (24V),voron-trident
+5mm x 45mm Shaft - Grind Flat,1,1,1,1,5mm x 45mm Shaft - Grind Flat,jetpack
+5x10x0.5 Shim Ring,1,1,1,1,5x10x0.5 Shim Ring,voron-2.2
+5x26mm Shaft,1,1,1,1,5x26mm Shaft,voron-2.2
+"5x28mm Shaft - (You can cut down a 30mm, Bed Height will change this)",1,1,1,1,"5x28mm Shaft - (You can cut down a 30mm, Bed Height will change this)",voron-2.2
+5x50mm Shaft - Grind Flat,1,1,1,1,5x50mm Shaft - Grind Flat,voron-2.2
+6 Stepper Controller (or multiple to equal 6+ steppers),1,1,1,1,6 Stepper Controller (or multiple to equal 6+ steppers),voron-trident
+6in Digital Calipers,1,1,1,1,6in Digital Calipers,tools
+6x3mm Magnet,1,1,1,1,6x3mm Magnet,stealthburner
+6x6x3 Spacer,1,1,1,1,6x6x3 Spacer,voron-switchwire
+8mm T8x8 Trapezoidal ACME Lead Screw 200mm (8mm lead),1,1,1,1,8mm T8x8 Trapezoidal ACME Lead Screw 200mm (8mm lead),voron-0
+AC Inlet,1,1,1,1,AC Inlet,voron-0.1
+Auto Adjusting - Wire Strippers,1,1,1,1,Auto Adjusting - Wire Strippers,tools
+Battery Backup (110V US Only) (1500VA/900w),1,1,1,1,Battery Backup (110V US Only) (1500VA/900w),optional-parts
+Bigtree SKR 1.4,1,1,1,1,Bigtree SKR 1.4,optional-parts
+Bigtreetech SKR Pico,1,1,1,1,Bigtreetech SKR Pico,voron-0.2
+Bigtreetech SKR mini E3 (v1.2 or v2),1,1,1,1,Bigtreetech SKR mini E3 (v1.2 or v2),voron-0
+Bigtreetech SKR mini E3 (v2),1,1,1,1,Bigtreetech SKR mini E3 (v2),voron-0.1
+Bowden Coupler (for 4mm OD tube),1,1,1,1,Bowden Coupler (for 4mm OD tube),voron-2.4
+"Bowden Tube (4mm OD, 3mm ID) optional for reverse bowden",1,1,1,1,"Bowden Tube (4mm OD, 3mm ID) optional for reverse bowden",voron-switchwire
+"Bowden Tube (4mm OD, ID depends on extruder type)",1,1,1,1,"Bowden Tube (4mm OD, ID depends on extruder type)",voron-2.4
+Bowden Tube 4mm OD/3mm ID,1,1,1,1,Bowden Tube 4mm OD/3mm ID,jetpack
+C13 Power Cord with Inline Switch,1,1,1,1,C13 Power Cord with Inline Switch,voron-0
+Camera (for Octoprint),1,1,1,1,Camera (for Octoprint),optional-parts
+Center Punch,1,1,1,1,Center Punch,tools
+Copper V6 Heat Block,1,1,1,1,Copper V6 Heat Block,optional-parts
+Copper Volcano Heatblock,1,1,1,1,Copper Volcano Heatblock,optional-parts
+Crydom ED24D3 SSR,1,1,1,1,Crydom ED24D3 SSR,voron-0
+DIN Rail,1,1,1,1,DIN Rail,voron-2.4
+Deburring Tool,1,1,1,1,Deburring Tool,tools
+"Deck, Bottom and Back Panels",1,1,1,1,"Deck, Bottom and Back Panels",voron-trident
+DuPont Connector Plug 2 Position,1,1,1,1,DuPont Connector Plug 2 Position,voron-2.2
+DuPont Connector Plug 3 Position,1,1,1,1,DuPont Connector Plug 3 Position,voron-2.2
+DuPont Connector Plug 4 Position,1,1,1,1,DuPont Connector Plug 4 Position,voron-2.2
+Duet 2 - Duex5,1,1,1,1,Duet 2 - Duex5,optional-parts
+Duet 2 - PT100 Daughter Board,1,1,1,1,Duet 2 - PT100 Daughter Board,optional-parts
+Duet 2 Wifi,1,1,1,1,Duet 2 Wifi,optional-parts
+Duet Maestro,1,1,1,1,Duet Maestro,optional-parts
+Duet Maestro Expansion Board,1,1,1,1,Duet Maestro Expansion Board,optional-parts
+E3D Revo VORON,1,1,1,1,E3D Revo VORON,voron-0.2
+E3D V6 Hotend Bowden,1,1,1,1,E3D V6 Hotend Bowden,afterburner
+E3D Volcano Bowden Hotend Kit (12V),1,1,1,1,E3D Volcano Bowden Hotend Kit (12V),optional-parts
+Engineer PA-09 Crimping Tool,1,1,1,1,Engineer PA-09 Crimping Tool,tools
+Extruder Spring,1,1,1,1,Extruder Spring,jetpack
+F688-RS Bearing,1,1,1,1,F688-RS Bearing,voron-0
+F695 Bearing,1,1,1,1,F695 Bearing,voron-1.8
+F695 Bearing (add two for stepper double shear),1,1,1,1,F695 Bearing (add two for stepper double shear),voron-trident
+Ferrule Crimping Tool,1,1,1,1,Ferrule Crimping Tool,tools
+Filament Out Switch,1,1,1,1,Filament Out Switch,optional-parts
+Flush Wire Cutters,1,1,1,1,Flush Wire Cutters,tools
+Foam Panel Tape (5mm Wide/1mm Thick),1,1,1,1,Foam Panel Tape (5mm Wide/1mm Thick),optional-parts
+Front Door 212mm x 239mm x 3mm (PC or Acrylic),1,1,1,1,Front Door 212mm x 239mm x 3mm (PC or Acrylic),voron-0.2
+Fume Extractor Carbon Filter Element,1,1,1,1,Fume Extractor Carbon Filter Element,optional-parts
+GE5C Spherical Bearing,1,1,1,1,GE5C Spherical Bearing,voron-trident
+GT2 16T Toothed idler w/bearing (6mm wide) (3mm bore) (13mmOD),1,1,1,1,GT2 16T Toothed idler w/bearing (6mm wide) (3mm bore) (13mmOD),voron-0
+GT2 20T (6mm wide) (8mm bore),1,1,1,1,GT2 20T (6mm wide) (8mm bore),voron-0
+GT2 20T (6mm wide) Pulley (5mm bore) - No Set Screw Hub,1,1,1,1,GT2 20T (6mm wide) Pulley (5mm bore) - No Set Screw Hub,voron-2.2
+GT2 20T (9mm wide) Toothed Idler (5mm bore),1,1,1,1,GT2 20T (9mm wide) Toothed Idler (5mm bore),voron-2.4
+GT2 80T (6mm wide) Pulley (5mm bore),1,1,1,1,GT2 80T (6mm wide) Pulley (5mm bore),voron-2.4
+GT2 Belt Loop (6mm wide) - 110mm,1,1,1,1,GT2 Belt Loop (6mm wide) - 110mm,voron-2.2
+GT2 Belt Loop (6mm wide) - 150mm,1,1,1,1,GT2 Belt Loop (6mm wide) - 150mm,jetpack
+GT2 Open Belt 6mm (2 meters),1,1,1,1,GT2 Open Belt 6mm (2 meters),voron-0
+GT2 Open Belt 6mm (3 meters),1,1,1,1,GT2 Open Belt 6mm (3 meters),voron-0.1
+GT2 Open Belt 6mm (3000mm),1,1,1,1,GT2 Open Belt 6mm (3000mm),voron-0.2
+GT2 Open Belt LL-2GT-6 (6mm wide) - 1500mm,1,1,1,1,GT2 Open Belt LL-2GT-6 (6mm wide) - 1500mm,voron-switchwire
+GT2 Open Belt LL-2GT-6 (6mm wide) - 800mm,1,1,1,1,GT2 Open Belt LL-2GT-6 (6mm wide) - 800mm,voron-switchwire
+GT2 Open Belt LL-2GT-6 (9mm wide) - Length Dependant on Config,1,1,1,1,GT2 Open Belt LL-2GT-6 (9mm wide) - Length Dependant on Config,voron-2.2
+GT2 Open Belt LL-2GT-9 (9mm wide) - Length Dependant on Config,1,1,1,1,GT2 Open Belt LL-2GT-9 (9mm wide) - Length Dependant on Config,voron-2.4
+HFSB5-2020-150-TPW,1,1,1,1,HFSB5-2020-150-TPW,voron-1.8
+HFSB5-2020-200-TPW,1,1,1,1,HFSB5-2020-200-TPW,voron-1.8
+HFSB5-2020-230,1,1,1,1,HFSB5-2020-230,voron-1.8
+HFSB5-2020-232-LTP,1,1,1,1,HFSB5-2020-232-LTP,voron-trident
+HFSB5-2020-282-LTP,1,1,1,1,HFSB5-2020-282-LTP,voron-trident
+HFSB5-2020-330-LTP,1,1,1,1,HFSB5-2020-330-LTP,voron-trident
+HFSB5-2020-332-LTP,1,1,1,1,HFSB5-2020-332-LTP,voron-trident
+HFSB5-2020-340,1,1,1,1,HFSB5-2020-340,voron-trident
+HFSB5-2020-370,1,1,1,1,HFSB5-2020-370,voron-1.8
+HFSB5-2020-370-AH185,1,1,1,1,HFSB5-2020-370-AH185,voron-trident
+HFSB5-2020-370-AH185-TPW,1,1,1,1,HFSB5-2020-370-AH185-TPW,voron-trident
+HFSB5-2020-370-AH45-BH325,1,1,1,1,HFSB5-2020-370-AH45-BH325,voron-1.8
+HFSB5-2020-420,1,1,1,1,HFSB5-2020-420,voron-1.8
+HFSB5-2020-420-AH210,1,1,1,1,HFSB5-2020-420-AH210,voron-trident
+HFSB5-2020-420-AH210-TPW,1,1,1,1,HFSB5-2020-420-AH210-TPW,voron-trident
+HFSB5-2020-420-AH45-BH375,1,1,1,1,HFSB5-2020-420-AH45-BH375,voron-1.8
+HFSB5-2020-430,1,1,1,1,HFSB5-2020-430,voron-trident
+HFSB5-2020-470-AH235,1,1,1,1,HFSB5-2020-470-AH235,voron-trident
+HFSB5-2020-470-AH235-TPW,1,1,1,1,HFSB5-2020-470-AH235-TPW,voron-trident
+HFSB5-2020-470-TPW,1,1,1,1,HFSB5-2020-470-TPW,voron-trident
+HFSB5-2020-500-LCP-RCP-AV360,1,1,1,1,HFSB5-2020-500-LCP-RCP-AV360,voron-trident
+HFSB5-2020-500-LTP-RCP-AV380-AP40,1,1,1,1,HFSB5-2020-500-LTP-RCP-AV380-AP40,voron-1.8
+Harness for ADXL Sensor Module,1,1,1,1,Harness for ADXL Sensor Module,stealthburner
+Hex Ball Driver Kit,1,1,1,1,Hex Ball Driver Kit,tools
+High Temperature Magnet,1,1,1,1,High Temperature Magnet,optional-parts
+Hotend Mounting Screws (M2.5/M3),1,1,1,1,Hotend Mounting Screws (M2.5/M3),stealthburner
+IEC320 C14 inlet,1,1,1,1,IEC320 C14 inlet,voron-0.2
+IGUS E2-100-10-12PZ Chain Ends,1,1,1,1,IGUS E2-100-10-12PZ Chain Ends,voron-2.4
+IGUS E2-15-10-028-0 Chain,1,1,1,1,IGUS E2-15-10-028-0 Chain,voron-2.4
+IGUS E2-150-10-12PZ Chain Ends,1,1,1,1,IGUS E2-150-10-12PZ Chain Ends,voron-2.4
+IGUS E2i-10-10-018-0 Chain,1,1,1,1,IGUS E2i-10-10-018-0 Chain,voron-2.4
+Inductive Probe,1,1,1,1,Inductive Probe,voron-2.4
+JST Crimp Pin (22-28AWG),1,1,1,1,JST Crimp Pin (22-28AWG),optional-parts
+JST XHP-2 Housing,1,1,1,1,JST XHP-2 Housing,optional-parts
+JST XHP-3 Housing,1,1,1,1,JST XHP-3 Housing,optional-parts
+JST XHP-4 Housing,1,1,1,1,JST XHP-4 Housing,optional-parts
+"JST connectors (2pin,3pin,4pin)",1,1,1,1,"JST connectors (2pin,3pin,4pin)",voron-0
+"John Guest Bowden Coupling (1/8"" BSPP, 4mm Tubing)",1,1,1,1,"John Guest Bowden Coupling (1/8"" BSPP, 4mm Tubing)",jetpack
+KFL08 pillow bearing 8mm ID,1,1,1,1,KFL08 pillow bearing 8mm ID,voron-0
+KK Crimp Pin,1,1,1,1,KK Crimp Pin,optional-parts
+"Key-bak Super48 36"" 13oz",1,1,1,1,"Key-bak Super48 36"" 13oz",voron-switchwire
+LED Light Bar (12v/24v),1,1,1,1,LED Light Bar (12v/24v),optional-parts
+Linear Bearings (LMUW8),1,1,1,1,Linear Bearings (LMUW8),voron-1.6.2
+Linear Bearings - LM8LUU,1,1,1,1,Linear Bearings - LM8LUU,voron-1.8
+Linear Rail MGN12H (300mm),1,1,1,1,Linear Rail MGN12H (300mm),voron-switchwire
+Linear Rail MGN12H ** See Configurator for length **,1,1,1,1,Linear Rail MGN12H ** See Configurator for length **,voron-2.4
+Linear Rail MGN12H for X Axis,1,1,1,1,Linear Rail MGN12H for X Axis,voron-trident
+Linear Rail MGN9H for Y Axis,1,1,1,1,Linear Rail MGN9H for Y Axis,voron-trident
+Linear Rail MGN9H for Z Axis,1,1,1,1,Linear Rail MGN9H for Z Axis,voron-trident
+Linear Rods (PSFJ8-320),1,1,1,1,Linear Rods (PSFJ8-320),voron-1.6.2
+"Linear Rods - 8mm, 320mm Long (for 230mm Z)",1,1,1,1,"Linear Rods - 8mm, 320mm Long (for 230mm Z)",voron-1.8
+"Loctite 641 or 609 - Shaft Retaining Compound - Medium Strength, Good to 300F",1,1,1,1,"Loctite 641 or 609 - Shaft Retaining Compound - Medium Strength, Good to 300F",tools
+Longer Display Cables (60cm),1,1,1,1,Longer Display Cables (60cm),voron-1.8
+M2 x 12 or 13mm Plastite Self Tapping Screw,1,1,1,1,M2 x 12 or 13mm Plastite Self Tapping Screw,mobius-3.1
+M2.5x12 SHCS (for dragon hotend only),1,1,1,1,M2.5x12 SHCS (for dragon hotend only),voron-0
+M2.5x6 BHCS,1,1,1,1,M2.5x6 BHCS,voron-0.1
+M2x6 BHCS,1,1,1,1,M2x6 BHCS,voron-0
+M2x6 BHCS/SHCS,1,1,1,1,M2x6 BHCS/SHCS,voron-0.1
+M2x6 SHCS,1,1,1,1,M2x6 SHCS,voron-0.2
+M2x8 Self Tapping Screw for Plastics,1,1,1,1,M2x8 Self Tapping Screw for Plastics,voron-2.2
+M2x8mm Self Tapping Screw,1,1,1,1,M2x8mm Self Tapping Screw,jetpack
+M3 T-nut (For 2020 extrusions),1,1,1,1,M3 T-nut (For 2020 extrusions),voron-switchwire
+M3 T-nut (For 3030 extrusions),1,1,1,1,M3 T-nut (For 3030 extrusions),voron-switchwire
+M3 Thumb Nuts,1,1,1,1,M3 Thumb Nuts,voron-0
+M3 Thumb Screws,1,1,1,1,M3 Thumb Screws,voron-1.8
+M3x10 SHCS,1,1,1,1,M3x10 SHCS,stealthburner
+M3x10mm BHCS,1,1,1,1,M3x10mm BHCS,voron-0
+M3x12 FHCS,1,1,1,1,M3x12 FHCS,voron-switchwire
+M3x12mm BHCS,1,1,1,1,M3x12mm BHCS,voron-0
+M3x30mm BHCS,1,1,1,1,M3x30mm BHCS,voron-0
+M3x50 SHCS,1,1,1,1,M3x50 SHCS,stealthburner
+M3x6 SHCS,1,1,1,1,M3x6 SHCS,mobius-3.1
+M3x6mm BHCS,1,1,1,1,M3x6mm BHCS,voron-0
+M3x6mm Set Screw,1,1,1,1,M3x6mm Set Screw,jetpack
+M4 Thumb Nuts,1,1,1,1,M4 Thumb Nuts,voron-trident
+M4 knurled nut,1,1,1,1,M4 knurled nut,voron-2.4
+M4x8 BHCS,1,1,1,1,M4x8 BHCS,voron-switchwire
+M5 Heat Set Inserts (M5xD7xL6),1,1,1,1,M5 Heat Set Inserts (M5xD7xL6),voron-trident
+M5 Locknut,1,1,1,1,M5 Locknut,voron-2.2
+M5 T-nut (For 2020 extrusions),1,1,1,1,M5 T-nut (For 2020 extrusions),voron-switchwire
+M5 T-nut (For 3030 extrusions),1,1,1,1,M5 T-nut (For 3030 extrusions),voron-switchwire
+M5 Tap,1,1,1,1,M5 Tap,tools
+M5x25 BHCS,1,1,1,1,M5x25 BHCS,jetpack
+M5x35mm BHCS,1,1,1,1,M5x35mm BHCS,voron-0
+M5x40 BHCS,1,1,1,1,M5x40 BHCS,voron-trident
+M6 Tap,1,1,1,1,M6 Tap,tools
+M8x16 BHCS,1,1,1,1,M8x16 BHCS,voron-switchwire
+MOSFET Trigger Switch Drive Module,1,1,1,1,MOSFET Trigger Switch Drive Module,voron-switchwire
+MR115-2RS Bearing,1,1,1,1,MR115-2RS Bearing,jetpack
+MR128-2RS Bearing,1,1,1,1,MR128-2RS Bearing,jetpack
+Magnetic Sheet + PEI (optional),1,1,1,1,Magnetic Sheet + PEI (optional),voron-2.4
+Makerbeam XL 15x15 80-100mm,1,1,1,1,Makerbeam XL 15x15 80-100mm,voron-0.2
+Makerbeam XL M3 t-nut (15 x 5.5 x 1.5mm),1,1,1,1,Makerbeam XL M3 t-nut (15 x 5.5 x 1.5mm),voron-0
+Mean Well LRS-350-24 PSU,1,1,1,1,Mean Well LRS-350-24 PSU,voron-switchwire
+Meanwell LRS-100-24,1,1,1,1,Meanwell LRS-100-24,voron-0
+Metal X Carriage (OPTIONAL),1,1,1,1,Metal X Carriage (OPTIONAL),voron-0.1
+MicroFit Connector Plug 8 Position (43025-0800),1,1,1,1,MicroFit Connector Plug 8 Position (43025-0800),optional-parts
+MicroFit Connector Receptacle 8 Position (43020-0801),1,1,1,1,MicroFit Connector Receptacle 8 Position (43020-0801),optional-parts
+MicroFit3 Connector Plug 3 Position,1,1,1,1,MicroFit3 Connector Plug 3 Position,stealthburner
+MicroFit3 Connector Receptical 3 Position,1,1,1,1,MicroFit3 Connector Receptical 3 Position,stealthburner
+MicroFit3 Female Pin,1,1,1,1,MicroFit3 Female Pin,stealthburner
+MicroFit3 Male Pin,1,1,1,1,MicroFit3 Male Pin,stealthburner
+Microfit Depinning Tool,1,1,1,1,Microfit Depinning Tool,tools
+Microfit3 Dual Row (10circuits) Male & Female Plug,1,1,1,1,Microfit3 Dual Row (10circuits) Male & Female Plug,voron-0
+Misumi 2020 x 340mm - HFSB5-2020-340,1,1,1,1,Misumi 2020 x 340mm - HFSB5-2020-340,voron-switchwire
+Misumi 2020 x 340mm - HFSB5-2020-340-AH15-BH325,1,1,1,1,Misumi 2020 x 340mm - HFSB5-2020-340-AH15-BH325,voron-switchwire
+Misumi 3030 x 300mm - HFSB6-3030-300-TPW,1,1,1,1,Misumi 3030 x 300mm - HFSB6-3030-300-TPW,voron-switchwire
+Misumi 3030 x 360mm - HFSB6-3030-360-LCH-RCH,1,1,1,1,Misumi 3030 x 360mm - HFSB6-3030-360-LCH-RCH,voron-switchwire
+Misumi 3030 x 400mm - HFSB6-3030-400-TPW,1,1,1,1,Misumi 3030 x 400mm - HFSB6-3030-400-TPW,voron-switchwire
+Misumi 3060 x 520mm - HFSB6-3060-520-AH105-BH415-AV180,1,1,1,1,Misumi 3060 x 520mm - HFSB6-3060-520-AH105-BH415-AV180,voron-switchwire
+Mosquito Hotend Sock,1,1,1,1,Mosquito Hotend Sock,optional-parts
+NEMA14 36mm Round Pancake Motor with 10 tooth gear 20mm,1,1,1,1,NEMA14 36mm Round Pancake Motor with 10 tooth gear 20mm,stealthburner
+NEMA14 Stepper Motor (14HS10-0404S),1,1,1,1,NEMA14 Stepper Motor (14HS10-0404S),voron-0
+NEMA14 Stepper Motor (14HS17-0504S),1,1,1,1,NEMA14 Stepper Motor (14HS17-0504S),voron-0
+NEMA17 Motor 17HS19-2004S (min 35mm shaft for double shear),1,1,1,1,NEMA17 Motor 17HS19-2004S (min 35mm shaft for double shear),voron-trident
+NEMA17 Motor with Leadscrew (17LS19-1684E-300G),1,1,1,1,NEMA17 Motor with Leadscrew (17LS19-1684E-300G),voron-1.6.2
+NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8,1,1,1,1,NEMA17 Stepper Motor (34mm max) with integrated lead screw 200mm T8x8,voron-0.1
+NEMA17 Stepper Motor with integrated lead screw 200mm T8x8,1,1,1,1,NEMA17 Stepper Motor with integrated lead screw 200mm T8x8,voron-0.2
+"NLGI1 or 2 Grease eg:Mobilux EP1/EP2, Polyrex 222, SHC 220",1,1,1,1,"NLGI1 or 2 Grease eg:Mobilux EP1/EP2, Polyrex 222, SHC 220",tools
+NTC 100K Beta 3950 Thermistor Sensor,1,1,1,1,NTC 100K Beta 3950 Thermistor Sensor,optional-parts
+Needle Bearings for Bondtech Idler,1,1,1,1,Needle Bearings for Bondtech Idler,mobius-3.1
+NeoPixel RGBW Mini Button PCB,1,1,1,1,NeoPixel RGBW Mini Button PCB,stealthburner
+Nozzle Scrubber Brush,1,1,1,1,Nozzle Scrubber Brush,optional-parts
+Nylon PCB Standoff Kit (M3),1,1,1,1,Nylon PCB Standoff Kit (M3),voron-0
+Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR or Panasonic AQA211VL (15A),1,1,1,1,Omron G3NA-210B-DC5 (10A) or Crydom D2425 (25A) or Crydom 84134000 (10A) SSR or Panasonic AQA211VL (15A),voron-2.4
+Opaque Enclosure Panels,1,1,1,1,Opaque Enclosure Panels,voron-switchwire
+PT100 RTD Sensor,1,1,1,1,PT100 RTD Sensor,optional-parts
+PTFE Tube,1,1,1,1,PTFE Tube,stealthburner
+Power Supply for 24v Conversions,1,1,1,1,Power Supply for 24v Conversions,optional-parts
+Prusa MK3 Y Carrier,1,1,1,1,Prusa MK3 Y Carrier,voron-switchwire
+Prusa MK52 Heated Bed - 24V,1,1,1,1,Prusa MK52 Heated Bed - 24V,voron-switchwire
+RaspberryPi3 B+,1,1,1,1,RaspberryPi3 B+,voron-1.6.2
+"RaspberryPi3 B+ (dont get a 4, they have issues)",1,1,1,1,"RaspberryPi3 B+ (dont get a 4, they have issues)",voron-2.2
+Ratcheting Wire Terminal Crimper,1,1,1,1,Ratcheting Wire Terminal Crimper,tools
+Rear Panel 212mm x 248mm x 2.5mm (whatever material you want),1,1,1,1,Rear Panel 212mm x 248mm x 2.5mm (whatever material you want),voron-0
+Rubber Foot,1,1,1,1,Rubber Foot,voron-trident
+SKR Mini E3 V2,1,1,1,1,SKR Mini E3 V2,voron-switchwire
+Side Panel 212mm x 230mm x 3mm (PC or Acrylic),1,1,1,1,Side Panel 212mm x 230mm x 3mm (PC or Acrylic),voron-0.2
+Silicon Wire 24gauge 100ft (individual strand length total [example: 25ft of 4p wire=100ft]),1,1,1,1,Silicon Wire 24gauge 100ft (individual strand length total [example: 25ft of 4p wire=100ft]),voron-0
+Silicone AC 120V/240V Heater 100x100mm 100W,1,1,1,1,Silicone AC 120V/240V Heater 100x100mm 100W,voron-0
+Silicone AC Heater 250x250mm,1,1,1,1,Silicone AC Heater 250x250mm,voron-2.4
+"Small 12v PSU for Lights, etc for 24v Builds",1,1,1,1,"Small 12v PSU for Lights, etc for 24v Builds",optional-parts
+Small Screwdriver Kit - Xiaomi Wiha set,1,1,1,1,Small Screwdriver Kit - Xiaomi Wiha set,tools
+Spring Steel Bed Kit with PEI and Magnet,1,1,1,1,Spring Steel Bed Kit with PEI and Magnet,optional-parts
+Spring Steel Sheet for Prusa MK52 Bed (included with TL Heated Bed),1,1,1,1,Spring Steel Sheet for Prusa MK52 Bed (included with TL Heated Bed),voron-switchwire
+"TBC-05 Terminal Cover (optional, for RS-25-5)",1,1,1,1,"TBC-05 Terminal Cover (optional, for RS-25-5)",voron-trident
+TMC2209 Stepper Motor Driver,1,1,1,1,TMC2209 Stepper Motor Driver,voron-2.4
+TMC2209 Stepsticks for SKR 1.3,1,1,1,1,TMC2209 Stepsticks for SKR 1.3,optional-parts
+TR8x8 Lead Screw Nut,1,1,1,1,TR8x8 Lead Screw Nut,voron-1.6.2
+Tap Handle - For Tap,1,1,1,1,Tap Handle - For Tap,tools
+The 2.x guides should have the rest of the required parts,1,1,1,1,The 2.x guides should have the rest of the required parts,voron-1.6.2
+Thermal Fuse 150C,1,1,1,1,Thermal Fuse 150C,voron-0.2
+USB Cable A-male B-male (Included with SKR),1,1,1,1,USB Cable A-male B-male (Included with SKR),voron-2.4
+USB Cable A-male Mini B-male (1 Included with SKR Mini),1,1,1,1,USB Cable A-male Mini B-male (1 Included with SKR Mini),voron-switchwire
+V0-Display,1,1,1,1,V0-Display,voron-0.2
+V6 Hotend Sock,1,1,1,1,V6 Hotend Sock,optional-parts
+V6 and/or Mosquito Brass Nozzle,1,1,1,1,V6 and/or Mosquito Brass Nozzle,optional-parts
+V6 and/or Mosquito Copper Nozzle,1,1,1,1,V6 and/or Mosquito Copper Nozzle,optional-parts
+V6 and/or Mosquito Steel Nozzle,1,1,1,1,V6 and/or Mosquito Steel Nozzle,optional-parts
+V6/Volcano Heatsink,1,1,1,1,V6/Volcano Heatsink,optional-parts
+V6/Volcano Titanium Heatbreak,1,1,1,1,V6/Volcano Titanium Heatbreak,optional-parts
+Volcano Brass Nozzle,1,1,1,1,Volcano Brass Nozzle,optional-parts
+Volcano Copper Nozzle,1,1,1,1,Volcano Copper Nozzle,optional-parts
+Volcano Hotend Sock,1,1,1,1,Volcano Hotend Sock,optional-parts
+Volcano Steel Nozzle,1,1,1,1,Volcano Steel Nozzle,optional-parts
+Voron V0.1 Kit - SIBOOR,1,1,1,1,Voron V0.1 Kit - SIBOOR,voron-0.2
+medium strength thread locker,1,1,1,1,medium strength thread locker,voron-0.2

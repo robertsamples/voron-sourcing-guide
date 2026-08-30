@@ -41,6 +41,54 @@ Two examples of what "non-redundant" is worth:
   and one AliExpress affiliate short-link. Deciding once what that part should
   be is one edit here and ten edits in the workbook.
 
+## How much work is a sourcing review, before and after?
+
+`tools/workload.py` answers the practical question: if somebody sat down to
+re-source the whole guide, how many separate things would they have to look at?
+
+A **variant** is one distinct thing to review. Two tabs listing a part under the
+same name with the same links are a perfect duplicate — one variant, one piece
+of work, however many tabs repeat it. Two tabs that spell it differently, or
+point at different products, are two variants: somebody has to read both, work
+out they are the same part, and decide which link wins.
+
+| | before | after |
+| --- | ---: | ---: |
+| things to reconcile (name + link-set variants) | 699 | **480** |
+| … on the 207 parts that appear on more than one tab | 426 | **207** |
+| distinct URLs to open and check | 775 | **606** |
+| link cells in the workbook | 1,803 | — |
+
+30% of all component appearances are perfect duplicates that cost nothing
+either way. The real reduction is 699 → 480 overall, and 426 → 207 on the
+shared parts — a bit over 2× on the half of the guide where duplication lives.
+
+Where the remaining work sits after de-duplication:
+
+* **344 of 480 components (72%)** are already perfectly consistent across every
+  tab that lists them — one name, one set of links. Nothing to reconcile.
+* **136 components (28%)** need a decision: 129 because tabs point at different
+  products, 7 because tabs merely spell the part differently.
+* The distribution is very long-tailed — 88 components have 2 variants, 31 have
+  3, and a handful have 6 or more:
+
+| component | tabs | variants | link-sets | names |
+| --- | ---: | ---: | ---: | ---: |
+| M3×5×4 heat-set insert | 10 | 10 | 8 | 8 |
+| GT2 20T (6mm wide) pulley (5mm bore) | 10 | 7 | 6 | 3 |
+| M3x6 BHCS | 12 | 6 | 6 | 1 |
+| PEI + 3M 468P (200MP) | 8 | 6 | 6 | 1 |
+| M2x10 self tapping screw | 7 | 6 | 6 | 4 |
+| Printed Parts | 11 | 5 | 5 | 1 |
+| M3 Nut / M3 Hexnut | 10 | 5 | 5 | 2 |
+
+Per-component numbers in [data/workload_by_component.csv](data/workload_by_component.csv).
+
+The headline is not that de-duplication halves the work once. It is that after
+this pass the work is **done once and stays done** — 480 rows to maintain
+instead of 1,051, and a part can no longer drift apart between tabs, because
+there is only one of it.
+
 ## Layout
 
 ```
@@ -51,6 +99,7 @@ tools/
   unify.py          stage 2  raw   -> data/voron_sourcing_master.json + CSV views
   report.py         stage 3  master-> review CSVs + report.md
   validate.py       stage 4  proves nothing was dropped
+  workload.py       how much review work the workbook costs vs the master
 data/
   raw_extract.json            every row, every cell, with sheet/row/column
   voron_sourcing_master.json  THE unified structure
@@ -61,6 +110,7 @@ data/
   review_conflicts.csv        tabs that disagree about what to buy
   review_unlinked.csv         component/tab pairs with no link at all
   report.md                   headline numbers
+  workload_by_component.csv   variants per component, worst first
 ```
 
 Regenerate everything:
